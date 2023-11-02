@@ -4,6 +4,72 @@ format: html
 ---
 
 ```{r packages}
+library(tidyverse)
+library(httr2)
+library(rvest)
+library(readr)
+library(stringr)
+```
+
+```{r}
+
+alphabet <- LETTERS
+
+read_page <- function(url,char){
+    read_html(paste0(url,char)) |> 
+    html_elements("li") |> 
+    html_element(".category-page__member-link") |>
+    html_text2()
+}
+for (char in alphabet){
+value <- read_page("https://wot.fandom.com/wiki/Category:Women?from=",char)
+  assign(paste0("vector_women",char),value,envir = .GlobalEnv)
+
+}
+names_list_women <- vector_womenA
+for (char in alphabet){
+  names_list_women <- c(names_list_women,get(paste0("vector_women",char)))
+}
+
+names_tibble_women <- tibble(names_list_women) |> 
+  drop_na() |> 
+  distinct()
+
+
 
 ```
+
+```{r}
+egwene <- read_html("https://wot.fandom.com/wiki/Egwene_al%27Vere") |> 
+    html_elements("section") |> 
+    html_elements(".pi-border-color") |>
+    html_text2()
+
+unnamed_list <- strsplit(egwene,"\n")
+
+named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
+names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
+named_vector
+```
+```{r}
+alphabet <- LETTERS
+
+
+for (char in alphabet){
+  value <- read_page("https://wot.fandom.com/wiki/Category:Unknown_gender?from=",char)
+  assign(paste0("vector_unknown",char),value,envir = .GlobalEnv)
+
+}
+names_list_unknown <- vector_unknownA
+for (char in alphabet){
+  names_list_unknown <- c(names_list_unknown,get(paste0("vector_unknown",char)))
+}
+
+
+names_tibble_unknown <- tibble(names_list_unknown) |> 
+  drop_na() |> 
+  distinct()
+
+```
+
 
