@@ -40,6 +40,22 @@ names_tibble_women <- tibble(names_list_women) |>
 ```
 
 ```{r}
+scrape_names <- function(name){
+  scraped_data <- read_html(paste0("https://wot.fandom.com/wiki/",name)) |> 
+    html_elements("section") |> 
+    html_elements(".pi-border-color") |>
+    html_text2()
+  unnamed_list <- strsplit(scraped_data,"\n")
+  named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
+  names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
+  tibble <- named_vector |> 
+    enframe(name = "variable", value = "value") |> 
+    pivot_wider(names_from = variable,values_from = value)
+  assign(paste(name),tibble,envir = .GlobalEnv)
+}
+
+scrape_names("Egwene_al%27Vere")
+
 egwene <- read_html("https://wot.fandom.com/wiki/Egwene_al%27Vere") |> 
     html_elements("section") |> 
     html_elements(".pi-border-color") |>
@@ -49,7 +65,10 @@ unnamed_list <- strsplit(egwene,"\n")
 
 named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
 names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
-named_vector
+named_vector |> 
+  enframe(name = "variable", value = "value") |> 
+  pivot_wider(names_from = variable,values_from = value)
+
 ```
 ```{r}
 alphabet <- LETTERS
