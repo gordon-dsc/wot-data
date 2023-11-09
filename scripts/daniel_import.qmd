@@ -66,6 +66,13 @@ links <- sapply(all_names, function(x) paste0(base_link, x))
 tibble(links) -> links_list
 ```
 
+```{r}
+links_list|>
+  rename(names = 1)|>
+  mutate(names = str_replace(names, " ", "_"))|>
+  mutate(names = str_replace(names, "'", "%27")) -> links_list
+```
+
 
 
 
