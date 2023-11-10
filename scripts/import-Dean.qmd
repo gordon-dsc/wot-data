@@ -40,6 +40,7 @@ names_tibble_women <- tibble(names_list_women) |>
 ```
 
 ```{r}
+all_names_objects_data <- list()
 scrape_names <- function(name){
   scraped_data <- read_html(paste0("https://wot.fandom.com/wiki/",name)) |> 
     html_elements("section") |> 
@@ -50,11 +51,13 @@ scrape_names <- function(name){
   names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
   tibble <- named_vector |> 
     enframe(name = "variable", value = "value") |> 
-    pivot_wider(names_from = variable,values_from = value)
-  assign(paste(name),tibble,envir = .GlobalEnv)
+    mutate(name = name)
+  tibble <- list(tibble)
+  assign("all_names_objects_data",c(all_names_objects_data,tibble),envir = .GlobalEnv)
+"done"
 }
-
-scrape_names("Egwene_al%27Vere")
+list <- list(Catala_Lucanvalle)
+scrape_names("Reanne_Corly")
 
 egwene <- read_html("https://wot.fandom.com/wiki/Egwene_al%27Vere") |> 
     html_elements("section") |> 
@@ -67,9 +70,10 @@ named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
 names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
 named_vector |> 
   enframe(name = "variable", value = "value") |> 
-  pivot_wider(names_from = variable,values_from = value)
-
+  mutate(name = deparse(substitute(egwene)))
 ```
+
+
 ```{r}
 alphabet <- LETTERS
 
@@ -90,5 +94,34 @@ names_tibble_unknown <- tibble(names_list_unknown) |>
   distinct()
 
 ```
+```{r}
+names_tibble_women |>
+  rename(names = 1)|>
+  mutate(names = str_replace_all(names, " ", "_"))|>
+  mutate(names = str_replace_all(names, "'", "%27")) |> 
+  as.tibble() -> names_url_women
+```
+```{r}
+for (names in names_url_women){
+  scrape_names(paste(names))
+}
+bru <- names_url_women |> 
+  slice(1:100) |> 
+  rowwise() |> 
+  mutate(status = scrape_names(paste0(names)))
+bru |> 
+  arrange(desc(length))
+```
+```{r}
+list_of_tibbles <-  mget(bru$names, envir = .GlobalEnv)
+result_df <- do.call(rbind, all_names_objects_data) |> 
+  as.tibble() |> 
+  filter(name != "Unnamed_characters_in_New_Spring") |> 
+  mutate_all(as.character) |> 
+  pivot_wider(values_from = value,names_from = variable,values_fill = NA)
+
+
+```
+
 
 
