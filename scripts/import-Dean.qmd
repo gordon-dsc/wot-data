@@ -22,19 +22,38 @@ read_page <- function(url,char){
     html_text2()
 }
 for (char in alphabet){
-value <- read_page("https://wot.fandom.com/wiki/Category:Women?from=",char)
-  assign(paste0("vector_women",char),value,envir = .GlobalEnv)
-
+value_women <- read_page("https://wot.fandom.com/wiki/Category:Women?from=",char)
+  assign(paste0("vector_women",char),value_women,envir = .GlobalEnv)
+value_men <- read_page("https://wot.fandom.com/wiki/Category:Men?from=",char)
+  assign(paste0("vector_men",char),value_men,envir = .GlobalEnv)
+value_unknown <- read_page("https://wot.fandom.com/wiki/Category:Unknown_gender?from=",char)
+  assign(paste0("vector_unknown",char),value_unknown,envir = .GlobalEnv)
 }
 names_list_women <- vector_womenA
+names_list_men <- vector_menA
+names_list_unknown <- vector_unknownA
 for (char in alphabet){
   names_list_women <- c(names_list_women,get(paste0("vector_women",char)))
+  names_list_men <- c(names_list_men,get(paste0("vector_men",char)))
+  names_list_unknown <- c(names_list_unknown,get(paste0("vector_unknown",char)))
 }
 
 names_tibble_women <- tibble(names_list_women) |> 
   drop_na() |> 
-  distinct()
-
+  distinct() |> 
+  as.tibble() |> 
+  mutate(name = names_list_women, .keep = "unused")
+names_tibble_men <- tibble(names_list_men) |> 
+  drop_na() |> 
+  distinct() |> 
+  mutate(name = names_list_men, .keep = "unused")
+names_tibble_unknown <- tibble(names_list_unknown) |> 
+  drop_na() |> 
+  distinct() |> 
+  mutate(name = names_list_unknown, .keep = "unused")
+all_names <- names_tibble_women |> 
+  rbind(names_tibble_unknown) |> 
+  rbind(names_tibble_men)
 
 
 ```
@@ -74,39 +93,17 @@ named_vector |>
 ```
 
 
+
 ```{r}
-alphabet <- LETTERS
-
-
-for (char in alphabet){
-  value <- read_page("https://wot.fandom.com/wiki/Category:Unknown_gender?from=",char)
-  assign(paste0("vector_unknown",char),value,envir = .GlobalEnv)
-
-}
-names_list_unknown <- vector_unknownA
-for (char in alphabet){
-  names_list_unknown <- c(names_list_unknown,get(paste0("vector_unknown",char)))
-}
-
-
-names_tibble_unknown <- tibble(names_list_unknown) |> 
-  drop_na() |> 
-  distinct()
-
-```
-```{r}
-names_tibble_women |>
+all_names |>
   rename(names = 1)|>
   mutate(names = str_replace_all(names, " ", "_"))|>
   mutate(names = str_replace_all(names, "'", "%27")) |> 
-  as.tibble() -> names_url_women
+  as.tibble() -> names_url_all
 ```
 ```{r}
-for (names in names_url_women){
-  scrape_names(paste(names))
-}
-bru <- names_url_women |> 
-  slice(1:100) |> 
+
+check <- names_url_all |> 
   rowwise() |> 
   mutate(status = scrape_names(paste0(names)))
 bru |> 
@@ -116,9 +113,19 @@ bru |>
 list_of_tibbles <-  mget(bru$names, envir = .GlobalEnv)
 result_df <- do.call(rbind, all_names_objects_data) |> 
   as.tibble() |> 
-  filter(name != "Unnamed_characters_in_New_Spring") |> 
+  mutate(name = str_replace_all(name, "_", " "))|>
+  mutate(name = str_replace_all(name, "%27", "'")) |> 
+  distinct()
+
+wider <- result_df |> 
+ pivot_wider(values_from = value,names_from = variable,values_fill = NA) |> 
   mutate_all(as.character) |> 
-  pivot_wider(values_from = value,names_from = variable,values_fill = NA)
+  mutate_all(~na_if(., "NULL"))
+
+wider |> 
+  summarise(across(everything(), ~ sum(!is.na(.)))) |> 
+  pivot_longer(cols = c(1:26)) |> 
+  arrange(desc(value))
 
 
 ```
