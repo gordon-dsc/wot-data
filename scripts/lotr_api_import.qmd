@@ -1,0 +1,42 @@
+---
+title: "Daniel Lord of the Rings API import"
+format: html
+---
+
+```{r packages}
+library(tidyverse)
+library(rvest)
+library(httr2)
+```
+
+
+```{r}
+base_url <- "https://the-one-api.dev/v2"
+key <- "c-DPIqdcASjHVb6UHgy1"
+  
+request(base_url)|>
+req_url_path_append('/character')|>
+req_auth_bearer_token("c-DPIqdcASjHVb6UHgy1")|>
+req_perform()|>
+resp_body_json() -> lotr_data
+```
+
+```{r}
+lotr_data_test <- tibble(json = lotr_data)
+```
+
+```{r}
+lotr_data_test|>
+  slice(1)|>
+  unnest_longer(json)|>
+  unnest_wider(json) -> lotr_data_test
+```
+
+```{r}
+
+```
+
+
+
+
+
