@@ -50,9 +50,37 @@ lotr_data_test|>
 ```
 
 ```{r}
-lotr_data_test2|>
-  
+lotr_data_test|>
+  mutate(birth = str_replace_all(string = birth,
+                                 pattern = "First Age",
+                                 replacement = "FA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Second Age",
+                                 replacement = "SA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Third Age",
+                                 replacement = "TA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Fourth Age",
+                                 replacement = "FO"),
+         death = str_replace_all(string = death,
+                                 pattern = "First Age",
+                                 replacement = "FA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Second Age",
+                                 replacement = "SA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Third Age",
+                                 replacement = "TA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Fourth Age",
+                                 replacement = "FO")) -> lotr_data_test2
 ```
+
+```{r}
+unique(lotr_data_test$birth)
+```
+
 
 
 
