@@ -1,0 +1,89 @@
+---
+title: "Daniel Lord of the Rings API import"
+format: html
+---
+
+```{r packages}
+library(tidyverse)
+library(rvest)
+library(httr2)
+library(janitor)
+```
+
+Lord of the Rings Data Import
+
+```{r}
+request("https://the-one-api.dev/v2")|> #requesting data from the-one-api
+req_url_path_append('/character')|> #requesting all the character data from the api
+req_auth_bearer_token("c-DPIqdcASjHVb6UHgy1")|>#authentication key for the api
+req_perform()|>
+resp_body_json() -> lotr_data
+```
+
+
+Lord of the Rings Data Tidying
+
+```{r}
+lotr_data_test <- tibble(json = lotr_data)#turning data set from json to tibble for easier unnesting
+```
+
+```{r}
+lotr_data_test|>
+  slice(1)|> #all the data is held in the first row so getting rid of the rest
+  unnest_longer(json)|> #unnesting the data lists
+  unnest_wider(json) -> lotr_data_test
+```
+
+```{r}
+series <- rep('lotr', times = 933) #creating new column to show what series each row is from
+series <- data.frame(series)
+series <- tibble(series)
+lotr_data_test|> #adding new column to rest of data
+  add_column(series) -> lotr_data_test
+```
+
+```{r}
+lotr_data_test|>
+  select(name, height, race, gender, birth, death, hair, series)|> #selecting relevent columns for visiualizations
+  mutate(across(.cols = 1:8,
+                .fns = \(x) na_if(x, ""))) -> lotr_data_test2 #repalcing empty cells with NA across entire tibble
+```
+
+```{r}
+lotr_data_test|>
+  mutate(birth = str_replace_all(string = birth,
+                                 pattern = "First Age",
+                                 replacement = "FA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Second Age",
+                                 replacement = "SA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Third Age",
+                                 replacement = "TA"),
+         birth = str_replace_all(string = birth,
+                                 pattern = "Fourth Age",
+                                 replacement = "FO"),
+         death = str_replace_all(string = death,
+                                 pattern = "First Age",
+                                 replacement = "FA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Second Age",
+                                 replacement = "SA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Third Age",
+                                 replacement = "TA"),
+         death = str_replace_all(string = death,
+                                 pattern = "Fourth Age",
+                                 replacement = "FO")) -> lotr_data_test2
+```
+
+```{r}
+unique(lotr_data_test$birth)
+```
+
+
+
+
+
+
+
