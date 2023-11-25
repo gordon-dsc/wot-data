@@ -48,6 +48,8 @@ lotr_data_test|>
                 .fns = \(x) na_if(x, ""))) -> lotr_data_test #repalcing empty cells with NA across entire tibble
 ```
 
+Birth and Death Column Tidying
+
 ```{r}
 lotr_data_test|>
   mutate(birth = str_replace_all(string = birth, 
@@ -93,7 +95,6 @@ lotr_data_test|>
   mutate(birth_year = parse_double(birth_year),
          death_year = parse_double(death_year))-> lotr_data_test#parsing new columns as numbers
 ```
-
 
 ```{r}
 lotr_data_test|> #Code to extract ages from the birth and death columns into two new columns
@@ -164,6 +165,8 @@ lotr_data_test|> #adding new column to rest of data
   rename("years_alive" =`as.numeric(years_alive)`) -> lotr_data_test #renaming new column
 ```
 
+Hair Column Tidying
+
 ```{r}
 lotr_data_test|> #code to clean up the names column for easier comparison later
   mutate(hair_simplified = str_extract(hair, #pulling out main different colors of hair
@@ -175,8 +178,56 @@ lotr_data_test|> #code to clean up the names column for easier comparison later
          hair_simplified = str_trim(hair_simplified))-> lotr_data_test #removing extra white space
 ```
 
+Height Column Tidying
+
 ```{r}
-unique(lotr_data_test2$hair_simplified)
+lotr_data_test|>
+  mutate(height = str_replace_all(string = height, #turining the word nine to number 9
+                                  pattern = "nine",
+                                  replacement = "9"),
+         height = str_replace_all(string = height, #replacing the word feet with '
+                                  pattern = "feet",
+                                  replacement = "'"),
+         height = str_replace_all(string = height,#replacing the one comma with '
+                                  pattern = ",",
+                                  replacement = "'"),
+         height = str_squish(height), #squishing down all spaces for easier extraction later
+         height = str_replace_all(string = height, #removing remaining spaces for easier extraction
+                                  pattern = " ",
+                                  replacement = ""),
+         height = str_replace_all(string = height, #changing one point which has just 30 (only instance of 30) with no signifier of unit, looked up and found it was 30 fathoms, changing to standard units
+                                  pattern = "30", 
+                                  replacement = "180'"),
+         simplified_height = str_extract(string = height, #extracting all numbers using feet'inches"
+                                         pattern = "(\\d{1,2}'\\d{1,2}\")|(\\d{1,2}'\\d{1,2})|(\\d{1,3}')"),
+         simplified_height = str_replace_all(string = simplified_height, #removing all " to make all cells uniform
+                                             pattern = "\"",
+                                             replacement = ""),
+         simplified_height_ft = str_extract(string = simplified_height, #making a new column that only holds the ft values
+                                            pattern = "\\d{1,3}'"),
+         simplified_height_ft = str_replace_all(string = simplified_height_ft, #removing excess '
+                                                pattern = "'",
+                                                replacement = ""),
+         simplified_height_ft = parse_double(simplified_height_ft), #parsing new column as a number
+         simplified_height_in = str_extract(string = simplified_height, #making a new column that only holds in values
+                                            pattern = "'\\d{1,3}"),
+         simplified_height_in = str_replace_all(string = simplified_height_in, #removing excess '
+                                                pattern = "'",
+                                                replacement = ""),
+         simplified_height_in = parse_double(simplified_height_in)) -> lotr_data_test #parsing new column as a number
+```
+
+```{r}
+lotr_data_test|>
+  mutate(simplified_height_ft = (simplified_height_ft * 12),
+         simplified_height_total = simplified_height_ft + simplified_height_in)|>
+  select(height, simplified_height_ft, simplified_height_in, simplified_height_total)|>
+  arrange(height)
+```
+
+
+```{r}
+unique(lotr_data_test2$height)
 ```
 
 
