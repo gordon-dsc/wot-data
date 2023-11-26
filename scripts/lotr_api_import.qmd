@@ -229,9 +229,17 @@ lotr_data_test|>
 ```
 
 ```{r}
-lotr_data_test|>
-  select(name, height_in, race, gender, birth_year, birth_age, death_year, death_age, hair_simplified, series) -> lotr_data_final
+lotr_data_test|> #selecting relevent columns for export
+  select(name, height_in, race, gender, birth_year, birth_age, death_year, death_age, years_alive, hair_simplified, series)|> 
+  rename(hair = hair_simplified) -> lotr_data_final #shortening hair column name
 ```
+
+```{r}
+write.csv(lotr_data_final, "C:/Users/mcdon/OneDrive/Desktop/College/Semester7/Data_Wrangling/wot-data/data/cleaned_data/lotr_data_final.csv")
+```
+
+
+
 
 
 
