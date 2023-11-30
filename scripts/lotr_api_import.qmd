@@ -107,7 +107,7 @@ lotr_data_test|> #Code to extract ages from the birth and death columns into two
 ```
 
 ```{r}
-calculate_age <- function(birth_year, birth_age, death_year, death_age) { #function that caluclates the years alive of a character
+calculate_age_lotr <- function(birth_year, birth_age, death_year, death_age) { #function that caluclates the years alive of a character
   first_age <- 590 #Durations of the different ages for calulations 
   second_age <- 3441
   third_age <- 3021
@@ -153,7 +153,7 @@ for (x in 1:nrow(lotr_data_test)){#for loop to loop through the rows
   birth_age <- row$birth_age
   death_year <- row$death_year
   death_age <- row$death_age
-  years_alive[x] <- calculate_age(birth_year, birth_age, death_year, death_age)}#running values through function that caluclates years alive
+  years_alive[x] <- calculate_age_lotr(birth_year, birth_age, death_year, death_age)}#running values through function that caluclates years alive
 ```
 
 ```{r}
@@ -243,6 +243,11 @@ lotr_data_test|> #selecting relevant columns for export
   select(name, height_in, gender, birth_year, birth_age, death_year, death_age, years_alive, hair_simplified, series)|> 
   rename(hair = hair_simplified) -> lotr_data_final #shortening hair column name
 ```
+
+```{r}
+write_csv(lotr_data_final, "C:/Users/mcdon/OneDrive/Desktop/College/Semester7/Data_Wrangling/wot-data/data/cleaned_data/lotr_data_final.csv")
+```
+
 
 
 
