@@ -1,0 +1,120 @@
+---
+title: "Data Import Script"
+format: html
+---
+
+```{r packages}
+library(tidyverse)
+library(httr2)
+library(rvest)
+library(readr)
+library(stringr)
+```
+
+```{r}
+
+alphabet <- LETTERS
+
+read_page <- function(url,char){
+    read_html(paste0(url,char)) |> 
+    html_elements("li") |> 
+    html_element(".category-page__member-link") |>
+    html_text2()
+}
+for (char in alphabet){
+value_women <- read_page("https://wot.fandom.com/wiki/Category:Women?from=",char)
+  assign(paste0("vector_women",char),value_women,envir = .GlobalEnv)
+value_men <- read_page("https://wot.fandom.com/wiki/Category:Men?from=",char)
+  assign(paste0("vector_men",char),value_men,envir = .GlobalEnv)
+value_unknown <- read_page("https://wot.fandom.com/wiki/Category:Unknown_gender?from=",char)
+  assign(paste0("vector_unknown",char),value_unknown,envir = .GlobalEnv)
+}
+names_list_women <- vector_womenA
+names_list_men <- vector_menA
+names_list_unknown <- vector_unknownA
+for (char in alphabet){
+  names_list_women <- c(names_list_women,get(paste0("vector_women",char)))
+  names_list_men <- c(names_list_men,get(paste0("vector_men",char)))
+  names_list_unknown <- c(names_list_unknown,get(paste0("vector_unknown",char)))
+}
+
+names_tibble_women <- tibble(names_list_women) |> 
+  drop_na() |> 
+  distinct() |> 
+  as.tibble() |> 
+  mutate(name = names_list_women, .keep = "unused")
+names_tibble_men <- tibble(names_list_men) |> 
+  drop_na() |> 
+  distinct() |> 
+  mutate(name = names_list_men, .keep = "unused")
+names_tibble_unknown <- tibble(names_list_unknown) |> 
+  drop_na() |> 
+  distinct() |> 
+  mutate(name = names_list_unknown, .keep = "unused")
+all_names <- names_tibble_women |> 
+  rbind(names_tibble_unknown) |> 
+  rbind(names_tibble_men)
+
+
+```
+
+```{r}
+all_names_objects_data <- list()
+scrape_names <- function(name){
+  scraped_data <- read_html(paste0("https://wot.fandom.com/wiki/",name)) |> 
+    html_elements("section") |> 
+    html_elements(".pi-border-color") |>
+    html_text2()
+  unnamed_list <- strsplit(scraped_data,"\n")
+  named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
+  names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
+  tibble <- named_vector |> 
+    enframe(name = "variable", value = "value") |> 
+    mutate(name = name)
+  tibble <- list(tibble)
+  assign("all_names_objects_data",c(all_names_objects_data,tibble),envir = .GlobalEnv)
+"done"
+}
+
+```
+
+
+
+```{r}
+all_names |>
+  rename(names = 1)|>
+  mutate(names = str_replace_all(names, " ", "_"))|>
+  mutate(names = str_replace_all(names, "'", "%27")) |> 
+  as.tibble() -> names_url_all
+```
+```{r}
+
+check <- names_url_all |> 
+  rowwise() |> 
+  mutate(status = scrape_names(paste0(names)))
+check |> 
+  arrange(desc(length))
+```
+```{r}
+#list_of_tibbles <-  mget(check$names, envir = .GlobalEnv)
+result_df <- do.call(rbind, all_names_objects_data) |> 
+  as.tibble() |> 
+  mutate(name = str_replace_all(name, "_", " "))|>
+  mutate(name = str_replace_all(name, "%27", "'")) |> 
+  distinct()
+
+wider <- result_df |> 
+ pivot_wider(values_from = value,names_from = variable,values_fill = NA) |> 
+  mutate_all(as.character) |> 
+  mutate_all(~na_if(., "NULL"))
+
+number_nas <- wider |> 
+  summarise(across(everything(), ~ sum(!is.na(.)))) |> 
+  pivot_longer(cols = c(1:26)) |> 
+  arrange(desc(value))
+write_csv(number_nas,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\number_nas.csv")
+write_csv(wider,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\Clean_wot_data.csv")
+```
+
+
+
