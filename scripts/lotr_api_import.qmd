@@ -43,7 +43,7 @@ lotr_data_test|> #adding new column to rest of data
 
 ```{r}
 lotr_data_test|>
-  select(name, height, race, gender, birth, death, hair, series)|> #selecting relevent columns for visiualizations
+  select(name, height, race, gender, birth, death, hair, series)|> #selecting relevant columns for visualizations
   mutate(across(.cols = 1:8,#repalcing empty cells with NA across entire tibble
                 .fns = \(x) na_if(x, "")))|>
   mutate(across(.cols = 1:8,#replacing NaN with NA, NaN mean NA for this data
@@ -228,15 +228,25 @@ lotr_data_test|>
          height_in = simplified_height_ft + simplified_height_in) -> lotr_data_test #adding to find total height in inches
 ```
 
+Gender Column Cleaning 
+
 ```{r}
-lotr_data_test|> #selecting relevent columns for export
-  select(name, height_in, race, gender, birth_year, birth_age, death_year, death_age, years_alive, hair_simplified, series)|> 
+lotr_data_test|>
+  mutate(gender = str_replace_all(string = gender,
+                                  pattern = "Most likely male|Males|^male",
+                                  replacement = "Male")) -> lotr_data_test
+```
+
+
+```{r}
+lotr_data_test|> #selecting relevant columns for export
+  select(name, height_in, gender, birth_year, birth_age, death_year, death_age, years_alive, hair_simplified, series)|> 
   rename(hair = hair_simplified) -> lotr_data_final #shortening hair column name
 ```
 
-```{r}
-write.csv(lotr_data_final, "C:/Users/mcdon/OneDrive/Desktop/College/Semester7/Data_Wrangling/wot-data/data/cleaned_data/lotr_data_final.csv")
-```
+
+
+
 
 
 
