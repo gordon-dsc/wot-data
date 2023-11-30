@@ -75,21 +75,7 @@ scrape_names <- function(name){
   assign("all_names_objects_data",c(all_names_objects_data,tibble),envir = .GlobalEnv)
 "done"
 }
-list <- list(Catala_Lucanvalle)
-scrape_names("Reanne_Corly")
 
-egwene <- read_html("https://wot.fandom.com/wiki/Egwene_al%27Vere") |> 
-    html_elements("section") |> 
-    html_elements(".pi-border-color") |>
-    html_text2()
-
-unnamed_list <- strsplit(egwene,"\n")
-
-named_vector <- sapply(unnamed_list, function(x) x[2], simplify = "vector")
-names(named_vector) <- sapply(unnamed_list, function(x) x[1], simplify = "vector")
-named_vector |> 
-  enframe(name = "variable", value = "value") |> 
-  mutate(name = deparse(substitute(egwene)))
 ```
 
 
@@ -106,11 +92,11 @@ all_names |>
 check <- names_url_all |> 
   rowwise() |> 
   mutate(status = scrape_names(paste0(names)))
-bru |> 
+check |> 
   arrange(desc(length))
 ```
 ```{r}
-list_of_tibbles <-  mget(bru$names, envir = .GlobalEnv)
+#list_of_tibbles <-  mget(check$names, envir = .GlobalEnv)
 result_df <- do.call(rbind, all_names_objects_data) |> 
   as.tibble() |> 
   mutate(name = str_replace_all(name, "_", " "))|>
@@ -122,12 +108,12 @@ wider <- result_df |>
   mutate_all(as.character) |> 
   mutate_all(~na_if(., "NULL"))
 
-wider |> 
+number_nas <- wider |> 
   summarise(across(everything(), ~ sum(!is.na(.)))) |> 
   pivot_longer(cols = c(1:26)) |> 
   arrange(desc(value))
-
-
+write_csv(number_nas,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\number_nas.csv")
+write_csv(wider,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\Clean_wot_data.csv")
 ```
 
 

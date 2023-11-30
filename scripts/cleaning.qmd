@@ -4,5 +4,10 @@ format: html
 ---
 
 ```{r packages}
+library(tidyverse)
+```
+```{r}
+Clean_wot_data <- read_csv("data/Clean_wot_data.csv")
 
 ```
+
