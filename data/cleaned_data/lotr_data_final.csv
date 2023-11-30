@@ -1,0 +1,934 @@
+name,height_in,gender,birth_year,birth_age,death_year,death_age,years_alive,hair,series
+Adanel,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Adrahil I,NA,Male,1944,TA,NA,TA,NA,NA,lotr
+Adrahil II,NA,Male,2917,TA,3010,TA,93,NA,lotr
+Aegnor,NA,Male,NA,YT,455,FA,NA,Golden,lotr
+Aerin,NA,Female,NA,FA,495,FA,NA,NA,lotr
+Ailinel,NA,Female,700,SA,NA,SA,NA,NA,lotr
+Aglahad,NA,Male,2827,TA,2932,TA,105,NA,lotr
+Algund,NA,Male,NA,FA,489,FA,NA,NA,lotr
+Almiel,NA,Female,700,SA,NA,SA,NA,NA,lotr
+Alphros,NA,Male,3017,TA,95,FO,99,NA,lotr
+Almarian,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Amandil,NA,Male,NA,SA,3310,SA,NA,NA,lotr
+Amarië,NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Aldor,NA,Male,2544,TA,2645,TA,101,NA,lotr
+Aldamir,NA,Male,1330,TA,1540,TA,210,NA,lotr
+Amlaith,NA,Male,726,TA,946,TA,220,NA,lotr
+Amroth,NA,Male,NA,NA,1981,TA,NA,Golden,lotr
+Amrothos,NA,Male,2994,TA,NA,NA,NA,NA,lotr
+Anairë,NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Anardil,NA,Male,136,TA,411,TA,275,NA,lotr
+Anborn,NA,Male,NA,TA,NA,NA,NA,Dark,lotr
+Andreth,NA,Female,361,FA,455,FA,94,Brown,lotr
+Andróg,NA,Male,440,FA,489,FA,49,NA,lotr
+Amras,NA,Male,NA,NA,538,FA,NA,Red,lotr
+Angamaitë,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Amdír,NA,Male,NA,FA,3434,SA,NA,NA,lotr
+Amrod,NA,Male,NA,NA,1497,YT,NA,Red,lotr
+Annael,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Angbor,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Angelimir,NA,Male,2866,TA,2977,TA,111,NA,lotr
+Angrod,NA,Male,NA,YT,455,FA,NA,Golden,lotr
+Anárion,NA,Male,3219,SA,3440,SA,221,NA,lotr
+Ar-Adûnakhôr,NA,Male,2709,SA,2962,SA,253,NA,lotr
+Ar-Gimilzôr,NA,Male,2960,SA,3177,SA,217,NA,lotr
+Ar-Zimrathôn,NA,Male,2798,SA,3033,SA,235,NA,lotr
+Ar-Pharazôn,NA,Male,3118,SA,NA,NA,NA,NA,lotr
+Ar-Sakalthôr,NA,Male,2876,SA,3102,SA,226,NA,lotr
+Arador,NA,Male,2820,TA,2930,TA,110,Grey,lotr
+Araglas,NA,Male,2296,TA,2455,TA,159,NA,lotr
+Aragorn I,NA,Male,2227,TA,2327,TA,100,NA,lotr
+Aragorn II Elessar,78,Male,2931,NA,120,FO,NA,Dark,lotr
+Aragost,NA,Male,2431,TA,2588,TA,157,NA,lotr
+Arahad I,NA,Male,2365,TA,2523,TA,158,NA,lotr
+Arahad II,NA,Male,2563,TA,2719,TA,156,NA,lotr
+Arahael,NA,Male,2012,TA,2177,TA,165,NA,lotr
+Aranarth,NA,Male,1938,TA,2106,TA,168,NA,lotr
+Arantar,NA,Male,185,TA,435,TA,250,NA,lotr
+Aranuir,NA,Male,2084,TA,2247,TA,163,NA,lotr
+Aranwë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Araphant,NA,Male,1789,TA,1964,TA,175,NA,lotr
+Arathorn I,NA,Male,2693,TA,2848,TA,155,NA,lotr
+Arathorn II,NA,Male,2873,TA,2933,TA,60,Dark,lotr
+Araval,NA,Male,1711,TA,1891,TA,180,NA,lotr
+Aravir,NA,Male,2156,TA,2319,TA,163,NA,lotr
+Aravorn,NA,Male,2497,TA,2654,TA,157,NA,lotr
+Arciryas,NA,Male,1684,TA,NA,NA,NA,NA,lotr
+Arassuil,NA,Male,2628,TA,2784,TA,156,NA,lotr
+Araphor,NA,Male,1391,TA,1589,TA,198,NA,lotr
+Aratan,NA,Male,3339,SA,NA,NA,NA,NA,lotr
+Ardamir (son of Axantur),NA,Male,562,SA,NA,NA,NA,NA,lotr
+Aredhel,NA,Female,1362,YT,400,FA,1674.4060000000002,Dark,lotr
+Argeleb I,NA,Male,1226,TA,1356,TA,130,NA,lotr
+Arminas,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Arthad,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Arvedui,NA,Male,1864,TA,1975,TA,111,NA,lotr
+Arvegil,NA,Male,1553,TA,1743,TA,190,NA,lotr
+Arveleg I,NA,Male,1309,TA,1409,TA,100,NA,lotr
+Arveleg II,NA,Male,1633,TA,1813,TA,180,NA,lotr
+Argon,NA,Male,NA,NA,1500,YT,NA,Dark,lotr
+Argonui,NA,Male,2757,TA,2912,TA,155,NA,lotr
+Argeleb II,NA,Male,1473,TA,1670,TA,197,NA,lotr
+Atanatar II,NA,Male,977,TA,1226,TA,249,NA,lotr
+Atanalcar,NA,Male,61,SA,NA,SA,NA,NA,lotr
+Arwen,NA,Female,241,TA,121,FO,2901,Black,lotr
+Azaghâl,NA,Male,214,FA,473,FA,259,NA,lotr
+Aulendil (Vardamir's son),NA,Male,213,SA,NA,SA,NA,NA,lotr
+Angelica Baggins,NA,Female,2981,TA,NA,FO,NA,Blonde,lotr
+Axantur,NA,Male,395,SA,NA,NA,NA,NA,lotr
+Balbo Baggins,NA,Male,2767,TA,2858,TA,91,NA,lotr
+Atanatar I,NA,Male,480,TA,748,TA,268,NA,lotr
+Belladonna (Took) Baggins,NA,Female,2852,TA,2934,TA,82,Black,lotr
+Berylla (Boffin) Baggins,NA,Female,2772,TA,2871,TA,99,NA,lotr
+Bungo Baggins,NA,Male,2846,TA,2926,TA,80,NA,lotr
+Dudo Baggins,NA,Male,2911,TA,3009,TA,98,NA,lotr
+Laura (Grubb) Baggins,NA,Female,2814,TA,2916,TA,102,NA,lotr
+Fosco Baggins,NA,Male,2864,TA,2960,TA,96,NA,lotr
+Drogo Baggins,NA,Male,2908,TA,2980,TA,72,NA,lotr
+Frodo Baggins,42,Male,2968,TA,3021,NA,NA,Brown,lotr
+Longo Baggins,NA,Male,2860,TA,2950,TA,90,NA,lotr
+Mungo Baggins,NA,Male,2807,TA,2900,TA,93,NA,lotr
+Peony (Baggins) Burrows,NA,Female,2950,TA,NA,NA,NA,NA,lotr
+Ponto Baggins,NA,Male,2816,TA,2911,TA,95,NA,lotr
+Ponto Baggins II,NA,Male,2946,TA,NA,NA,NA,NA,lotr
+Balin,NA,Male,2763,TA,2994,TA,231,White,lotr
+Baragund,NA,Male,420,FA,460,FA,40,NA,lotr
+Porto Baggins,NA,Male,2948,TA,NA,NA,NA,NA,lotr
+Baran,NA,Male,289,FA,380,FA,91,NA,lotr
+Bain,69,Male,2925,TA,3007,TA,82,Brown,lotr
+Baranor (Gondor),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bard,NA,Male,2898,TA,2977,TA,79,Black,lotr
+Bard II,74,Male,2985,TA,NA,FO,NA,NA,lotr
+Beldir,NA,Male,316,FA,NA,NA,NA,NA,lotr
+Beldis,NA,Female,NA,FA,NA,NA,NA,Brown,lotr
+Barahir,NA,Male,402,FA,460,FA,58,Dark,lotr
+Belecthor I,NA,Male,2545,TA,2655,TA,110,NA,lotr
+Beleg of Arnor,NA,Male,811,TA,1029,TA,218,NA,lotr
+Belegorn,NA,Male,2074,TA,2204,TA,130,NA,lotr
+Belegund,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Belemir,NA,Male,339,FA,NA,NA,NA,NA,lotr
+Belen,NA,Male,292,FA,NA,NA,NA,NA,lotr
+Beorn,NA,Male,NA,NA,NA,NA,NA,Black,lotr
+Bereg,NA,Male,340,FA,NA,NA,NA,NA,lotr
+Beregond,NA,Male,2700,TA,2811,TA,111,NA,lotr
+Beregond (Captain),NA,Male,2976,TA,NA,FO,NA,NA,lotr
+Berelach,NA,Male,NA,FO,NA,NA,NA,NA,lotr
+Beren,NA,Male,432,FA,466,FA,34,Dark,lotr
+Baranor,NA,Male,317,FA,NA,NA,NA,NA,lotr
+Beren (Steward),NA,Male,2655,TA,2763,TA,108,NA,lotr
+Beren (Belemir's son),NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Bergil,NA,Male,3009,TA,NA,NA,NA,NA,lotr
+Barahir (Steward),NA,Male,2290,TA,2412,TA,122,NA,lotr
+Bifur,53,Male,2814,TA,NA,FO,NA,Black,lotr
+Bilbo Baggins,49,Male,2890,TA,3021,TA,131,Brown,lotr
+Bladorthin,NA,Male,NA,NA,NA,TA,NA,NA,lotr
+Black Serpent,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Blanco,NA,Male,1560,TA,1601,TA,41,NA,lotr
+Belecthor II,NA,Male,2752,TA,2872,TA,120,NA,lotr
+Bob,NA,Male,NA,TA,NA,FO,NA,NA,lotr
+Donnamira (Took) Boffin,NA,Female,2856,TA,2948,TA,92,NA,lotr
+Daisy (Baggins) Boffin,NA,Female,2950,TA,NA,NA,NA,NA,lotr
+Bosco Boffin,NA,Male,2767,TA,2858,TA,91,NA,lotr
+Folco Boffin,NA,Male,2978,TA,NA,FO,NA,NA,lotr
+Gerda (Boffin) Bolger,NA,Female,2904,TA,3004,TA,100,NA,lotr
+Griffo Boffin,NA,Male,2946,TA,NA,NA,NA,NA,lotr
+Hugo Boffin,NA,Male,2854,TA,2945,TA,91,NA,lotr
+Ivy (Goodenough) Boffin,NA,Female,NA,TA,NA,TA,NA,NA,lotr
+Basso Boffin,NA,Male,2769,TA,NA,NA,NA,NA,lotr
+Otto Boffin,NA,Male,2812,TA,2900,TA,88,NA,lotr
+Rollo Boffin,NA,Male,2860,TA,NA,NA,NA,NA,lotr
+Tosto Boffin,NA,Male,2988,TA,NA,FO,NA,NA,lotr
+Vigo Boffin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Druda Burrows Boffin,NA,Female,2860,TA,NA,NA,NA,NA,lotr
+Filibert Bolger,NA,Male,2942,TA,22,FO,101,Brown,lotr
+Fredegar Bolger,NA,Male,2980,TA,NA,FO,NA,NA,lotr
+Jessamine (Boffin) Bolger,NA,Female,2897,TA,NA,TA,NA,NA,lotr
+Bofur,NA,Male,2843,TA,NA,NA,NA,Brown,lotr
+Odovacar Bolger,NA,Male,2935,TA,10,FO,96,NA,lotr
+Rosamunda (Took) Bolger,NA,Female,2938,TA,NA,NA,NA,NA,lotr
+Jago Boffin,NA,Male,2894,TA,2986,TA,92,NA,lotr
+Buffo Boffin,NA,Male,NA,TA,NA,TA,NA,NA,lotr
+Bombur,NA,Male,2834,TA,NA,NA,NA,Ginger,lotr
+Borlad,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Borlas,NA,Male,3011,TA,NA,NA,NA,NA,lotr
+Boromir,NA,Male,2978,TA,3019,NA,NA,Dark,lotr
+Boromir (House of Bëor),NA,Male,338,FA,432,FA,94,NA,lotr
+Boromir (Steward),NA,Male,2410,TA,2489,TA,79,NA,lotr
+Wilibald Bolger,NA,Male,2904,TA,3000,TA,96,NA,lotr
+Borondir,NA,Male,NA,TA,2510,NA,NA,NA,lotr
+Borthand,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Blanco Bracegirdle,NA,Male,2865,TA,NA,NA,NA,NA,lotr
+Bruno Bracegirdle,NA,Male,2913,TA,3010,TA,97,NA,lotr
+Primrose Bracegirdle,NA,Female,2865,TA,NA,NA,NA,NA,lotr
+Brand,NA,Male,2957,TA,3019,NA,NA,NA,lotr
+Brandir,NA,NA,NA,FA,499,FA,NA,NA,lotr
+Adaldrida (Bolger) Brandybuck,NA,Female,2818,TA,NA,NA,NA,NA,lotr
+Amaranth Brandybuck,NA,Female,2904,TA,2998,TA,94,NA,lotr
+Borlach,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Esmeralda Brandybuck,NA,Female,2936,TA,NA,NA,NA,NA,lotr
+Estella (Bolger) Brandybuck,NA,Female,2985,TA,63,FO,99,Blonde,lotr
+Hilda Brandybuck,NA,Female,2954,TA,NA,NA,NA,NA,lotr
+Madoc Brandybuck,NA,Male,1175,NA,1277,NA,NA,NA,lotr
+Melilot Brandybuck,NA,Female,1385,NA,NA,NA,NA,NA,lotr
+Mentha Brandybuck,NA,Female,2983,TA,NA,FO,NA,Brown,lotr
+Borin,NA,Male,2450,TA,2711,TA,261,NA,lotr
+Mirabella (Took) Brandybuck,NA,Female,2860,TA,2960,TA,100,NA,lotr
+Primula (Brandybuck) Baggins,NA,Female,2920,TA,2980,TA,60,NA,lotr
+Seredic Brandybuck,NA,Male,2948,TA,NA,NA,NA,NA,lotr
+Brego,NA,Male,2512,TA,2570,TA,58,NA,lotr
+Bregolas,NA,Male,NA,FA,455,FA,NA,NA,lotr
+Bregor,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Sapphira (Brockhouse) Boffin,NA,Female,2857,TA,NA,NA,NA,NA,lotr
+Bucca of the Marish,NA,Male,1930,TA,2031,TA,101,NA,lotr
+Asphodel (Brandybuck) Burrows,NA,Female,2913,TA,3012,TA,99,NA,lotr
+Milo Burrows,NA,Male,1347,NA,NA,NA,NA,NA,lotr
+Celandine Brandybuck,NA,Female,2994,TA,NA,NA,NA,NA,lotr
+Bëor,NA,Male,262,FA,355,FA,93,NA,lotr
+Bór,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Calimehtar,NA,Male,1736,TA,1936,TA,200,NA,lotr
+Minto Burrows,NA,Male,2996,TA,NA,NA,NA,NA,lotr
+Boron,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Meriadoc Brandybuck,54,Male,2982,TA,65,FO,104,Golden,lotr
+Calmacil,NA,Male,1058,TA,1304,TA,246,NA,lotr
+Celeborn,NA,Male,NA,YT,NA,FO,NA,Silver,lotr
+Celebrimbor,NA,Male,NA,YT,1697,SA,NA,Dark,lotr
+Celebrindor,NA,Male,1062,TA,1272,TA,210,NA,lotr
+Celebrían,NA,Female,350,SA,2510,TA,5601,Silver,lotr
+Celegorm,NA,Male,NA,NA,506,FA,NA,Fair,lotr
+Celepharn,NA,Male,979,TA,1191,TA,212,NA,lotr
+Cemendur,NA,Male,3399,SA,238,TA,280,NA,lotr
+Cemendur (son of Axantur),NA,Male,575,SA,NA,NA,NA,NA,lotr
+Ceorl,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Caliondo,NA,Male,512,SA,900,SA,388,NA,lotr
+Cirion,NA,Male,2449,TA,2567,TA,118,NA,lotr
+Ciryandil,NA,Male,820,TA,1015,TA,195,NA,lotr
+Ciryatur,NA,Male,NA,SA,1700,SA,NA,Black,lotr
+Ciryon,NA,Male,3379,SA,2,TA,64,NA,lotr
+Bowman Cotton,NA,Male,2886,TA,NA,NA,NA,NA,lotr
+Lily Cotton,NA,Female,NA,TA,NA,NA,NA,NA,lotr
+Marigold (Gamgee) Cotton,NA,Female,2983,TA,NA,NA,NA,NA,lotr
+Rosie Cotton,NA,Female,2984,TA,61,FO,98,Brown,lotr
+Tolman Cotton,NA,Male,2941,TA,20,FO,100,NA,lotr
+Castamir the Usurper,NA,Male,1259,TA,1447,TA,188,NA,lotr
+Curufin,NA,Male,NA,NA,506,FA,NA,Dark,lotr
+Círdan,NA,Male,1050,YT,NA,FO,NA,Silver,lotr
+Dairuin,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Damrod,NA,Male,NA,TA,3019,TA,NA,Dark,lotr
+User:Deathshriek,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Denethor (First Age),NA,Male,NA,YT,1497,YT,NA,NA,lotr
+Falco Chubb-Baggins,NA,Male,2903,TA,2999,TA,96,NA,lotr
+Caranthir,NA,Male,NA,NA,506,FA,NA,Dark,lotr
+Denethor II,NA,Male,2930,TA,3019,NA,NA,Grey,lotr
+Diamond Took,NA,Female,2995,TA,63,FO,89,Brown,lotr
+Dinodas Brandybuck,NA,Male,1316,NA,1410,NA,NA,NA,lotr
+Dior (Steward),NA,Male,2328,TA,2435,TA,107,NA,lotr
+Dodinas Brandybuck,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Dori,NA,Male,2827,TA,NA,NA,NA,Gray,lotr
+Dorlas,NA,Male,NA,FA,499,FA,NA,NA,lotr
+Denethor I,NA,Male,2375,TA,2477,TA,102,NA,lotr
+Duinhir,NA,Male,NA,TA,NA,FO,NA,Dark,lotr
+Durin VII,NA,Male,2,FO,NA,NA,NA,NA,lotr
+Dwalin,NA,Male,2772,TA,91,FO,340,Brown,lotr
+Dáin I,NA,Male,2440,TA,2589,TA,149,NA,lotr
+Dervorin,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Déagol,NA,Male,2400,TA,2463,TA,63,Brown,lotr
+Déor,NA,Male,2644,TA,2718,TA,74,NA,lotr
+Derufin,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Duilin,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Dáin II Ironfoot,53,Male,2767,TA,3019,NA,NA,NA,lotr
+Déorwine,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Dírhael,NA,Male,2838,TA,2929,TA,91,Brown,lotr
+Dírhavel,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Dís,NA,Female,2760,TA,2941,TA,181,NA,lotr
+Dúnhere,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Ecthelion II,NA,Male,2886,TA,2984,TA,98,NA,lotr
+Ecthelion I,NA,Male,2600,TA,2698,TA,98,NA,lotr
+Edrahil,NA,Male,NA,NA,465,FA,NA,NA,lotr
+Egalmoth,NA,Male,2626,TA,2743,TA,117,NA,lotr
+Eglantine (Banks) Took,NA,Female,NA,TA,NA,TA,NA,NA,lotr
+Eilinel,NA,Female,NA,FA,455,FA,NA,NA,lotr
+Elatan,NA,Male,NA,SA,NA,SA,NA,NA,lotr
+Eldacar (King of Arnor),NA,Male,87,TA,339,TA,252,NA,lotr
+Eldarion,NA,Male,43,FO,220,FO,177,Dark,lotr
+Eldacar (King of Gondor),NA,Male,1255,TA,1490,TA,235,NA,lotr
+Elemmírë (elf),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Elendil,94,Male,3119,SA,3441,SA,322,Brown,lotr
+Elendur,NA,Male,3299,SA,2,TA,144,NA,lotr
+Elendur of Arnor,NA,Male,552,TA,777,TA,225,NA,lotr
+Elboron,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Eldalótë,NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Elenwë,NA,Female,NA,YT,1500,YT,NA,Golden,lotr
+Elfhelm,NA,Male,2985,TA,NA,FO,NA,Dark,lotr
+Elfhild,NA,Female,2950,TA,2978,TA,28,NA,lotr
+Elfwine,NA,Male,8,FO,103,FO,95,NA,lotr
+Elladan and Elrohir,NA,Male,130,TA,NA,NA,NA,Dark,lotr
+Emeldir,NA,Female,406,FA,NA,NA,NA,NA,lotr
+Elphir,NA,Male,2987,TA,57,FO,91,NA,lotr
+Elrond,NA,Male,532,FA,3021,NA,NA,Dark,lotr
+Enel,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Enelyë,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Enerdhil,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Erchirion,NA,Male,2990,TA,NA,FO,NA,NA,lotr
+Erellont,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Erendis,NA,Female,771,SA,985,SA,214,Dark,lotr
+Erestor,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Eorl the Young,NA,Male,2485,TA,2545,TA,60,NA,lotr
+Erkenbrand,NA,Male,NA,TA,NA,FO,NA,NA,lotr
+Estelmo,NA,Male,NA,SA,NA,TA,NA,NA,lotr
+Eradan,NA,Male,1999,TA,2116,TA,117,NA,lotr
+Eärendur of Númenor,NA,Male,361,SA,NA,SA,NA,NA,lotr
+Eärnil I,NA,Male,736,TA,936,TA,200,NA,lotr
+Eärnil II,NA,Male,1883,TA,2043,TA,160,NA,lotr
+Eärnur,NA,Male,1928,TA,2050,TA,122,NA,lotr
+Eärwen,NA,Female,NA,NA,NA,NA,NA,Star,lotr
+Eärendur (Lord of Andúnië),NA,Male,NA,SA,NA,SA,NA,NA,lotr
+Eöl,NA,Male,NA,YT,400,FA,NA,Dark,lotr
+Eärendil of Gondor,NA,Male,48,TA,324,TA,276,NA,lotr
+Eärendur of Arnor,NA,Male,640,TA,861,TA,221,NA,lotr
+Faramir (son of Ondoher),NA,Male,NA,TA,1944,TA,NA,NA,lotr
+Fastred,NA,Male,2858,TA,2885,TA,27,NA,lotr
+Fastred (Pelennor Fields),NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Fengel,NA,Male,2870,TA,2953,TA,83,NA,lotr
+Ferumbras Took II,NA,Male,2701,TA,2801,TA,100,NA,lotr
+Finarfin,NA,Male,1230,YT,NA,NA,NA,Golden,lotr
+Findegil,NA,Male,NA,FO,172,FO,NA,NA,lotr
+Findis,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Finduilas,NA,Female,NA,FA,495,FA,NA,Golden,lotr
+Finduilas of Dol Amroth,NA,Female,2950,TA,2988,TA,38,Dark,lotr
+Fingolfin,NA,Male,1190,YT,455,FA,3377.51,Dark,lotr
+Farin,NA,Male,2560,TA,2803,TA,243,NA,lotr
+Fingon,NA,Male,NA,YT,472,FA,NA,Dark,lotr
+Finrod,NA,Male,1300,YT,465,FA,2333.4900000000002,Golden,lotr
+Finwë,NA,Male,NA,YT,1495,YT,NA,Black,lotr
+Flói,NA,Male,NA,TA,2994,TA,NA,NA,lotr
+Faramir,NA,Male,2983,TA,82,NA,NA,Raven,lotr
+Folca,NA,Male,2804,TA,2864,TA,60,NA,lotr
+Fastolph Bolger,NA,Male,1210,NA,NA,NA,NA,NA,lotr
+Folcred,NA,Male,2858,TA,2885,TA,27,NA,lotr
+Forlong,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Folcwine,NA,Male,2830,TA,2903,TA,73,NA,lotr
+Fortinbras Took I,NA,Male,2745,TA,2848,TA,103,NA,lotr
+Forthwini,NA,Male,NA,TA,1944,TA,NA,NA,lotr
+Forweg,NA,Male,NA,FA,NA,FA,NA,Fair,lotr
+Freca,NA,Male,2698,TA,2754,TA,56,Dark,lotr
+Fram,NA,Male,1967,TA,2000,TA,33,NA,lotr
+Frerin,NA,Male,2751,TA,2799,TA,48,NA,lotr
+Frumgar,NA,Male,1940,TA,2001,TA,61,NA,lotr
+Fréawine,NA,Male,2594,TA,2680,TA,86,NA,lotr
+Frór,NA,Male,2552,TA,2589,TA,37,NA,lotr
+Frár,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Fundin,NA,Male,2662,TA,2799,TA,137,NA,lotr
+Fréa,NA,Male,2570,TA,2659,TA,89,NA,lotr
+Fréaláf Hildeson,NA,Male,2726,TA,2798,TA,72,NA,lotr
+Fëanor,NA,Male,1169,YT,1497,YT,328,Raven,lotr
+Fíriel,NA,Female,1896,TA,NA,NA,NA,NA,lotr
+Fíli and Kíli,NA,Male,2859,TA,2941,TA,82,Yellow,lotr
+Galar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Galadriel,NA,Female,1362,YT,3021,NA,NA,Golden,lotr
+Galdor,NA,Male,417,FA,462,FA,45,NA,lotr
+Galion,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Daisy Gamgee I,NA,Female,2972,TA,54,FO,103,NA,lotr
+Frodo Gardner,NA,Male,2,FO,NA,FO,NA,NA,lotr
+Hamson Gamgee,NA,Male,2965,TA,NA,NA,NA,NA,lotr
+May Gamgee,NA,Female,2976,TA,NA,NA,NA,NA,lotr
+Samwise Gamgee,48,Male,2980,NA,61,FO,NA,NA,lotr
+Gamling,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Elanor Gardner,NA,Female,NA,NA,NA,FO,NA,Blonde,lotr
+Gelmir,NA,Male,NA,NA,473,FA,NA,NA,lotr
+Hamfast Gamgee,47,Male,2926,TA,7,FO,102,Brown,lotr
+Halfred Gamgee,NA,Male,2969,TA,NA,NA,NA,NA,lotr
+Galdor of the Havens,75,Male,NA,NA,NA,NA,NA,Golden,lotr
+Gil-galad,NA,Male,450,FA,3441,SA,3581,Golden,lotr
+Gildis,NA,Female,NA,FA,NA,NA,NA,NA,lotr
+Gildor (Edain),NA,Male,NA,FA,460,FA,NA,NA,lotr
+Gildor Inglorion,NA,Male,NA,NA,NA,NA,NA,Golden,lotr
+Gilfanon,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Ghân-buri-Ghân,NA,Male,NA,TA,NA,NA,NA,Black,lotr
+Gethron,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Gilraen,65,Female,2907,TA,3007,TA,100,Blonde,lotr
+Gelmir (of Angrod's kin),NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Girion,NA,Male,2732,TA,2770,TA,38,NA,lotr
+Gimilzagar,NA,Male,2630,SA,NA,NA,NA,NA,lotr
+Glorfindel,NA,Male,NA,YT,510,FA,NA,Golden,lotr
+Glirhuin,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Gléowine,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Gimilkhâd,NA,Male,3044,SA,3243,SA,199,NA,lotr
+Gimli,NA,Male,2879,TA,120,FO,262,Auburn,lotr
+Golasgil,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Goldwine,NA,Male,2619,TA,2699,TA,80,NA,lotr
+Hanna (Goldworthy) Brandybuck,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Gorbulas Brandybuck,NA,Male,2908,TA,3001,TA,93,NA,lotr
+Gorhendad (Oldbuck) Brandybuck,NA,Male,2274,TA,NA,NA,NA,NA,lotr
+Gorlim,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Glóin (King of Durin's Folk),NA,Male,2136,TA,2385,TA,249,NA,lotr
+Glóin,NA,Male,2783,TA,15,FO,253,Red,lotr
+Glóredhel,NA,Female,415,FA,473,FA,58,Blonde,lotr
+Gormadoc Deepdelver Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gram,NA,Male,2668,TA,2741,TA,73,NA,lotr
+Holman Greenhand,NA,Male,2810,TA,NA,NA,NA,NA,lotr
+Rose Greenhand,NA,Female,2862,TA,NA,NA,NA,NA,lotr
+Grimbeorn,NA,Male,NA,NA,NA,FO,NA,Dark,lotr
+Grimbold,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Grithnir,NA,Male,NA,FA,474,FA,NA,NA,lotr
+Gróin,NA,Male,2671,TA,2923,TA,252,NA,lotr
+Halfred Greenhand,NA,Male,2851,TA,NA,NA,NA,NA,lotr
+Erling Greenhand,NA,Male,2854,TA,NA,NA,NA,NA,lotr
+Guilin,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Hending Greenhand,NA,Male,2859,TA,NA,NA,NA,NA,lotr
+Grór,NA,Male,2563,TA,2805,TA,242,NA,lotr
+Gundor,NA,Male,NA,FA,456,FA,NA,NA,lotr
+Guthláf,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Hador,NA,Male,390,FA,455,FA,65,Golden,lotr
+Hador (Steward),NA,Male,2245,TA,2395,TA,150,NA,lotr
+Halbarad,NA,Male,2916,TA,3019,NA,NA,Black,lotr
+Haldir (Haladin),NA,Male,413,FA,473,FA,60,NA,lotr
+Gálmód,NA,Male,2940,TA,3015,TA,75,NA,lotr
+Gwindor,NA,Male,NA,FA,495,FA,NA,Grey,lotr
+Haldir (Lorien),NA,Male,NA,NA,3019,TA,NA,Golden,lotr
+Haleth,NA,Female,341,FA,420,FA,79,NA,lotr
+Gárulf,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Haleth (Helm's son),NA,Male,NA,TA,2758,TA,NA,NA,lotr
+Hallacar,NA,Male,852,SA,1211,SA,359,NA,lotr
+Hallas (Steward),NA,Male,2480,TA,2605,TA,125,NA,lotr
+Halmir,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Hallatan,NA,Male,711,SA,NA,SA,NA,NA,lotr
+Hamfast of Gamwich,NA,Male,2760,TA,NA,NA,NA,NA,lotr
+Hareth,NA,Female,419,FA,NA,NA,NA,NA,lotr
+Harding,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Hardang,NA,Male,470,FA,501,FA,31,NA,lotr
+Hathaldir,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Hatholdir,NA,Male,799,SA,NA,NA,NA,NA,lotr
+Helm Hammerhand,NA,Male,2691,TA,2759,TA,68,NA,lotr
+Hathol,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Handir,NA,NA,441,FA,495,FA,54,NA,lotr
+Henderch,NA,Male,NA,SA,NA,NA,NA,NA,lotr
+Herefara,NA,Male,NA,TA,3019,NA,NA,Gray,lotr
+Hendor,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Herion,NA,Male,2037,TA,2148,TA,111,NA,lotr
+Herubrand,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Herucalmo,NA,Male,2286,SA,2657,SA,371,NA,lotr
+Hirgon,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Hirluin,NA,Male,NA,TA,3019,NA,NA,NA,lotr
+Hob Gammidge,NA,Male,2846,TA,NA,NA,NA,NA,lotr
+Hob Hayward,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Tobias Hornblower,NA,Male,NA,TA,3018,TA,NA,NA,lotr
+Holfast Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Horn,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Hundad,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Hundar,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Hunthor,NA,Male,NA,FA,499,FA,NA,NA,lotr
+Huor,NA,Male,442,FA,473,FA,31,Golden,lotr
+Hyarmendacil I,NA,Male,899,TA,1149,TA,250,NA,lotr
+Hyarmendacil II,NA,Male,1391,TA,1621,TA,230,NA,lotr
+Háma,NA,Male,2975,TA,4,NA,NA,Red,lotr
+Húrin II,NA,Male,2515,TA,2628,TA,113,NA,lotr
+Háma (Helm's son),NA,Male,NA,TA,2759,TA,NA,NA,lotr
+Húrin of Emyn Arnen,NA,Male,NA,TA,NA,TA,NA,NA,lotr
+Húrin,NA,Male,441,FA,502,FA,61,Golden,lotr
+Imin,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Iminyë,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Imlach,NA,Male,325,FA,NA,FA,NA,NA,lotr
+Imrahil,NA,Male,2955,TA,34,FO,100,Black,lotr
+Imrazôr,NA,Male,1950,TA,2076,TA,126,NA,lotr
+Idril,NA,Female,1469,YT,NA,NA,NA,Golden,lotr
+Ibûn,NA,Male,NA,NA,489,FA,NA,NA,lotr
+Indis,NA,Female,NA,NA,NA,NA,NA,Golden,lotr
+Húrin I,NA,Male,2124,TA,2244,TA,120,NA,lotr
+Ingwë,NA,Male,NA,YT,NA,NA,NA,Golden,lotr
+Inzilbêth,NA,Female,NA,SA,NA,NA,NA,NA,lotr
+Ioreth,NA,Female,NA,TA,NA,NA,NA,NA,lotr
+Iorlas,NA,Male,2990,TA,NA,FO,NA,NA,lotr
+Isembold Took,NA,Male,2842,TA,2946,TA,104,NA,lotr
+Ingold,NA,Male,NA,TA,NA,FO,NA,NA,lotr
+Isengrim Took III,NA,Male,2832,TA,2930,TA,98,NA,lotr
+Indor,NA,Male,NA,FA,495,FA,NA,NA,lotr
+Ingwion,NA,Male,NA,YT,NA,NA,NA,Golden,lotr
+Isilmo,NA,Male,1320,SA,1731,SA,411,NA,lotr
+Ivriniel,NA,Female,2947,TA,NA,NA,NA,NA,lotr
+Lalaith,NA,Female,466,FA,469,FA,3,Blonde,lotr
+Larnach,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Legolas,NA,Male,NA,NA,120,FO,NA,Blonde,lotr
+Isildur,85,Male,3209,SA,2,TA,234,Black,lotr
+Lindir,NA,Male,NA,NA,NA,NA,NA,Brown,lotr
+Lindissë,NA,Female,551,SA,NA,NA,NA,NA,lotr
+Isilmë,NA,Female,532,SA,NA,NA,NA,NA,lotr
+Lindo,NA,Male,NA,YT,NA,NA,NA,NA,lotr
+Ivorwen,NA,Female,2857,TA,2929,TA,72,Brown,lotr
+Lindórië,NA,Female,NA,SA,NA,SA,NA,NA,lotr
+Lenwë,NA,Male,NA,YT,NA,YT,NA,NA,lotr
+Lorgan,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Lothíriel,NA,Female,2999,TA,NA,NA,NA,NA,lotr
+Léod,NA,Male,2459,TA,2501,TA,42,NA,lotr
+Brytta Léofa,NA,Male,2752,TA,2842,TA,90,NA,lotr
+Lóni,NA,Male,NA,TA,2994,TA,NA,NA,lotr
+Lúthien,NA,Female,1200,YT,503,FA,3329.69,Black,lotr
+Farmer Maggot,NA,Male,2948,TA,NA,NA,NA,Brown,lotr
+Mablung the Ranger,NA,Male,NA,TA,NA,NA,NA,Dark,lotr
+Maglor,NA,Male,NA,NA,NA,NA,NA,Dark,lotr
+Maedhros,NA,Male,NA,NA,587,FA,NA,Red,lotr
+Mahtan,NA,Male,NA,YT,NA,NA,NA,Brown,lotr
+Magor,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Mairen,NA,Female,377,SA,NA,NA,NA,NA,lotr
+Malach,NA,Male,307,FA,398,FA,91,NA,lotr
+Maeglin,NA,Male,320,FA,510,FA,190,Black,lotr
+Malvegil,NA,Male,1144,TA,1349,TA,205,NA,lotr
+Manthor,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Manwendil,NA,Male,61,SA,NA,SA,NA,NA,lotr
+Malva Headstrong Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mallor,NA,Male,895,TA,1110,TA,215,NA,lotr
+Marach,NA,Male,282,FA,376,FA,94,NA,lotr
+Marcho,NA,Male,1557,TA,1601,TA,44,NA,lotr
+Mardil Voronwë,NA,Male,1960,TA,2080,TA,120,NA,lotr
+Malbeth the Seer,NA,Male,NA,TA,NA,TA,NA,Grey,lotr
+Marhwini,NA,Male,NA,TA,NA,TA,NA,NA,lotr
+Marmadas Brandybuck,NA,Male,1343,NA,NA,NA,NA,NA,lotr
+Master of Laketown,76,Male,2890,TA,2941,TA,51,Auburn,lotr
+Meneldil,NA,Male,3318,SA,158,TA,281,NA,lotr
+Meleth,NA,Female,450,FA,NA,NA,NA,NA,lotr
+Meril-i-Turinqi,NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Merimas Brandybuck,NA,Male,1381,NA,NA,FO,NA,NA,lotr
+Minohtar,NA,Male,NA,TA,1944,NA,NA,NA,lotr
+Marroc Brandybuck,NA,Male,1182,NA,NA,NA,NA,NA,lotr
+Marhari,NA,Male,NA,TA,1856,TA,NA,NA,lotr
+Minardil,NA,Male,1454,TA,1634,TA,180,NA,lotr
+Mithrellas,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Morwen,NA,Female,443,FA,500,FA,57,Grey,lotr
+Morwen (Gondor),NA,Female,NA,TA,NA,TA,NA,NA,lotr
+Morwë,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Míriel,NA,Female,NA,NA,1170,YT,NA,Silver,lotr
+Mîm,NA,Male,NA,FA,502,FA,NA,NA,lotr
+Narmacil I,NA,Male,1049,TA,1294,TA,245,NA,lotr
+Nessanië,NA,Female,840,SA,NA,SA,NA,NA,lotr
+Nimrodel,NA,Female,NA,YT,1981,TA,NA,Golden,lotr
+Nerdanel,NA,Female,NA,YT,NA,NA,NA,Red,lotr
+Naugladur,NA,Male,NA,NA,503,FA,NA,NA,lotr
+Nina Lightfoot,NA,Female,1261,NA,NA,NA,NA,NA,lotr
+Nolondil,NA,Male,222,SA,NA,SA,NA,NA,lotr
+Niënor,NA,Female,473,FA,499,FA,26,Golden,lotr
+Nob,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Narmacil II,NA,Male,1684,TA,1856,TA,172,NA,lotr
+Náin I,NA,Male,1832,TA,1981,TA,149,NA,lotr
+Náin II,NA,Male,2338,TA,2585,TA,247,NA,lotr
+Náli,NA,Male,NA,TA,2994,TA,NA,NA,lotr
+Nár,NA,Male,NA,TA,NA,TA,NA,NA,lotr
+Númendil,NA,Male,NA,SA,3065,SA,NA,NA,lotr
+Núneth,NA,Female,NA,SA,NA,NA,NA,NA,lotr
+Nurwë,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Nori,NA,Male,2837,TA,NA,NA,NA,NA,lotr
+Náin (father of Dáin II Ironfoot),NA,Male,2665,TA,2799,TA,134,NA,lotr
+Old Noakes,NA,Male,2923,TA,NA,FO,NA,NA,lotr
+Olwë,NA,Male,NA,NA,NA,NA,NA,Silver,lotr
+Orchaldor,NA,Male,799,SA,NA,NA,NA,NA,lotr
+Ondoher,NA,Male,1787,TA,1944,TA,157,NA,lotr
+Ori,NA,Male,2865,TA,2994,TA,129,NA,lotr
+Orodreth,NA,Male,NA,YT,495,FA,NA,Golden,lotr
+Orodreth (Steward),NA,Male,2576,TA,2685,TA,109,NA,lotr
+Oromendil,NA,Male,382,SA,NA,NA,NA,NA,lotr
+Ohtar,NA,Male,NA,SA,NA,NA,NA,NA,lotr
+Ostoher,NA,Male,222,TA,492,TA,270,NA,lotr
+Orophin,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Pelendur,NA,Male,1879,TA,1998,TA,119,NA,lotr
+Mrs. Proudfoot,NA,Female,NA,TA,NA,NA,NA,NA,lotr
+Pengolodh,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Otho Sackville-Baggins,48,Male,2910,TA,3012,TA,102,NA,lotr
+Odo Proudfoot,NA,Male,2904,TA,3005,TA,101,Brown,lotr
+Radhruin,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Oropher,NA,Male,NA,FA,3434,SA,NA,NA,lotr
+Ragnir,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Ragnor,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Rían,NA,Female,450,FA,473,FA,23,NA,lotr
+Rían (Gondor),NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Rowan Greenhand,NA,Male,2849,TA,NA,TA,NA,NA,lotr
+Rudigar Bolger,NA,Male,1255,NA,1348,NA,NA,NA,lotr
+Rufus Burrows,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Rómendacil I,NA,Male,310,TA,541,TA,231,NA,lotr
+Lobelia Sackville-Baggins,46,Female,2918,TA,3020,TA,102,NA,lotr
+Rúmil (Noldo),NA,Male,NA,YT,NA,NA,NA,NA,lotr
+Lotho Sackville-Baggins,48,Male,2964,TA,3019,TA,55,Sandy,lotr
+Sadoc Brandybuck,NA,Male,1179,NA,NA,NA,NA,NA,lotr
+Sador,NA,Male,430,FA,495,FA,65,NA,lotr
+Saelon,NA,Male,NA,FO,NA,NA,NA,NA,lotr
+Rúmil of Lórien,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Sagroth,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Rómendacil II,NA,Male,1126,TA,1366,TA,240,NA,lotr
+Silmariën,NA,Female,521,SA,NA,NA,NA,NA,lotr
+Sangahyando,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Siriondil,NA,Male,570,TA,830,TA,260,NA,lotr
+Saradas Brandybuck,NA,Male,1308,NA,1407,NA,NA,NA,lotr
+Robin Smallburrow,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Soronto,NA,Male,799,SA,NA,SA,NA,NA,lotr
+Morwen Steelsheen,NA,Female,2922,TA,NA,NA,NA,Dark,lotr
+Tar-Alcarin,NA,Male,2406,SA,2737,SA,331,NA,lotr
+Ted Sandyman,NA,Male,2920,TA,50,FO,151,NA,lotr
+Tar-Aldarion,NA,Male,700,SA,1098,SA,398,NA,lotr
+Tar-Amandil,NA,Male,192,SA,603,SA,411,NA,lotr
+Tar-Ancalimon,NA,Male,1986,SA,2386,SA,400,NA,lotr
+Tar-Anárion,NA,Male,1003,SA,1404,SA,401,NA,lotr
+Tar-Ardamin,NA,Male,2618,SA,2899,SA,281,NA,lotr
+Tar-Atanamir,NA,Male,1800,SA,2221,SA,421,NA,lotr
+Tar-Calmacil,NA,Male,2516,SA,2825,SA,309,NA,lotr
+Tar-Ciryatan,NA,Male,1634,SA,2035,SA,401,NA,lotr
+Tar-Elendil,NA,Male,350,SA,751,SA,401,NA,lotr
+Tar-Ancalimë,NA,Female,873,SA,1285,SA,412,NA,lotr
+Tar-Palantir,NA,Male,3035,SA,3255,SA,220,NA,lotr
+Tar-Súrion,NA,Male,1174,SA,1574,SA,400,NA,lotr
+Tar-Minastir,NA,Male,1474,SA,1873,SA,399,NA,lotr
+Tar-Míriel,NA,Female,3117,SA,3319,SA,202,NA,lotr
+Tar-Telperiën,NA,Female,1320,SA,1731,SA,411,NA,lotr
+Tar-Vanimeldë,NA,Female,2277,SA,2637,SA,360,NA,lotr
+Tarannon Falastur,NA,Male,654,TA,913,TA,259,NA,lotr
+Tar-Telemmaitë,NA,Male,2136,SA,2526,SA,390,NA,lotr
+Tarcil,NA,Male,280,TA,515,TA,235,NA,lotr
+Tar-Meneldur,NA,Male,543,SA,942,SA,399,NA,lotr
+Targon,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Tata,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Tatië,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Tarciryan,NA,Male,654,TA,913,TA,259,NA,lotr
+Telchar,NA,Male,NA,FA,NA,FA,NA,NA,lotr
+Telemnar,NA,Male,1516,TA,1636,TA,120,NA,lotr
+Telumehtar,NA,Male,1632,TA,1850,TA,218,NA,lotr
+The King of the Dead,NA,Male,NA,SA,NA,NA,NA,NA,lotr
+Tarondor,NA,Male,1577,TA,1798,TA,221,NA,lotr
+Tarondor of Arnor,NA,Male,372,TA,602,TA,230,NA,lotr
+User:Technobliterator/Showcase,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Thengel,NA,Male,2905,TA,2980,TA,75,NA,lotr
+Thorondir,NA,Male,2782,TA,2882,TA,100,NA,lotr
+Thranduil,NA,Male,NA,FA,NA,NA,NA,Golden,lotr
+Thráin I,NA,Male,1934,TA,2190,TA,256,NA,lotr
+Thorin II Oakenshield,NA,Male,2746,TA,2941,TA,195,NA,lotr
+Thráin II,NA,Male,2644,TA,2850,TA,206,NA,lotr
+Thorin III Stonehelm,NA,Male,2866,TA,137,FO,292,NA,lotr
+Thrór,NA,Male,2542,TA,2790,TA,248,Grey,lotr
+Théoden,NA,Male,2948,TA,3019,NA,NA,White,lotr
+Théodred,NA,Male,2978,TA,3019,NA,NA,NA,lotr
+Tindómiel,NA,Female,61,SA,NA,SA,NA,NA,lotr
+Thorin I,NA,Male,2035,TA,2289,TA,254,NA,lotr
+Faramir Took I,NA,Male,10,FO,112,FO,102,NA,lotr
+Isumbras Took I,NA,Male,2295,TA,2398,TA,103,NA,lotr
+Fortinbras Took II,NA,Male,2878,TA,2980,TA,102,NA,lotr
+Isumbras Took III,NA,Male,2666,TA,2759,TA,93,NA,lotr
+Adalgrim Took,NA,Male,2880,TA,2982,TA,102,NA,lotr
+Adamanta (Chubb) Took,NA,Female,2817,TA,2923,TA,106,NA,lotr
+Isengrim Took II,NA,Male,2620,TA,2722,TA,102,NA,lotr
+Adelard Took,NA,Male,2928,TA,2,FO,95,NA,lotr
+Ferumbras III Took,NA,Male,2916,TA,3015,TA,99,NA,lotr
+Bandobras Took,53,Male,2701,TA,2800,TA,99,NA,lotr
+Hildifons Took,NA,Male,2844,TA,NA,NA,NA,NA,lotr
+Isembard Took,NA,Male,2847,TA,2946,TA,99,NA,lotr
+Hildigrim Took,NA,Male,1240,NA,1341,NA,NA,NA,lotr
+Gerontius Took,NA,Male,2790,TA,2920,TA,130,NA,lotr
+Hildibrand Took,NA,Male,2849,TA,2934,TA,85,NA,lotr
+Paladin Took II,NA,Male,2933,TA,13,FO,101,NA,lotr
+Pearl Took,NA,Female,2975,TA,63,FO,109,NA,lotr
+Peregrin Took,53,Male,2990,TA,65,FO,96,Golden,lotr
+Rosa (Baggins) Took,NA,Female,1256,NA,NA,NA,NA,NA,lotr
+Sigismond Took,NA,Male,2890,TA,2981,TA,91,NA,lotr
+Turgon,NA,Male,1300,YT,510,FA,2378.4900000000002,Dark,lotr
+Turgon (Steward),NA,Male,2855,TA,2953,TA,98,NA,lotr
+Túrin,NA,Male,464,FA,499,FA,35,Dark,lotr
+Tulkastor,NA,Male,NA,YT,NA,NA,NA,NA,lotr
+Tuor,NA,Male,472,FA,NA,NA,NA,Golden,lotr
+Turambar,NA,Male,397,TA,667,TA,270,NA,lotr
+Uldor,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Túrin II,NA,Male,2815,TA,2914,TA,99,NA,lotr
+Ulfang,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Ulfast,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Ulbar,NA,Male,NA,SA,NA,SA,NA,NA,lotr
+Túrin I,NA,Male,2165,TA,2278,TA,113,NA,lotr
+Urthel,NA,Male,NA,FA,460,FA,NA,NA,lotr
+Ulwarth,NA,Male,NA,FA,473,FA,NA,NA,lotr
+Vairë (Elf),NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Valacar,NA,Male,1194,TA,1432,TA,238,NA,lotr
+Valandil,NA,Male,3430,SA,249,TA,260,NA,lotr
+Valandur,NA,Male,462,TA,652,TA,190,NA,lotr
+Valandil of Andúnië,NA,Male,NA,SA,NA,SA,NA,NA,lotr
+Vidugavia,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Vardamir Nólimon,NA,Male,61,SA,471,SA,410,NA,lotr
+Vardilmë,NA,Female,203,SA,NA,SA,NA,NA,lotr
+Vidumavi,NA,Female,1255,TA,1344,TA,89,NA,lotr
+Vorondil,NA,Male,1919,TA,2029,TA,110,NA,lotr
+Voronwë,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Vëantur,NA,Male,425,SA,NA,SA,NA,NA,lotr
+Walda,NA,Male,2780,TA,2851,TA,71,NA,lotr
+Willie Banks,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Wiseman Gamwich,NA,Male,2800,TA,NA,NA,NA,NA,lotr
+Wulf I,NA,Male,NA,TA,2759,TA,NA,NA,lotr
+Wídfara,NA,Male,NA,TA,NA,FO,NA,NA,lotr
+Írimë,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Óin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Yávien,NA,Female,371,SA,NA,NA,NA,NA,lotr
+Dora Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Largo Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mimosa (Bunce) Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Pansy Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Polo Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ponto Baggins I,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bingo Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Chica (Chubb) Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Óin (King of Durin's Folk),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Prisca (Baggins) Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Rudibert Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Theobald Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Adalgar Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ruby (Bolger) Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Wilimar Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Camellia (Sackville) Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Everard Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gundahar Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ferdinand Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Pervinca Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Pimpernel Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ferdibrand Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Reginard Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Flambard Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Lalia (Clayhanger) Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ruby Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Rudolph Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Tanta (Hornblower) Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Inigo Baggins,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Tanta Hornblower,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Tobold Hornblower,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Lily (Baggins) Goodbody,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Togo Goodbody,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Goldberry,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bell (Goodchild) Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Goldilocks (Gardner) Took,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Merry Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bilbo Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Halfast Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Rose Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Pippin Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Durin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Poppy (Chubb-Baggins) Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Robin Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Primrose Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Hamfast Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Tolman Cotton Jr.,NA,Male,2980,TA,60,FO,101,NA,lotr
+Carl Cotton,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Wilcome Cotton,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Doderic Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Daisy Gamgee,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Berilac Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gorbadoc Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Marmadoc Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ilberic Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Orgulas Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Rorimac Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Merimac Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Salvia (Brandybuck) Bolger,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bilbo Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Briffo Boffin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gruffo Boffin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Lavender (Grubb) Boffin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Uffo Boffin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bodo Proudfoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Sancho Proudfoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Olo Proudfoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Saradoc Brandybuck,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Nimloth (elf),NA,Female,NA,NA,506,FA,NA,NA,lotr
+Linda (Baggins) Proudfoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gríma Wormtongue,NA,Male,2974,TA,3019,NA,NA,Black,lotr
+Gollum,NA,Male,2430,TA,3019,NA,NA,NA,lotr
+Legolas (elf of Gondolin),NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Gandalf,NA,Male,NA,NA,NA,NA,NA,Grey,lotr
+Radagast,NA,Male,NA,NA,NA,NA,NA,Brown,lotr
+Tilion,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Elemmakil,NA,Male,NA,NA,510,FA,NA,NA,lotr
+Saruman,NA,Male,NA,NA,3019,NA,NA,White,lotr
+Sauron,NA,Male,NA,NA,3019,NA,NA,NA,lotr
+Eönwë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Durin's Bane,240,Male,NA,NA,NA,NA,NA,Red,lotr
+Alatar,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Arien,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Uinen,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Mosco Burrows,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Myrtle Burrows,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Pallando,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Moro Burrows,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Thingol,98,Male,1050,YT,502,FA,4765.990000000001,Silver,lotr
+Théodwyn,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Eärendil,NA,Male,503,FA,NA,NA,NA,Golden,lotr
+Harry Goatleaf,NA,Male,NA,TA,3019,TA,NA,NA,lotr
+Treebeard,184,Male,NA,YT,NA,NA,NA,Leaf,lotr
+Witch-King of Angmar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mouth of Sauron,79,Male,NA,FA,3019,TA,NA,Black,lotr
+Irolas,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Lagduf,NA,Male,NA,NA,3019,NA,NA,NA,lotr
+Fire-drake of Gondolin,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Angrim,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Angelimar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Penlod,NA,Male,NA,NA,510,FA,NA,NA,lotr
+Squint-eyed Southerner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Fimbrethil,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bill Ferny,NA,Male,NA,TA,NA,FO,NA,Brown,lotr
+Fastred of Greenholm,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Falathar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Elfstan Fairbairn,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Snaga (Two Towers orc),NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Snaga,NA,Male,NA,NA,3019,TA,NA,NA,lotr
+Smaug,NA,Male,2770,TA,2941,TA,171,NA,lotr
+Seers,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Shelob,NA,Female,NA,FA,3019,TA,NA,NA,lotr
+Shagrat,85,Male,2050,TA,NA,NA,NA,NA,lotr
+Scatha,NA,Male,NA,NA,2000,TA,NA,NA,lotr
+Salmar,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Sandyman,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Salgant,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Saeros,NA,Male,NA,YT,484,FA,NA,NA,lotr
+Ruffian Leader,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Roäc,NA,Male,2788,TA,NA,NA,NA,NA,lotr
+Andwise Roper,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Rog,NA,Male,NA,NA,510,FA,NA,NA,lotr
+River-woman,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Radbug,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Khîm,NA,Male,NA,NA,486,FA,NA,NA,lotr
+Khamûl,NA,Male,NA,SA,NA,NA,NA,White,lotr
+Irmo,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Eru Ilúvatar,NA,Male,NA,NA,NA,NA,NA,White,lotr
+Ilmarë,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Hurin (Warden of the Keys),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Huan,NA,Male,NA,FA,466,FA,NA,NA,lotr
+Estë,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Éowyn,NA,Female,2995,TA,NA,FO,NA,NA,lotr
+Éomer,78,Male,2990,TA,63,FO,94,NA,lotr
+Elwing,NA,Female,503,FA,NA,NA,NA,Dark,lotr
+Eluréd and Elurín,NA,Male,500,FA,506,FA,6,Dark,lotr
+Elros,NA,Male,532,FA,442,SA,500,NA,lotr
+Elmo,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Egalmoth (elf),NA,Male,NA,NA,538,FA,NA,NA,lotr
+Ecthelion of the Fountain,NA,Male,NA,NA,510,FA,NA,Dark,lotr
+Ebor,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ossë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Oromë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Orleg,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Orcobal,NA,Male,NA,NA,510,FA,NA,NA,lotr
+Old Man Willow,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Hild,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Herumor (Fourth Age),NA,Male,41,FO,NA,NA,NA,NA,lotr
+Herumor,NA,Male,NA,SA,NA,NA,NA,NA,lotr
+Mat Heathertoes,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Haldar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Haldad,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Draugluin,NA,Male,NA,NA,465,FA,NA,NA,lotr
+Dior,NA,Male,470,FA,506,FA,36,Dark,lotr
+Dina Diggle,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Daeron,NA,Male,NA,YT,NA,NA,NA,NA,lotr
+Óin (King of Durin's Folk),NA,Male,2238,TA,2488,TA,250,NA,lotr
+Óin,NA,Male,2774,TA,2994,TA,220,NA,lotr
+mar,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+bal,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Írimë,NA,Female,NA,YT,NA,NA,NA,NA,lotr
+Írildë,NA,Female,700,SA,NA,NA,NA,NA,lotr
+Éothain,NA,Male,NA,TA,NA,NA,NA,NA,lotr
+Éomund,NA,Male,2961,TA,3002,TA,41,NA,lotr
+Éofor,NA,Male,2544,TA,NA,NA,NA,NA,lotr
+Zamîn,NA,Female,NA,SA,NA,SA,NA,White,lotr
+Yavanna,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Tom Bombadil,NA,Male,NA,NA,NA,NA,NA,Brown,lotr
+Bolg,100,Male,NA,NA,2941,TA,NA,NA,lotr
+Boldog (Character),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bodruith,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Berúthiel,NA,Female,NA,TA,NA,NA,NA,NA,lotr
+Nienna,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Nielíqui,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Nessa,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Nellas,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Nauglath,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Narvi,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Nahar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mûmakil,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Muzgash,NA,Male,NA,NA,3019,NA,NA,NA,lotr
+The Moth,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Minastan,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Meneldor,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Men,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Melkor,NA,Male,NA,NA,NA,NA,NA,Dark,lotr
+Melian,NA,Female,NA,NA,NA,NA,NA,Dark,lotr
+Mauhúr,NA,Male,NA,NA,3019,NA,NA,Black,lotr
+Manwë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Mandos,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Gwaihir,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Grishnákh,NA,Male,NA,NA,3019,NA,NA,NA,lotr
+Great Goblin,108,Male,NA,NA,2941,NA,NA,Grey,lotr
+Gothmog (Lieutenant of Morgul),69,Male,NA,NA,3019,NA,NA,White,lotr
+Gothmog,NA,Male,NA,NA,510,FA,NA,NA,lotr
+Gostir,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+"Gormadoc ""Deepdelver"" Brandybuck",NA,Male,1134,NA,1236,NA,NA,NA,lotr
+Gorgol,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gorbag,NA,Male,NA,NA,3019,NA,NA,Black,lotr
+Golfimbul,NA,Male,2700,TA,2747,TA,47,NA,lotr
+Glaurung,NA,Male,NA,NA,501,FA,NA,NA,lotr
+Gimli (Elf),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Gilmith,NA,Female,2000,TA,NA,NA,NA,NA,lotr
+Cottar,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Cora Goodbody,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Carcharoth,NA,Male,NA,NA,466,FA,NA,Black,lotr
+Carc,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Calimmacil,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Barliman Butterbur,NA,Male,NA,TA,NA,FO,NA,Brown,lotr
+Witch-king of Angmar,85,Male,NA,SA,3019,NA,NA,Brown,lotr
+Wife of Barach,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Widow Rumble,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Will Whitfoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Watcher in the Water,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Warg Matriarch,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Vëannë,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Varda,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Vairë,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Ungoliant,NA,Female,NA,NA,NA,FA,NA,NA,lotr
+Ulrad,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ulmo,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Uglúk,78,Male,NA,NA,NA,NA,NA,Dark,lotr
+Ufthak,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Daddy Twofoot,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Tulkas,NA,Male,NA,NA,NA,NA,NA,Golden,lotr
+Beleg,NA,Male,NA,NA,489,FA,NA,NA,lotr
+Beechbone,NA,Male,NA,NA,3019,NA,NA,Leaf,lotr
+Barahir (Fourth Age),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Baldor,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Balcmeg,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Man in the Moon,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+"Malva ""Headstrong"" Brandybuck",NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Malantur,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mallor (BOH),NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Mablung,NA,Male,NA,NA,502,FA,NA,NA,lotr
+Lungorthin,NA,Male,NA,NA,NA,FA,NA,Red,lotr
+Lugdush,73,Male,3019,NA,NA,NA,NA,Dark,lotr
+Letter 211,44,NA,1313,NA,1401,NA,NA,NA,lotr
+Landroval,NA,Male,NA,FA,NA,NA,NA,NA,lotr
+Gamil Zirak,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Galdor of the Tree,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Galathil,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Galador,NA,Male,2004,TA,2129,TA,125,NA,lotr
+Fíriel Fairbairn,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Fuithluin,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Fuinur,NA,Male,NA,SA,NA,NA,NA,NA,lotr
+Fladrif,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Broncho Stonecrow,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Brodda,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Bregalad,NA,Male,2519,TA,NA,NA,NA,Leaf,lotr
+Tolman Gardner,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+"Tom, Bert, and William",156,Male,NA,TA,NA,NA,NA,NA,lotr
+Tim,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Thuringwethil,NA,Female,NA,NA,465,FA,NA,NA,lotr
+Thorondor,2160,Male,NA,NA,NA,NA,NA,NA,lotr
+Azog,101,Male,NA,NA,2799,TA,NA,NA,lotr
+Aulë,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+Asgon,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Artamir,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Ancalagon,NA,Male,NA,NA,587,FA,NA,NA,lotr
+Andvír,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Amlach,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Aghan,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Agathor,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Aerandir,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Freda,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Sharku,NA,Male,NA,NA,3019,TA,NA,NA,lotr
+Madril,NA,Male,NA,NA,3019,TA,NA,NA,lotr
+Gothmog,NA,NA,NA,NA,3019,TA,NA,NA,lotr
+Morwen,NA,Female,NA,NA,NA,NA,NA,NA,lotr
+Figwit,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+MINOR_CHARACTER,NA,Male,NA,NA,NA,NA,NA,NA,lotr
+MINOR_CHARACTER,NA,NA,NA,NA,NA,NA,NA,NA,lotr
+Éothain,NA,Male,NA,NA,NA,NA,NA,NA,lotr

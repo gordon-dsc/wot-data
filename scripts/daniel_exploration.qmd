@@ -1,0 +1,60 @@
+```{r}
+library(tidyverse)
+```
+
+Comparing Name Length
+
+```{r}
+lotr_data_final|>
+  mutate(name_length = str_length(name))|> #calculating the amount of letters in each name
+  ggplot() +
+  geom_density(aes(x = name_length, fill = series, color = series), #making over-layed density plots to show the distribution of name lengths
+               alpha = .1)
+```
+
+Comparing Years Alive
+
+```{r}
+lotr_data_final|>
+  group_by(series)|> #grouping by series to calculate mean years alive
+  summarise(mean_years_alive = mean(years_alive, na.rm = TRUE))|> #calculating mean years alive per series
+  ggplot() +
+  geom_col(aes(y = mean_years_alive, x = series)) #making bar plot to show differences between series
+```
+
+Comparing Height
+
+```{r}
+lotr_data_final|>
+  group_by(series)|> #grouping by series to calculate mean height in inches
+  summarise(mean_height_in = mean(height_in, na.rm = TRUE))|> #calculating the average height in inches
+  ggplot() +
+  geom_col(aes(y = mean_height_in,  x = series)) #making bar plot to show differences in height between series
+```
+
+
+Comparing Hair
+
+```{r}
+lotr_data_final|>
+  drop_na(hair)|> #removing characters that have no data for hair
+  ggplot() +
+  geom_bar(aes(y = hair, fill = series, na.rm = TRUE)) #making a bar plot to compare the number of characters in each series that have a color of hair
+```
+
+
+Comparing Gender
+
+```{r}
+lotr_data_final|>
+  drop_na(gender)|> #dropping characters that have a gender missing 
+  group_by(series,gender)|> #grouping for summary of gender per series
+  summarise(count = n())|> #counting number of each gender in each series
+  ggplot() +
+  geom_col(aes(x = gender, fill = series, y = count)) #making a bar plot that shows the difference of distribution of gender 
+```
+
+
+
+
+
