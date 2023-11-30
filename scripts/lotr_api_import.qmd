@@ -231,7 +231,7 @@ lotr_data_test|>
 Gender Column Cleaning 
 
 ```{r}
-lotr_data_test|>
+lotr_data_test|> #weeding out weird examples of genders being spelled weird or random added letters
   mutate(gender = str_replace_all(string = gender,
                                   pattern = "Most likely male|Males|^male",
                                   replacement = "Male")) -> lotr_data_test
