@@ -1,0 +1,35 @@
+Each row contains data on a single character from either The Wheel of Time(wot) book or Lord of the Rings (lotr) book/film series. The Wheel of Time data was scraped from https://wot.fandom.com/wiki/Wiki while The Lord of the Rings data was gathered from https://the-one-api.dev/v2 API. The varriable "name" can be used to uniquely identify each observation.
+
+
+
+Varriables 
+
+
+name (categorical) - Full name of the character as given in writing from The Wheel of Time or Lord of the Rings.
+
+
+height_in (quantitative) - Height of each character measured in total inches.
+
+
+gender (categorical) - The stated gender of the character as described in writing or shown in lotr film.
+
+
+birth_year (quantitative) - The year in which the character was born in. *People born in The Wheel of Time Age of Legends were given the arbitrary value of -500 to represent being born before the age AB(After Breaking)
+
+
+birth_age (categorical) - The historical Age the character was born in. These are given in shorthand (FA = First Age, SA = Second Age, TA = Third Age, FO = Fourth Age, YT = Years of the Trees, AB = After Breaking, FY = Free Years, NE = New Era)
+
+
+death_year (quantitative) - The year in which the character died in.
+
+
+death_age (categorical) - The historical Age the character died in. These are given in shorthand (FA = First Age, SA = Second Age, TA = Third Age, FO = Fourth Age, YT = Years of the Trees, AB = After Breaking, FY = Free Years, NE = New Era)
+
+
+years_alive (quantitative) - The number of years a character was alive for if both year of birth and year of age are given. *if the character was still alive by the end of the books they recieved an NA for this varriable
+
+
+hair (categorical) - The color or shade of hair of a character as described in writing or film(only lotr) adaptation. *Characters with multiple conflicting descriptions were given the value described first and characters with the descriptive words Dark or Light before a color were assinged to only the color (ex. DARK RED changed to just RED)
+
+
+series (categorical) - The book series which the character appears in. 
