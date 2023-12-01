@@ -12,6 +12,8 @@ _ The Urls for the list of the names of the characters where all very similiar, 
 
 - Each character had variables and values associated with those variables on their webpages when is what we scraped into the full raw data table.
 
+- Exported the the raw data table into the imported_data folder as wot_raw.csv
+
 Lord of the Rings API import
 
 - Created an account at https://the-one-api.dev/v2 in order to get an authentication token.
