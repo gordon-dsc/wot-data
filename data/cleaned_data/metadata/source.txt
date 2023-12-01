@@ -32,4 +32,6 @@ Lord of the Rings Data Cleaning
  
  - Calculated the total number of inches each character was by combining the height_simplified_ft and height_simplified_in values to create height_in column
  
+ - Tidied the Gender Column by changing mispelled or wierdly spelled data to match the rest
+ 
  
