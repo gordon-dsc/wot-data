@@ -1,0 +1,12 @@
+Lord of the Rings API import
+
+- Created an account at https://the-one-api.dev/v2 in order to get an authentication token.
+
+- Queried the https://the-one-api.dev/v2 to get all character information in the API.
+
+- Read in the data as a json file and turned said json file into a tibble.
+  #normally at this point we would just save this json file to the imported_data file, but had trouble getting the json file to be read in during cleaning so continued with next steps so we could export the data as a csv file.
+
+- Unnested lists that made up the json file to rectangulate data and added a row to specify what series the data was from.
+
+- Exported the data as a csv into the imported_data folder as lotr_raw.csv.

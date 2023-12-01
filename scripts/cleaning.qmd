@@ -172,7 +172,7 @@ wot <- wot_data |>
 ```
 
 
-Lord of the Rings Data Tidying
+Lord of the Rings Data Cleaning
 
 ```{r}
 parent_dir <- file.path(getwd(),"..")
