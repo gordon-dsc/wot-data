@@ -7,7 +7,249 @@ format: html
 library(tidyverse)
 ```
 ```{r}
-Clean_wot_data <- read_csv("data/Clean_wot_data.csv")
+#Dean's cleaning
+```
+```{r}
+lotr_data <- read_csv()
+```
 
+
+Lord of the Rings Data Tidying
+
+```{r}
+lotr_data_test <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\imported_data\\lotr_raw.csv")
+```
+
+
+```{r}
+lotr_data_test|>
+  slice(1)|> #all the data is held in the first row so getting rid of the rest
+  unnest_longer(json)|> #unnesting the data lists
+  unnest_wider(json) -> lotr_data_test
+```
+
+```{r}
+series <- rep('lotr', times = 933) #creating new column to show what series each row is from
+series <- tibble(series) #making new column a tibble
+lotr_data_test|> #adding new column to rest of data
+  add_column(series) -> lotr_data_test
+```
+
+```{r}
+lotr_data_test|>
+  select(name, height, race, gender, birth, death, hair, series)|> #selecting relevant columns for visualizations
+  mutate(across(.cols = 1:8,#repalcing empty cells with NA across entire tibble
+                .fns = \(x) na_if(x, "")))|>
+  mutate(across(.cols = 1:8,#replacing NaN with NA, NaN mean NA for this data
+                .fns = \(x) na_if(x, "NaN")))-> lotr_data_test
+```
+
+Birth and Death Column Tidying
+
+```{r}
+lotr_data_test|>
+  mutate(birth = str_replace_all(string = birth, 
+                                 pattern = "First Age", #finds first age in birth column
+                                 replacement = "FA"), #replaces it with FA
+         birth = str_replace_all(string = birth,
+                                 pattern = "Second Age", #finds second age in birth column
+                                 replacement = "SA"),#replaces it with SA
+         birth = str_replace_all(string = birth,
+                                 pattern = "Third Age",#finds third age in birth column
+                                 replacement = "TA"),#replaces it with TA
+         birth = str_replace_all(string = birth,
+                                 pattern = "Fourth Age",#finds fourth age in birth column
+                                 replacement = "FO"),#replaces it with FO
+         birth = str_replace_all(string = birth,
+                                 pattern = "Years of the Trees",#finds years of the trees in birth column
+                                 replacement = "TY"),#replaces it with TY
+         death = str_replace_all(string = death,
+                                 pattern = "First Age",#finds first age in death column
+                                 replacement = "FA"),#replaces it with FA
+         death = str_replace_all(string = death,
+                                 pattern = "Second Age",#finds second age in death column
+                                 replacement = "SA"),#replaces it with SA
+         death = str_replace_all(string = death,
+                                 pattern = "Third Age",#finds thrid age in death column
+                                 replacement = "TA"),#replaces it with TA
+         death = str_replace_all(string = death,
+                                 pattern = "Fourth Age",#finds fourth age in death column
+                                 replacement = "FO"),
+         death = str_replace_all(string = death,
+                                 pattern = "Years of the Trees",#finds years of the trees in death column
+                                 replacement = "TY"))-> lotr_data_test#replaces it with TY 
+```
+
+```{r}
+lotr_data_test |> #Code to extract dates of death and birth into two new columns
+  mutate(birth_year = str_extract(birth, pattern = "((?<=(,\\s))|(?<=(,))|(?<=([A-Z]{2}\\s)))\\d+"), #extracts the string of numbers (that fall under a set of parameters) from the birth column into a new column 
+         death_year = str_extract(death, pattern = "((?<=(,\\s))|(?<=(,))|(?<=([A-Z]{2}\\s)))\\d+")) -> lotr_data_test #extracts the string of numbers (that fall under a set of parameters) from the death column into a new column 
+```
+
+```{r}
+lotr_data_test|>
+  mutate(birth_year = parse_double(birth_year),
+         death_year = parse_double(death_year))-> lotr_data_test#parsing new columns as numbers
+```
+
+```{r}
+lotr_data_test|> #Code to extract ages from the birth and death columns into two new columns
+  mutate(birth_age = str_extract(birth,
+                                 pattern = "[FSTY](A|O|T)"))|>
+  mutate(death_age = str_extract(death,
+                                 pattern = "[FSTY](A|O|T)")) -> lotr_data_test
+```
+
+```{r}
+calculate_age_lotr <- function(birth_year, birth_age, death_year, death_age) { #function that caluclates the years alive of a character
+  first_age <- 590 #Durations of the different ages for calulations 
+  second_age <- 3441
+  third_age <- 3021
+  years_of_the_trees <- 1495
+  yt_year_length <- 9.582 #year of the trees has longer years 1 to 9.582 regular years
+  if (is.na(birth_age) + is.na(birth_year) + is.na(death_age) + is.na(death_year) > 0){
+    NA #Returns NA if any of the 4 values is missing
+  } else if (birth_age == death_age) { #subtracts birth year from death year if ages are the same
+    (death_year - birth_year)
+  } else if (birth_age == "FA" && death_age == "SA") { #Calculates age for various different combinations of ages
+    (first_age - birth_year) + death_year
+  } else if (birth_age == "FA" && death_age == "TA") {
+    (first_age - birth_year) + second_age + death_year
+  } else if (birth_age == "FA" && death_age == "FO") {
+    (first_age - birth_year) + second_age + third_age + death_year
+  } else if (birth_age == "SA" && death_age == "TA") {
+    (second_age - birth_year) + death_year
+  } else if (birth_age == "SA" && death_age == "FO") {
+    (second_age - birth_year) + third_age + death_year
+  } else if (birth_age == "TA" && death_age == "FO") {
+    (third_age - birth_year) + death_year
+  } else if (birth_age == "YT" && death_age == "FA") {
+    ((years_of_the_trees - birth_year) * yt_year_length) + death_year
+  } else if (birth_age == "YT" && death_age == "SA") {
+    ((years_of_the_trees - birth_year) * yt_year_length) + first_age + death_year
+  } else if (birth_age == "YT" && death_age == "TA") {
+    ((years_of_the_trees - birth_year) * yt_year_length) + first_age + second_age + death_year
+  } else if (birth_age == "YT" && death_age == "FO") {
+    ((years_of_the_trees - birth_year) * yt_year_length) + first_age + second_age + third_age + death_year
+  }
+  else {
+    NA
+  }
+}
+```
+
+```{r}
+years_alive <- list()#creating empty list for values to land in
+
+for (x in 1:nrow(lotr_data_test)){#for loop to loop through the rows
+  row <- lotr_data_test[x, ]#assinging row to a viariable
+  birth_year <- row$birth_year#fetching values from the cells and assigning them to varriables
+  birth_age <- row$birth_age
+  death_year <- row$death_year
+  death_age <- row$death_age
+  years_alive[x] <- calculate_age_lotr(birth_year, birth_age, death_year, death_age)}#running values through function that caluclates years alive
+```
+
+```{r}
+as.numeric(years_alive)|> #reading new list as numeric
+tibble() -> years_alive #turning list into tibble
+```
+
+```{r}
+lotr_data_test|> #adding new column to rest of data
+  add_column(years_alive)|>
+  rename("years_alive" =`as.numeric(years_alive)`) -> lotr_data_test #renaming new column
+```
+
+Hair Column Tidying
+
+```{r}
+lotr_data_test|> #code to clean up the names column for easier comparison later
+  mutate(hair_simplified = str_extract(hair, #pulling out main different colors of hair
+                                       pattern = "[sS]ilver|[bB]londe|[wW]hite|[bB]lack|[bB]rown|[gG]r[ae]y|[gG]olden|[rR]ed|[gG]inger|[yY]ellow|[fF]air|[sS]tar|[rR]aven|[aA]uburn|[sS]andy|[lL]eaf|[dD]ark$|^[dD]ark\\s\\("))|>
+  mutate(hair_simplified = str_to_title(hair_simplified), #making all colors upper case
+         hair_simplified = str_replace_all(string = hair_simplified, #removing ()s from the cells
+                                           pattern = "\\(",
+                                           replacement = ""),
+         hair_simplified = str_trim(hair_simplified))-> lotr_data_test #removing extra white space
+```
+
+Height Column Tidying
+
+```{r}
+lotr_data_test|>
+  mutate(height = str_replace_all(string = height, #turining the word nine to number 9
+                                  pattern = "nine",
+                                  replacement = "9"),
+         height = str_replace_all(string = height, #replacing the word feet with '
+                                  pattern = "feet",
+                                  replacement = "'"),
+         height = str_replace_all(string = height,#replacing the one comma with '
+                                  pattern = ",",
+                                  replacement = "'"),
+         height = str_squish(height), #squishing down all spaces for easier extraction later
+         height = str_replace_all(string = height, #removing remaining spaces for easier extraction
+                                  pattern = " ",
+                                  replacement = ""),
+         height = str_replace_all(string = height, #changing one point which has just 30 (only instance of 30) with no signifier of unit, looked up and found it was 30 fathoms, changing to standard units
+                                  pattern = "30", 
+                                  replacement = "180'"),
+         simplified_height = str_extract(string = height, #extracting all numbers using feet'inches"
+                                         pattern = "(\\d{1,2}'\\d{1,2}\")|(\\d{1,2}'\\d{1,2})|(\\d{1,3}')"),
+         simplified_height = str_replace_all(string = simplified_height, #removing all " to make all cells uniform
+                                             pattern = "\"",
+                                             replacement = ""),
+         simplified_height_ft = str_extract(string = simplified_height, #making a new column that only holds the ft values
+                                            pattern = "\\d{1,3}'"),
+         simplified_height_ft = str_replace_all(string = simplified_height_ft, #removing excess '
+                                                pattern = "'",
+                                                replacement = ""),
+         simplified_height_ft = parse_double(simplified_height_ft), #parsing new column as a number
+         simplified_height_in = str_extract(string = simplified_height, #making a new column that only holds in values
+                                            pattern = "('\\d{1,3})|'$"),
+         simplified_height_in = str_replace_all(string = simplified_height_in,#making cells that only contain a ' = 0
+                                                pattern = "^'$",
+                                                replacement = "0"),
+         simplified_height_in = str_replace_all(string = simplified_height_in, #removing excess '
+                                                pattern = "'",
+                                                replacement = ""),
+         simplified_height_in = parse_double(simplified_height_in)) -> lotr_data_test #parsing new column as a number
+```
+
+```{r}
+lotr_data_test|>
+  mutate(simplified_height_ft = (simplified_height_ft * 12), #changing ft to inches
+         height_in = simplified_height_ft + simplified_height_in) -> lotr_data_test #adding to find total height in inches
+```
+
+Gender Column Cleaning 
+
+```{r}
+lotr_data_test|> #weeding out weird examples of genders being spelled weird or random added letters
+  mutate(gender = str_replace_all(string = gender,
+                                  pattern = "Most likely male|Males|^male",
+                                  replacement = "Male")) -> lotr_data_test
+```
+
+
+```{r}
+lotr_data_test|> #selecting relevant columns for export
+  select(name, height_in, gender, birth_year, birth_age, death_year, death_age, years_alive, hair_simplified, series)|> 
+  rename(hair = hair_simplified) -> lotr_data_final #shortening hair column name
+```
+
+```{r}
+write_csv(lotr_data_final, "C:/Users/mcdon/OneDrive/Desktop/College/Semester7/Data_Wrangling/wot-data/data/cleaned_data/lotr_data_final.csv")
+```
+```{r}
+wot <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\cleaned_data\\wot_tidy.csv")
+```
+```{r}
+wot |> 
+  rename("hair" = Hair) |> 
+  rename("height_in" = Height) |> 
+  rename("gender" = Gender) |> 
+  select(name,height_in,gender,birth_year,birth_age,death_year,death_age,years_alive,hair,series) |> 
+  rbind(lotr_data_final)
 ```
 
