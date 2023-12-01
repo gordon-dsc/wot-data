@@ -12,7 +12,7 @@ _ The Urls for the list of the names of the characters where all very similiar, 
 
 - Each character had variables and values associated with those variables on their webpages when is what we scraped into the full raw data table.
 
-- Exported the the raw data table into the imported_data folder as wot_raw.csv
+- Exported the the raw data table into the imported_data folder as wot_raw.csv.
 
 Lord of the Rings API import
 
@@ -23,6 +23,6 @@ Lord of the Rings API import
 - Read in the data as a json file and turned said json file into a tibble.
   #normally at this point we would just save this json file to the imported_data file, but had trouble getting the json file to be read in during cleaning so continued with next steps so we could export the data as a csv file.
 
-- Unnested lists that made up the json file to rectangulate data and added a row to specify what series the data was from.
+- Unnested lists that made up the json file to rectangulate data.
 
 - Exported the data as a csv into the imported_data folder as lotr_raw.csv.
