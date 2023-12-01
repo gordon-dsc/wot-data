@@ -13,6 +13,16 @@ library(tidyverse)
 lotr_data <- read_csv()
 ```
 
+function daniel wrote edit ages
+```{r}
+
+```
+write the thing that fixes height, pull digits into feet and inches then multiply
+write thing that fixes hair color use Daniels regex + a few darks
+write code to fix the commas
+write code to make birth_year columns and stuff then 
+loop to iterate and make the years_alive
+select 10 columns
 
 Lord of the Rings Data Tidying
 
@@ -21,19 +31,8 @@ lotr_data_test <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT pro
 ```
 
 
-```{r}
-lotr_data_test|>
-  slice(1)|> #all the data is held in the first row so getting rid of the rest
-  unnest_longer(json)|> #unnesting the data lists
-  unnest_wider(json) -> lotr_data_test
-```
 
-```{r}
-series <- rep('lotr', times = 933) #creating new column to show what series each row is from
-series <- tibble(series) #making new column a tibble
-lotr_data_test|> #adding new column to rest of data
-  add_column(series) -> lotr_data_test
-```
+
 
 ```{r}
 lotr_data_test|>
@@ -239,17 +238,21 @@ lotr_data_test|> #selecting relevant columns for export
 ```
 
 ```{r}
-write_csv(lotr_data_final, "C:/Users/mcdon/OneDrive/Desktop/College/Semester7/Data_Wrangling/wot-data/data/cleaned_data/lotr_data_final.csv")
-```
+
 ```{r}
 wot <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\cleaned_data\\wot_tidy.csv")
 ```
 ```{r}
-wot |> 
+final_combined <- wot |> 
   rename("hair" = Hair) |> 
   rename("height_in" = Height) |> 
   rename("gender" = Gender) |> 
   select(name,height_in,gender,birth_year,birth_age,death_year,death_age,years_alive,hair,series) |> 
-  rbind(lotr_data_final)
+  rbind(lotr_data_final) |> 
+  filter(name != "Unnamed characters in New Spring")
+
+```
+```{r}
+write_csv(final_combined, "C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\output\\final_data.csv")
 ```
 

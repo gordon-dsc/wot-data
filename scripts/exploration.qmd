@@ -1,8 +1,67 @@
----
-title: "Data Analysis Script"
-format: html
----
+```{r}
+library(tidyverse)
+```
 
-```{r packages}
+```{r}
+final_data <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\output\\final_data.csv")
 
 ```
+
+Comparing Name Length
+
+```{r}
+final_data|>
+  mutate(name_length = str_length(name))|> #calculating the amount of letters in each name
+  ggplot() +
+  geom_density(aes(x = name_length, fill = series, color = series), #making over-layed density plots to show the distribution of name lengths
+               alpha = .1)
+```
+
+Comparing Years Alive
+
+```{r}
+final_data|>
+  group_by(series)|> #grouping by series to calculate mean years alive
+  summarise(mean_years_alive = mean(years_alive, na.rm = TRUE))|> #calculating mean years alive per series
+  ggplot() +
+  geom_col(aes(y = mean_years_alive, x = series, fill = series)) #making bar plot to show differences between series
+```
+
+Comparing Height
+
+```{r}
+final_data|>
+  group_by(series)|> #grouping by series to calculate mean height in inches
+  summarise(mean_height_in = mean(height_in, na.rm = TRUE))|> #calculating the average height in inches
+  ggplot() +
+  geom_col(aes(y = mean_height_in,  x = series, fill = series)) #making bar plot to show differences in height between series
+```
+
+
+Comparing Hair
+
+```{r}
+final_data|>
+  drop_na(hair)|> #removing characters that have no data for hair
+  ggplot() +
+  geom_bar(aes(y = hair, fill = series, na.rm = TRUE),position = "dodge") #making a bar plot to compare the number of characters in each series that have a color of hair
+```
+
+
+Comparing Gender
+
+```{r}
+final_data|>
+  mutate(gender = case_when(gender == "Unknown gender" ~ NA,
+                            T ~ gender)) |> 
+  drop_na(gender)|> #dropping characters that have a gender missing 
+  group_by(series,gender)|> #grouping for summary of gender per series
+  summarise(count = n())|> #counting number of each gender in each series
+  ggplot() +
+  geom_col(aes(x = gender, fill = series, y = count),position = "dodge") #making a bar plot that shows the difference of distribution of gender 
+```
+
+
+
+
+
