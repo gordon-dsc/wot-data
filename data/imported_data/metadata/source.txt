@@ -1,3 +1,17 @@
+WoT webscraping import
+
+- Searched the internet for a wiki site structured around the lore of the book series found the wiki: https://wot.fandom.com/wiki/.
+
+- Found that in the characters section of the website the characters where broken down by gender.
+
+- After further exploration we found that there were roughly 1,200 characters of each gender and that there was a page for each letter of the alphabet which listed the names of those characters if their name started with A or B .. and so on.
+
+_ The Urls for the list of the names of the characters where all very similiar, for example the page for A is: https://wot.fandom.com/wiki/Category:Men?from=A, and the page for B is: https://wot.fandom.com/wiki/Category:Men?from=B, so it was easy to write a loop to scrape from every page for both men, women, and characters of unknown gender.
+
+- After scraping all the names I then put all the names into 1 table and went through scraping the webpage for each of the respective characters names.
+
+- Each character had variables and values associated with those variables on their webpages when is what we scraped into the full raw data table.
+
 Lord of the Rings API import
 
 - Created an account at https://the-one-api.dev/v2 in order to get an authentication token.
