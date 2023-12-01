@@ -37,32 +37,453 @@ series (categorical) - The book series which the character appears in.
 
 These 10 variables where shared by both dataset but the Wheel of Time data set had 24 more variables which were also interesting on their own
 
+Nationality - Here is an explenation of each Nationality you will find in the dataset:
 
-"Nationality"
-"Current status"
-"Build"
-"First appeared"
-"Last appeared"
-"Affiliation"
-"Title"  
-"Rank"       
+Murandian:
 
-"First mentioned"
-"Last mentioned"
-"Date of birth"
-"Eyes"          
-"Ajah"           
+Description: People from Murandy, one of the nations in the Westlands.
+
+Unknown nationality:
+
+Description: Individuals whose nationality is not specified or unknown.
+
+Mayener:
+
+Description: People from the city-state of Mayene, a small independent nation.
+
+Altaran:
+
+Description: People from Altara, a nation in the Westlands.
+
+Aiel:
+
+Description: The Aiel are a unique people living in the Aiel Waste, known for their warrior societies and desert-dwelling lifestyle.
+
+Andoran:
+
+Description: People from Andor, one of the powerful nations in the Westlands.
+
+Kandori:
+
+Description: People from Kandor, one of the Borderland nations.
+
+Andor:
+
+Description: People from Andor, one of the most influential nations in the Westlands.
+
+Farashelle:
+
+Description: People from Farashelle, a nation in the Westlands.
+
+NA:
+
+Description: Not Applicable or Not Available. The nationality is not specified or known.
+
+Amadician:
+
+Description: People from Amadicia, a nation in the Westlands known for its political and religious tensions.
+
+Cairhienin:
+
+Description: People from Cairhien, a nation known for its political intrigue and Game of Houses.
+
+Saldaean:
+
+Description: People from Saldaea, one of the Borderland nations.
+
+Far Madding:
+
+Description: People from Far Madding, a city-state known for its strict control over the use of the One Power.
+
+Seanchan:
+
+Description: People from Seanchan, a distant continent with a powerful military that uses channelers as weapons.
+
+Saldaea:
+
+Description: People from Saldaea, one of the Borderland nations.
+
+Domani:
+
+Description: People from Arad Doman, a nation known for its trading and commerce.
+
+Ghealdanin:
+
+Description: People from Ghealdan, a nation in the Westlands with a complex political landscape.
+
+Taraboner:
+
+Description: People from Tarabon, a nation with a diverse culture and political intrigue.
+
+Tairen:
+
+Description: People from Tear, a city-state and nation known for its military strength.
+
+Atha'an Miere:
+
+Description: People from the Atha'an Miere, the Sea Folk, a seafaring people known for their Windfinders.
+
+Borderlander:
+
+Description: People from the Borderlands, a group of nations on the edge of the Westlands known for guarding against the Blight.
+
+Shienaran:
+
+Description: People from Shienar, one of the Borderland nations.
+
+Arad Doman:
+
+Description: People from Arad Doman, a nation known for its trading and commerce.
+
+Kandor:
+
+Description: People from Kandor, one of the Borderland nations.
+
+Almoth Plain:
+
+Description: People from Almoth Plain, a region with political instability and conflicts.
+
+Tarabon:
+
+Description: People from Tarabon, a nation with a diverse culture and political intrigue.
+
+Malkieri:
+
+Description: People from Malkier, a nation that was destroyed during the Trolloc Wars.
+
+Shiotan:
+
+Description: People from Shiotan, a region mentioned in the series.
+
+Altara:
+
+Description: People from Altara, a nation in the Westlands.
+
+Illianer:
+
+Description: People from Illian, a powerful nation in the Westlands.
+
+Hol Cuchone:
+
+Description: People from Hol Cuchone, a region mentioned in the series.
+
+Arafellin:
+
+Description: People from Arafel, one of the Borderland nations.
+
+Cairhien:
+
+Description: People from Cairhien, a nation known for its political intrigue and Game of Houses.
+
+Tar Valon:
+
+Description: People from Tar Valon, the White Tower, the central hub for Aes Sedai.
+
+Aldesharin:
+
+Description: People from Aldeshar, a region mentioned in the series.
+
+Sharan:
+
+Description: People from Shara, a distant and mysterious land.
+
+Jaramide:
+
+Description: People from Jaramide, a region mentioned in the series.
+
+Unclaimed territories:
+
+Description: Regions or areas that are not controlled by any specific nation.
+
+Manetherenite:
+
+Description: People from Manetheren, a nation that was destroyed during the Trolloc Wars.
+
+Sea Folk:
+
+Description: People from the Atha'an Miere, the Sea Folk, a seafaring people known for their Windfinders.
+
+Tuatha'an:
+
+Description: People from the Tuatha'an, also known as the Traveling People or Tinkers.
+
+Dal Calainin:
+
+Description: People from Dal Calain, a region mentioned in the series.
+
+Aramaellen:
+
+Description: People from Aramaelle, a region mentioned in the series.
+
+Arafel:
+
+Description: People from Arafel, one of the Borderland nations.
+
+Murandy:
+
+Description: People from Murandy, one of the nations in the Westlands.
+
+Malkier:
+
+Description: People from Malkier, a nation that was destroyed during the Trolloc Wars.
+
+Manetheren:
+
+Description: People from Manetheren, a nation that was destroyed during the Trolloc Wars.
+
+Maredo:
+
+Description: People from Maredo, a region mentioned in the series.
+
+Esandara:
+
+Description: People from Esandara, a region mentioned in the series.
+
+Mayene:
+
+Description: People from Mayene, a small independent city-state.
+
+Caembarin:
+
+Description: People from Caembarin, a nation in the Westlands.
+
+Shandalle:
+
+Description: People from Sh
+
+andalle, a region mentioned in the series.
+
+Midlander:
+
+Description: People from the central regions of the Westlands.
+
+Masenasharin:
+
+Description: People from Masenashar, a region mentioned in the series.
+
+Amayarin:
+
+Description: People from Amayara, a region mentioned in the series.
+
+Aridholin:
+
+Description: People from Aridhol, a nation that became corrupted and led to the creation of Mashadar.
+
+Tova:
+
+Description: People from Tova, a region mentioned in the series.
+
+Saferin:
+
+Description: People from Safer, a region mentioned in the series.
+
+Darmovanin:
+
+Description: People from Darmovan, a region mentioned in the series.
+
+Amadicia:
+
+Description: People from Amadicia, a nation known for its religious fanaticism and strict laws.
+
+Tear:
+
+Description: People from Tear, a city-state and nation known for its military strength.
+
+Essenia:
+
+Description: People from Essenia, a region mentioned in the series.
+
+Essenian:
+
+Description: People from Essen, a region mentioned in the series.
+
+Illian:
+
+Description: People from Illian, a powerful nation in the Westlands.
+
+Talmouri:
+
+Description: People from Talmour, a region mentioned in the series.
+
+Safer:
+
+Description: People from Safer, a region mentioned in the series.
+
+Almoren:
+
+Description: People from Almoren, a region mentioned in the series.
+
+Dhowlan:
+
+Description: People from Dhowlan, a region mentioned in the series.
+
+Shienar:
+
+Description: People from Shienar, one of the Borderland nations.
+
+Aramaelle:
+
+Description: People from Aramaelle, a region mentioned in the series.
+
+Coremanda:
+
+Description: People from Coremanda, a region mentioned in the series.
+
+Eharon:
+
+Description: People from Eharon, a region mentioned in the series.
+
+Ghealdan:
+
+Description: People from Ghealdan, a nation in the Westlands with a complex political landscape.
+
+Aelgar:
+
+Description: People from Aelgar, a region mentioned in the series.
+
+Andoran:
+
+Description: People from Andor, one of the most influential nations in the Westlands.
+
+These nationalities and regions contribute to the rich and expansive world-building in "The Wheel of Time" series, offering a diverse array of cultures, societies, and landscapes.
+
+Current status - What we know about the character at the end of the series. ex. (dead, alive, presumed dead)
+
+Build - The description of the characters bodytype
+
+First appeared - This is really interesting. It is the code of the book where that character first appeared and the page number
+The following table of keys is useful for 4 variables: First appeared, Last appeared, First mentioned, Last mentioned: 
+    NS: New Spring
+    RPG: The Wheel of Time Roleplaying Game
+    LOC: Lord of Chaos
+    ACOS: A Crown of Swords
+    TGH: The Great Hunt
+    TGS: The Gathering Storm
+    TSR: The Shadow Rising
+    TEOTW: The Eye of the World
+    KOD: Knife of Dreams
+    TWORJTWOT: The World of Robert Jordan's The Wheel of Time
+    TPOD: The Path of Daggers
+    WH: Winter's Heart
+    COT: Crossroads of Twilight
+    TOM: Towers of Midnight
+    AMOL: A Memory of Light
+
+Last appeared - Again the code of the book that character last appeared and the page number.
+
+Affiliation - This is generally another character that a specific character followed or follows.
+
+Title - This is what other characters would often refer to this character as in conversation
+
+Rank - This deliniates the authority that a character had in there day to day life.
+
+First mentioned - This followed the same schema as Last appeared but instead is more broad and delinates the code of the book and the page number where there name is first written but they do not have to be present.
+
+Last mentioned - This delinates the code of the book and the page number of where they are are last mentioned but do not have to be present to be mentioned.
+
+Date of birth - Date specified by a year and the time period they were born in here is a key for the time perionds:
+After Breaking (AB)	1 - 1350 AB Years
+Free Years (FY)	1 - 1135 FY years
+New Era (NE)	1 - 1000 NE years
+
+Eyes - Thorough description of the character's eyes.
+
+Ajah - The Aes Sedai are broken up into seven Ajah's here is a description of each one:
+    Blue Ajah (Blue Sisters):
+        Color: Blue
+        Focus: The Blue Ajah is known for its dedication to causes and the pursuit of justice. Blue Sisters often involve themselves in political matters and work towards greater causes, such as righting wrongs or supporting rebellions.
+
+    Brown Ajah (Brown Sisters):
+        Color: Brown
+        Focus: The Brown Ajah is dedicated to the pursuit of knowledge and academic studies. Brown Sisters are often scholars and researchers, and they are known for their love of books and accumulated wisdom.
+
+    Gray Ajah (Gray Sisters):
+        Color: Gray
+        Focus: The Gray Ajah specializes in mediation and negotiation. Gray Sisters often work as diplomats and peacemakers, seeking to resolve conflicts and maintain stability.
+
+    Green Ajah (Green Sisters):
+        Color: Green
+        Focus: The Green Ajah is known for its dedication to battle and warfare. Green Sisters actively participate in military conflicts and battles against the forces of the Dark One.
+
+    Red Ajah (Red Sisters):
+        Color: Red
+        Focus: The Red Ajah is focused on hunting down male channelers and gentling (blocking the ability to channel) them. Red Sisters see male channelers as a threat to the world and work to neutralize that threat.
+
+    White Ajah (White Sisters):
+        Color: White
+        Focus: The White Ajah is dedicated to philosophy, logic, and the pursuit of truth. White Sisters are often philosophers and thinkers, seeking to understand the nature of the One Power and the world.
+
+    Yellow Ajah (Yellow Sisters):
+        Color: Yellow
+        Focus: The Yellow Ajah specializes in the study and practice of Healing. Yellow Sisters are skilled in using the One Power to heal injuries and illnesses, and they are often found in hospitals and medical settings.
         
+Occupation - Deliniates what that person did outside of the main events of the series.
 
-"Occupation"  
-"Clan"         
-"Sept"          
-Society  - each
+Clan - The Aiel people are composed of twelve main clans:
+    Daryne
+    Goshien
+    Miagoma
+    Nakai
+    Rahien
+    Shaarad
+    Shaido
+    Shaido
+    Shanad
+    Taardad
+    Tomanelle
+    Codarra
+
+These clans play a significant role in the Aiel culture, and each clan has its unique qualities and history. The Aiel people, despite being divided into clans, share a common history and face common challenges in the harsh desert environment of the Aiel Waste.
+
+Sept - Specific to Aiel this refrences the equivalent of a town which they call septs which they live in.
+
+Society  - The Aiel people specifically have a system where each person belongs so a warrior society here is a list and a description for each one:
+    Aethan Dor - Red Shields:
+        Description: The Red Shields are known for their role as the protectors of the Aiel chiefs and Wise Ones. They serve as personal bodyguards and are often stationed around Aiel leaders.
+
+    Cor Darei translates too Night Spears:
+        Description: The Night Spears are a group of Aiel warriors who specialize in nighttime warfare. They are skilled in stealth and surprise attacks, using the cover of darkness to their advantage.
+
+    Duadhe Mahdi'in translates too Water Seekers:
+        Description: The Water Seekers are responsible for finding sources of water in the arid Aiel Waste. They play a crucial role in ensuring the survival of the Aiel people in the harsh desert environment.
+
+    Far Aldazar Din translates too Brothers of the Eagle:
+        Description: The Brothers of the Eagle are expert scouts and messengers. They are known for their swift movements and keen observation skills, making them valuable for gathering information and communicating across the vast Aiel Waste.
+
+    Far Dareis Mai translates too Maidens of the Spear:
+        Description: The Maidens of the Spear are an all-female warrior society. They are renowned for their combat prowess and dedication to protecting the Aiel people. They are often the first to engage in battle and are highly skilled in hand-to-hand combat.
+
+    Hama N'dore translates too Mountain Dancers:
+        Description: The Mountain Dancers are known for their agility and ability to navigate difficult terrain. They are skilled climbers and excel in traversing the mountainous regions of the Aiel Waste.
+
+    Rahien Sorei translates too Dawn Runners:
+        Description: The Dawn Runners are swift and agile Aiel who excel in hit-and-run tactics. They are known for their speed and efficiency in attacking and withdrawing from the battlefield.
+
+    Seia Doon translates too Black Eyes:
+        Description: The Black Eyes are a group of Aiel warriors who are adept at blending into their surroundings. They use their surroundings to their advantage and are skilled at ambush tactics.
+
+    Sha'mad Conde translates too Thunder Walkers:
+        Description: The Thunder Walkers are known for their speed and skill in moving quietly across the desert sands. They are expert desert trackers and are able to navigate the Aiel Waste with precision.
+
+    Shae'en M'taal translates too Stone Dogs:
+        Description: The Stone Dogs are a society that places a high value on honor and duty. They are known for their strong sense of loyalty and are often tasked with guarding important locations or individuals.
+
+    Sovin Nai translates too Knife Hands:
+        Description: The Knife Hands are skilled in close-quarters combat and are known for their proficiency with knives and other short-range weapons. They are often employed as shock troops in battle.
+
+    Tain Shari translates too True Bloods:
+        Description: The True Bloods are considered the aristocracy among the Aiel. They are descendants of the original Aiel leaders and hold positions of authority within the society. They are respected for their bloodline and often lead in both political and military matters.
+
 Weight - Weight in lbs, kg, or a discription of the person all specifiedin the entry.
+
 Race - Mostly NAs as almost all named characters are human but a few characters are Ogier which is a different intelligent species in this world. If this is NA it is safe to assume the character is human
+
 Hair color - all NAs :( 
+
 Eye color - all NAs :( 
+
 feet - This variable was used to calculate height_in
+
 inches - This variable was used to calculate height_in
 
        
