@@ -1,37 +1,63 @@
+Wheel of Time Data Cleaning
+
+ - Read in wot_raw.csv from the imported_data folder created from import.qmd
+ 
+ - Pivoted the raw data so that it is almost a tidy dataset except for one row which will be addressed later.
+ 
+ - adds another csv which acts as metadata as it lists the number of NAs in each variable which is useful information when considering what variables we can do analysis on. This is written to the metadata folder in cleaned_data
+ 
+ - Looked through the Hair variable and extracts just the color so that there are far less unique values, and it is comparable to lotr data.
+ 
+ - Did a similiar prosces for the height data converting it to have its units in inches.
+ 
+ - Added 4 new columns which determined the age(meaning time period) born, and age of death, aswell as the year born, and year of death in that respective age. These were extracted from the `Date of birth` variable and `Date of death` variable. This allowed us to calculate the years_alive variable. People born in the Age of Legends where arbitrarily given a date of birth 500 years before the Age of Legends ends. So to be in the dataset they were assigned the age AB, but with a negative value for their year born. In this proscess we also removed 2 nonsensical data entries from the data entirely. These where an author in the dataset and a list of unnamed characters which was causing the dataset to be untidy.
+ 
+ - Calculated the years_alive variable using Daniel's function modified for wot ages.
+ 
+ - Renamed a few variables to be consistent with the lotr dataset.
+ 
+ - Wrote this tidy and cleaned dataset with 34 variables about the characters. This file is wot_data_final.csv located in the /data/cleaned_data folder.
+
 Lord of the Rings Data Cleaning
 
- - Read in lotr_raw.csv from the imported_data folder created from import.qmd 
+ - Read in lotr_raw.csv from the imported_data folder created from import.qmd
  
- - Selected columns name, height, race, gender, birth, death, hair and series from the data
+ - Created and added a row to specify what series the data was from.
  
- - Set blank cells' values to NA
+ - Selected columns name, height, race, gender, birth, death, hair and series from the data.
  
- - In the birth and death column changed all ages (First Age, Second Age, Third Age, Fourth Age and Years of the Trees) to their shorthand (FA, SA, TA, FO, TY)
+ - Set blank cells' values to NA.
  
- - Extracted the numbers from the birth and death columns and placed them into the new birth_year and death_year columns and parsed these new columns as numbers
+ - In the birth and death column changed all ages (First Age, Second Age, Third Age, Fourth Age and Years of the Trees) to their shorthand (FA, SA, TA, FO, TY).
  
- - Extracted the shorthand ages from the birth and death columns and palced thme into the new birth_age and death_age columns
+ - Extracted the numbers from the birth and death columns and placed them into the new birth_year and death_year columns and parsed these new columns as numbers.
  
- - Created a function (calculate_age_lotr) to calculate how many years a character was alive for if the birth_year, death_year, birth_age, and death_age were given. The objects first_age, second_age, third_age and years_of_the_trees represent the amount of years in each age. Years in the years_of_the_tress must be multiplied by the yt_year_lenght to calculate the correct number of actual years(years of the trees years are longer than the years of other ages.) 
+ - Extracted the shorthand ages from the birth and death columns and palced thme into the new birth_age and death_age columns.
  
- - Created a new empty list called years_alive
+ - Created a function (calculate_age_lotr) to calculate how many years a character was alive for if the birth_year, death_year, birth_age, and death_age were given. The objects first_age, second_age, third_age and years_of_the_trees represent the amount of years in each age. Years in the years_of_the_tress must be multiplied by the yt_year_lenght to calculate the correct number of actual years(years of the trees years are longer than the years of other ages.) .
  
- - Looped the lord of the rings data through calculate_age_lotr and dropped each value into years_alive list
+ - Created a new empty list called years_alive.
  
- - Added the years_alive list as a new column the to the lord of the rings data
+ - Looped the lord of the rings data through calculate_age_lotr and dropped each value into years_alive list.
  
- - Created a new column simplified_hair by extracting the common hair colors from the cells in the hair column
+ - Added the years_alive list as a new column the to the lord of the rings data.
  
- - Cleaned simplified_hair by capitalizing, removing extra white space and removing extra symbols
+ - Created a new column simplified_hair by extracting the common hair colors from the cells in the hair column.
  
- - Mutated height column to change all instances of nine to 9, feet to ', removing all spaces and manually changing data that had no signifier
+ - Cleaned simplified_hair by capitalizing, removing extra white space and removing extra symbols.
  
- - Extracted any height that was stored in the #feet'#inches" format and placed these values in to the height_simplified column
+ - Mutated height column to change all instances of nine to 9, feet to ', removing all spaces and manually changing data that had no signifier.
  
- - From the height_simplified column extracted the number of feet a character had and palced it into the height_simplified_ft column and extracted the number of inches a character had and placed it into the height_simplified_in column
+ - Extracted any height that was stored in the #feet'#inches" format and placed these values in to the height_simplified column.
  
- - Calculated the total number of inches each character was by combining the height_simplified_ft and height_simplified_in values to create height_in column
+ - From the height_simplified column extracted the number of feet a character had and palced it into the height_simplified_ft column and extracted the number of inches a character had and placed it into the height_simplified_in column.
  
- - Tidied the Gender Column by changing mispelled or wierdly spelled data to match the rest
+ - Calculated the total number of inches each character was by combining the height_simplified_ft and height_simplified_in values to create height_in column.
+ 
+ - Tidied the Gender Column by changing mispelled or wierdly spelled data to match the rest.
+ 
+ - Wrote this data to lotr_data_final.csv in the /data/cleaned_data folder.
+ 
+ - Combined both datasets and wrote the final dataset to final_data.csv in the output folder.
  
  
