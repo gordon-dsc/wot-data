@@ -4,6 +4,15 @@ format: html
 ---
 
 ```{r packages}
+
+```
+
+---
+title: "Data Import Script"
+format: html
+---
+
+```{r packages}
 library(tidyverse)
 library(httr2)
 library(rvest)
@@ -116,5 +125,35 @@ write_csv(number_nas,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\
 write_csv(wider,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\Clean_wot_data.csv")
 ```
 
+Lord of the Rings Data Import
+
+```{r}
+request("https://the-one-api.dev/v2")|> #requesting data from the-one-api
+req_url_path_append('/character')|> #requesting all the character data from the api
+req_auth_bearer_token("c-DPIqdcASjHVb6UHgy1")|>#authentication key for the api
+req_perform()|>
+resp_body_json() -> lotr_data
+```
 
 
+```{r}
+lotr_data_test <- tibble(json = lotr_data)#turning data set from json to tibble for easier unnesting
+```
+
+```{r}
+lotr_data_test|>
+  slice(1)|> #all the data is held in the first row so getting rid of the rest
+  unnest_longer(json)|> #unnesting the data lists
+  unnest_wider(json) -> lotr_data_test
+```
+
+```{r}
+series <- rep('lotr', times = 933) #creating new column to show what series each row is from
+series <- data.frame(series)
+series <- tibble(series)
+lotr_data_test|> #adding new column to rest of data
+  add_column(series) -> lotr_data_test
+```
+```{r}
+write_csv(lotr_data_test,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\imported_data\\lotr_raw.csv")
+```
