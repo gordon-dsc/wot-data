@@ -486,4 +486,4 @@ feet - This variable was used to calculate height_in
 
 inches - This variable was used to calculate height_in
 
-       
+If you got this far I hope you didn't just scroll to the bottom. Cool stuff!
