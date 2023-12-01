@@ -5,8 +5,8 @@ Nisain a'Cowel,Murandian,Alive,Female,Gangly,COT 19,COT 19,White Tower,NA,Aes Se
 Cian do Mehon a'Macansa,Murandian,Alive,Female,Stocky,TPOD 17,TPOD 18,NA,Lady,NA,NA,NA,NA,NA,Dark,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Elaida do Avriny a'Roihan,Murandian,Alive,Female,NA,NS 5,TOM 47,White Tower,NA,Aes Sedai,NA,NS 2,NA,950 NE,Dark,Red Ajah,NA,66,Damane,NA,NA,NA,NA,NA,NA,NA,5,6,NE,NA,950,NA,NA,wot
 Segan do Avharin a'Roos,Murandian,Alive,Female,Slender,TPOD 17,TPOD 18,NA,Lady,NA,NA,NA,NA,NA,Dark,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Ellid Abareim,Unknown nationality,Dead,Female,NA,NS 8,NS 8,NA,NA,Accepted,979 NE,NS 4,NS 14,NA,"Large, sapphire colored",NA,golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,wot
-Rubinde Acedone,Mayener,Alive,Female,Sturdy,TPOD 25,AMOL Epilogue,White Tower,NA,Aes Sedai,NA,NA,NA,853 NE,"Blue, like sapphires",Green Ajah,dark,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,853,NA,NA,wot
+Ellid Abareim,Unknown nationality,Dead,Female,NA,NS 8,NS 8,NA,NA,Accepted,979 NE,NS 4,NS 14,NA,"Large, sapphire colored",NA,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,wot
+Rubinde Acedone,Mayener,Alive,Female,Sturdy,TPOD 25,AMOL Epilogue,White Tower,NA,Aes Sedai,NA,NA,NA,853 NE,"Blue, like sapphires",Green Ajah,Dark,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,853,NA,NA,wot
 Adela,Altaran,Alive,Female,Lanky,KOD 6,KOD 6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Adelin,Aiel,Alive,Female,NA,TSR 37,TFOH 44,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,NA,Taardad,Jindo,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Adria,Unknown nationality,Alive,Female,Slim,WH 15,COT 2,Valan Luca,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Entertainer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -49,7 +49,7 @@ Alida Aldragoran,Saldaean,Alive,Female,NA,NA,NA,NA,NA,NA,NA,KOD 20,KOD 20,NA,NA,
 Sybaine Aldwyn,Far Madding,Alive,Female,NA,WH 24,WH 34,NA,NA,Counsel,NA,NA,NA,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Teire Alentaine,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,NA,NA,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alesinde,Andoran,Dead,Female,NA,NA,NA,NA,Queen,Queen of Andor,FY 1035,LOC 26,LOC 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FY,NA,1035,NA,wot
-Alfara,Amadician,Alive,Female,Plump,TFOH 13,TFOH 13,NA,NA,NA,NA,NA,NA,NA,NA,NA,gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Alfara,Amadician,Alive,Female,Plump,TFOH 13,TFOH 13,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Marande Algoran,Amadician,Alive,Female,NA,LOC 9,LOC 9,NA,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Doniella Alievin,Cairhienin,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,363 NE,TWORJTWOT,AMOL 37,NA,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,363,NA,wot
 Alis,Altaran,Alive,Female,NA,ACOS 28,NA,NA,NA,NA,NA,NA,ACOS 28,NA,NA,NA,NA,NA,Servant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -58,21 +58,21 @@ Zarya Alkaese,Saldaea,Alive,Female,NA,ACOS 23,KOD 17,White Tower,NA,Novice,NA,NA
 Tamore Alkohima,Domani,Alive,Female,Full-figured,NS 13,NS 13,NA,NA,NA,NA,NA,NS 18,NA,NA,NA,NA,NA,Seamstress,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Bastine Almadar,Domani,Dead,Female,NA,NA,NA,Artur Hawkwing,Lady,NA,NA,The Wheel of Time Companion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Dumera Alman,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai,NA,TWORJTWOT,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Alnora,NA,Dead,Female,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,black,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Alnora,NA,Dead,Female,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,Black,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Desandre Alraed,Ghealdanin,Alive,Female,Willowy,WH Prologue,COT Prologue,White Tower,NA,Aes Sedai,NA,NS 4,NA,NA,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Katerine Alruddin,Unknown nationality,Dead,Female,NA,NS 4,TOM 38,Black Ajah,Mistress of Novices,Aes Sedai,1000 NE,NA,NA,950 NE,Hard,Red Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,950,1000,50,wot
 Alsera,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TSR 49,TSR 49,NA,NA,NA,NA,NA,Wise One,Nakai,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alstaing,Taraboner,Alive,Female,NA,KOD 11,KOD 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Altalin,Amadician,Alive,Female,Plump,LOC 9,LOC 9,NA,Lady,NA,NA,NA,LOC 9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alteima,Tairen,Alive,Female,NA,TSR 21,TOM 5,NA,Lady,High Lady,NA,TSR 4,NA,NA,Large Brown,NA,Black,NA,NA,NA,NA,NA,Slender,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Alvistere,Cairhienin,Alive,Female,Slim,KOD 24,KOD 24,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Alvistere,Cairhienin,Alive,Female,Slim,KOD 24,KOD 24,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Doesine Alwain,Cairhienin,Dead,Female,Slender,TPOD 26,AMOL 37,White Tower,NA,Aes Sedai,1000 NE,NA,NA,867 NE,NA,Yellow Ajah,NA,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,867,1000,133,wot
 Alwhin,Seanchan,Dead,Female,NA,TGH 40,TPOD 24,NA,NA,So'jhin,1000 NE,NA,KOD Prologue,NA,Blue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Alysa,Andoran,Alive,Female,NA,TOM 1,TOM 1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Amar,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,LOC 54,LOC 54,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Amaresu,Unknown nationality,Bound to the Wheel,Female,NA,TGH 47,TGH 47,Horn of Valere,NA,Hero of the Horn,NA,NA,AMOL 39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Amaryn,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,LOC 33,LOC 33,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Unknown society,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Zemaille Amassa,Atha'an Miere,Alive,Female,Slim,NS 3,COT 21,White Tower,NA,Aes Sedai,NA,NA,NA,931 NE,NA,Brown Ajah,black,NA,Librarian,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,931,NA,NA,wot
+Zemaille Amassa,Atha'an Miere,Alive,Female,Slim,NS 3,COT 21,White Tower,NA,Aes Sedai,NA,NA,NA,931 NE,NA,Brown Ajah,Black,NA,Librarian,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,931,NA,NA,wot
 Lemai Ambani,Unknown nationality,Alive,Female,NA,WH Prologue,COT Prologue,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Merana Ambrey,Andoran,Alive,Female,NA,LOC 43,KOD 21,Rebel Aes Sedai,NA,Aes Sedai,NA,LOC 36,NA,889 NE,NA,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,889,NA,NA,wot
 Saraline Amerano,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TWORJTWOT,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -105,7 +105,7 @@ Meka Antos,Arad Doman,Alive,Female,NA,NA,NA,NA,Lady,NA,NA,The Wheel of Time Role
 Anya,Kandor,Alive,Female,NA,NS 22,NS 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Servant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Aran'gar,Borderlander,Dead,Female,"Slender, Busty",LOC Prologue,TOM Prologue,NA,NA,Chosen,1000 NE,NA,AMOL 5,NA,Green,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Balladare Arandaille,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,Amyrlin Seat,Aes Sedai,142 NE,TWORJTWOT,TGS 16,NA,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,142,NA,wot
-Naean Arawn,Andoran,Alive,Female,Slim,TFOH 19,TOM 50,Andor,Lady,High Seat,NA,NA,NA,NA,"Blue, big",NA,dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Naean Arawn,Andoran,Alive,Female,Slim,TFOH 19,TOM 50,Andor,Lady,High Seat,NA,NA,NA,NA,"Blue, big",NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Arebis,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,KOD Prologue,KOD Prologue,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Amellia Arene,Amadician,Alive,Female,NA,TFOH 18,TFOH 18,Darkfriend,NA,NA,NA,NA,TFOH 34,NA,NA,NA,Gray,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cecilia Arens,Almoth Plain,Alive,Female,NA,NA,NA,NA,NA,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,Wisdom,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -117,8 +117,8 @@ Laigin Arnault,Tarabon,Dead,Female,NA,NA,NA,White Tower,NA,Aes Sedai,999 NE,TPOD
 Rahema Arnon,Altaran,Alive,Female,NA,COT 26,COT 26,NA,NA,NA,NA,NA,NA,NA,Haggard,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Racelle Arovni,Kandori,Alive,Female,NA,NS 16,NS 16,NA,NA,NA,NA,NA,NA,NA,Dark,NA,Gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Arrata,Seanchan,Alive,Female,Wiry,KOD 26,NA,Ever Victorious Army,NA,NA,NA,KOD Prologue,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Edeyn ti Gemallen Arrel,Malkieri,Alive,Female,NA,NS 22,NS 26,NA,NA,NA,NA,NS 16,NS Epilogue,934 NE,"Large, dark",NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,934,NA,NA,wot
-Iselle Arrel,Malkieri,Dead,Female,NA,NS 25,NS 26,NA,NA,NA,979 NE,NS 22,NS Epilogue,NA,NA,NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,wot
+Edeyn ti Gemallen Arrel,Malkieri,Alive,Female,NA,NS 22,NS 26,NA,NA,NA,NA,NS 16,NS Epilogue,934 NE,"Large, dark",NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,934,NA,NA,wot
+Iselle Arrel,Malkieri,Dead,Female,NA,NS 25,NS 26,NA,NA,NA,979 NE,NS 22,NS Epilogue,NA,NA,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,wot
 Catlynde Artein,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai,NA,TWORJTWOT,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Deane Aryman,Shiotan,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,FY 1084,TFOH 11,COT 30,FY 920,NA,Blue Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FY,FY,920,1084,164,wot
 Ashelin,Altara,Alive,Female,Plump,KOD 24,KOD 24,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -133,7 +133,7 @@ Atuan,NA,Unknown,Female,NA,NA,NA,White Tower,NA,Accepted,NA,NA,NS 4,NA,NA,NA,NA,
 Shiaine Avarhin,Andoran,Dead,Female,NA,NA,NA,NA,Lady,NA,NA,WH 10,WH 10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Einion Avharin,Far Madding,Dead,Female,NA,NA,NA,NA,NA,First Counsel,NA,WH 23,WH 23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Aviellin,Aiel,Alive,Female,NA,NA,NA,Car'a'carn,NA,NA,NA,KOD 29,KOD 29,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Aviendha,Aiel,Alive,Female,NA,TDR 38,AMOL Epilogue,NA,NA,NA,NA,NA,NA,980 NE,Blue-green,NA,red,69,Wise One,Taardad,Nine Valleys,Far Dareis Mai,NA,NA,NA,NA,5,9,NE,NA,980,NA,NA,wot
+Aviendha,Aiel,Alive,Female,NA,TDR 38,AMOL Epilogue,NA,NA,NA,NA,NA,NA,980 NE,Blue-green,NA,Red,69,Wise One,Taardad,Nine Valleys,Far Dareis Mai,NA,NA,NA,NA,5,9,NE,NA,980,NA,NA,wot
 Rhea Avin,Andoran,Alive,Female,NA,LOC Prologue,LOC Prologue,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Adora Aybara,Andoran,Dead,Female,NA,TEOTW Ravens,TEOTW Ravens,Two Rivers,NA,NA,999 NE,NA,TSR 56,983 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,983,999,16,wot
 Adora Aybara (granddaughter of Perrin),Andoran,Foreseen,Female,NA,NA,NA,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -158,7 +158,7 @@ Baelome,Ghealdanin,Alive,Female,NA,NA,NA,Crown High Council,Lady,NA,NA,TFOH 39,T
 Baerin,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,LOC 27,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Maiden of the Spear,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sereille Bagand,Far Madding,Dead,Female,NA,NA,NA,White Tower,Amyrlin Seat,Aes Sedai,890 NE,ACOS 32,COT 18,586 NE,NA,White Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,586,890,304,wot
 Martna Baily,Murandian,Unknown,Female,NA,NA,TGS 28,NA,NA,NA,NA,TGS 28,NA,NA,NA,NA,NA,NA,Baker (possibly),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Bain,Aiel,Alive,Female,NA,TDR 38,AMOL 44,Car'a'carn,NA,NA,NA,NA,NA,981 NE,Dark blue,NA,red,68,Gai'shain,Shaarad,Black Rock,Far Dareis Mai,NA,NA,NA,NA,5,8,NE,NA,981,NA,NA,wot
+Bain,Aiel,Alive,Female,NA,TDR 38,AMOL 44,Car'a'carn,NA,NA,NA,NA,NA,981 NE,Dark blue,NA,Red,68,Gai'shain,Shaarad,Black Rock,Far Dareis Mai,NA,NA,NA,NA,5,8,NE,NA,981,NA,NA,wot
 Bair,Aiel,Alive,Female,NA,TSR 23,AMOL Epilogue,NA,NA,NA,NA,TDR 39,NA,NA,NA,NA,White,NA,Wise One,Shaarad,Haido,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Covarla Baldene,Unknown nationality,Alive,Female,NA,ACOS 32,TGS 13,White Tower,NA,Aes Sedai,NA,NA,NA,919 NE,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,919,NA,NA,wot
 Ballair,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai,NA,LOC 26,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -170,18 +170,18 @@ Barasine,Unknown nationality,Alive,Female,Lanky,KOD Prologue,TOM 27,White Tower,
 Narenwin Barda,Unknown nationality,Alive,Female,Thin,COT Prologue,TGS 13,White Tower,NA,Aes Sedai,NA,TFOH 10,NA,913 NE,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,913,NA,NA,wot
 Doral Barran,Andoran,Dead,Female,NA,TEOTW Ravens,TEOTW Ravens,Two Rivers,Wisdom,NA,NA,NA,COT 30,NA,NA,NA,White,NA,Healer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hilde Barran,Andoran,Alive,Female,Plump,LOC 10,LOC 11,White Tower,NA,Novice,NA,NA,TPOD 30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Aleis Barsalla,Far Madding,Alive,Female,NA,WH 24,WH 34,NA,NA,First Counsel,NA,NA,NA,NA,NA,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Aleis Barsalla,Far Madding,Alive,Female,NA,WH 24,WH 34,NA,NA,First Counsel,NA,NA,NA,NA,NA,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Aedelle Baryn,Andoran,Alive,Female,NA,COT 15,COT 15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Duhara Basaheen,Domani,Dead,Female,Slim,NS 14,AMOL 23,Black Ajah,NA,Aes Sedai,1000 NE,NA,NA,764 NE,"Big, Dark",Red Ajah,NA,NA,Dreadlord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,764,1000,236,wot
-Deira Bashere,Saldaea,Dead,Female,NA,LOC 26,AMOL 37,NA,Lady,NA,NA,LOC 1,AMOL Epilogue,NA,Dark,NA,white,70,NA,NA,NA,NA,NA,NA,NA,NA,5,10,NA,NA,NA,NA,NA,wot
+Deira Bashere,Saldaea,Dead,Female,NA,LOC 26,AMOL 37,NA,Lady,NA,NA,LOC 1,AMOL Epilogue,NA,Dark,NA,White,70,NA,NA,NA,NA,NA,NA,NA,NA,5,10,NA,NA,NA,NA,NA,wot
 N'Delia Basolaine,Hol Cuchone,Dead,Female,NA,NA,NA,Hol Cuchone,Swordfast,First Maid,NA,TFOH Prologue,TFOH Prologue,NA,NA,NA,NA,NA,Historian,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Adelorna Bastine,Saldaean,Alive,Female,Slim,KOD Prologue,AMOL 11,White Tower,Captain-General (Green Ajah),Aes Sedai,NA,NS 8,NA,796 NE,Blue,Green Ajah,Dark,63,NA,NA,NA,NA,NA,NA,NA,NA, 5,3,NE,NA,796,NA,NA,wot
-Sheriam Bayanar,Saldaean,Dead,Female,Slightly plump,NS 6,TGS 45,Black Ajah,NA,Aes Sedai,1000 NE,NA,AMOL 25,953 NE,"Pale Green, slanted",Blue Ajah,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,953,1000,47,wot
+Sheriam Bayanar,Saldaean,Dead,Female,Slightly plump,NS 6,TGS 45,Black Ajah,NA,Aes Sedai,1000 NE,NA,AMOL 25,953 NE,"Pale Green, slanted",Blue Ajah,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,953,1000,47,wot
 Velina Behar,Saldaean,Unknown,Female,NA,TPOD 25,TPOD 25,Black Ajah,NA,Aes Sedai,NA,NA,TGS Epilogue,859 NE,"Sharp, Tilted",White Ajah,NA,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,859,NA,NA,wot
 Beira,Aiel,Alive,Female,NA,NA,LOC 15,Bair,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gai'shain,Unknown clan,Unknown sept,Unknown society,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Belairah,Saldaean,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TOM 16,TOM 16,NA,NA,NA,NA,NA,Queen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Beldair,Cairhienin,Alive,Female,Stout,COT Prologue,COT Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Cook,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Beldemaine,Arafellin,Alive,Female,Plump,LOC 30,LOC 30,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Yellow Ajah,silver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Beldemaine,Arafellin,Alive,Female,Plump,LOC 30,LOC 30,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Yellow Ajah,Silver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Belinde,Aiel,Alive,Female,Skinny,ACOS Prologue,KOD 30,Sevanna,NA,NA,NA,NA,NA,NA,Pale Blue,NA,White,NA,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nan Belman,Andoran,Alive,Female,NA,LOC 28,LOC 28,Darkfriend,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Meralda Belmondes,Tairen,Alive,Female,NA,TPOD 8,TPOD 8,Cha Faile,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -273,7 +273,7 @@ Mistress Cinchonine,Andoran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Chion,Aiel,Dead,Female,NA,TSR 50,TSR 50,Car'a'carn,NA,NA,NA,NA,NA,NA,Blue,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Chulein,Seanchan,Alive,Female,NA,TPOD 6,TPOD 6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Morat'raken,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alaine Chuliandred,Cairhienin,Alive,Female,NA,TGH 32,TOM 50,NA,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Alesune Chulin,Shienaran,Alive,Female,Slim,TPOD Prologue,TPOD Prologue,Easar Togita,NA,NA,NA,NA,NA,NA,NA,NA,black,NA,Shatayan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Alesune Chulin,Shienaran,Alive,Female,Slim,TPOD Prologue,TPOD Prologue,Easar Togita,NA,NA,NA,NA,NA,NA,NA,NA,Black,NA,Shatayan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Shein Chunla,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,651 NE,TWORJTWOT,KOD 24,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,651,NA,wot
 Chuonde,Aiel,Dead,Female,NA,NA,NA,Car'a'carn,NA,NA,1000 NE,ACOS 2,ACOS 2,NA,NA,NA,NA,NA,NA,Miagoma,Spine Ridge,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Ciar,Seanchan,Alive,Female,NA,TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -282,7 +282,7 @@ Cinda,Andoran,Alive,Female,NA,TEOTW 14,TEOTW 14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Rafela Cindal,Tairen,Alive,Female,Plump,NS 11,KOD 21,White Tower,NA,Aes Sedai,NA,NA,AMOL 40,948 NE,NA,Blue Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,948,NA,NA,wot
 Clara,Unknown nationality,Alive,Female,NA,TGS 40,TGS 40,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Clare,Andoran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,TOM 8,NA,NA,NA,NA,NA,Gambler,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Jennet Cobb,Andoran,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,NS 6,KOD 24,NA,NA,Gray Ajah,red,64,NA,NA,NA,NA,NA,NA,NA,NA,5, 4,NA,NA,NA,NA,NA,wot
+Jennet Cobb,Andoran,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,NS 6,KOD 24,NA,NA,Gray Ajah,Red,64,NA,NA,NA,NA,NA,NA,NA,NA,5, 4,NA,NA,NA,NA,NA,wot
 Coedelin,Aiel,Alive,Female,NA,NA,NA,NA,NA,Wise One,NA,TSR 23,TSR 23,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nirelle Coidevwin,Cairhienin,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,419 NE,TWORJTWOT,TWORJTWOT,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,419,NA,wot
 Coladara,Tairen,Alive,Female,NA,NS 4,AMOL 9,Unaligned sisters,NA,Aes Sedai,NA,NA,NA,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -293,7 +293,7 @@ Colinda,Aiel,Alive,Female,NA,LOC 25,TPOD Prologue,Car'a'carn,NA,NA,NA,TSR 28,NA,
 Coline,Andoran,Alive,Female,NA,TEOTW 35,TDR 45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cook,NA,NA,NA,Plump,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Collaris,Taraboner,Dead,Female,NA,NA,NA,NA,NA,NA,NA,KOD 2,KOD 2,NA,NA,NA,NA,NA,Advocate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Colline,NA,Dead,Female,NA,TSR 25,TSR 25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Jenn Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Serancha Colvine,Unknown nationality,Alive,Female,NA,KOD 24,TGS 43,White Tower,Head Clerk,Aes Sedai,NA,ACOS 32,NA,835 NE,Pale blue,Gray Ajah,brown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,835,NA,NA,wot
+Serancha Colvine,Unknown nationality,Alive,Female,NA,KOD 24,TGS 43,White Tower,Head Clerk,Aes Sedai,NA,ACOS 32,NA,835 NE,Pale blue,Gray Ajah,Brown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,835,NA,NA,wot
 Comaelle,Jaramide,Dead,Female,NA,NA,NA,NA,High Queen of Jaramide,Queen,NA,TSR 1,TSR 1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Shahal Comanli,Domani,Alive,Female,Stout,NA,NA,Unaligned sisters,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,c. 800 NE,NA,Gray Ajah,NA,62,NA,NA,NA,NA,NA,NA,NA,NA,5,2,NE,NA,800,NA,NA,wot
 Akarrin Comeris,Unknown nationality,Alive,Female,Slim,NS 3,COT 19,Rebel Aes Sedai,NA,Aes Sedai,NA,NA,NA,801 NE,Quick,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,801,NA,NA,wot
@@ -305,13 +305,13 @@ Myriam Copan,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,Amyrlin Seat,A
 Calle Coplin,Andoran,Alive,Female,NA,TEOTW Ravens,TEOTW Ravens,Two Rivers,NA,NA,NA,NA,ACOS 31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Corana,Aiel,Alive,Female,NA,ACOS 7,TGS 15,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Corehuin,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,ACOS 18,ACOS 18,NA,NA,NA,NA,NA,NA,Daryne,Broken Cliff,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Corelna,Aiel,Alive,Female,NA,LOC 25,LOC 25,Car'a'carn,NA,NA,NA,NA,NA,NA,Green,NA,gray,NA,Wise One,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Corelna,Aiel,Alive,Female,NA,LOC 25,LOC 25,Car'a'carn,NA,NA,NA,NA,NA,NA,Green,NA,Gray,NA,Wise One,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Corida,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Roofmistress,Shiande,Degalle,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Coride,Unknown nationality,Alive,Female,NA,KOD 24,KOD 24,White Tower,NA,Novice,NA,NA,NA,982 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,982,NA,NA,wot
 Aril Corl,Cairhienin,Alive,Female,NA,TFOH 20,TFOH 20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Reanne Corly,Unknown nationality,Dead,Female,NA,ACOS 23,KOD 14,The Kin,Eldest,Elder,1000 NE,ACOS 22,KOD 17,588 NE,Blue,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,588,1000,412,wot
 Mirlene Cornwell,Andoran,Dead,Female,NA,NA,NA,Elaida a'Roihan's White Tower,NA,Aes Sedai,1000 NE,The Wheel of Time Companion,NA,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Dimana Corrand,Unclaimed territories,Alive,Female,NA,TPOD 1,TOM 33,The Kin,NA,Elder,NA,NA,NA,NA,NA,NA,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Dimana Corrand,Unclaimed territories,Alive,Female,NA,TPOD 1,TOM 33,The Kin,NA,Elder,NA,NA,NA,NA,NA,NA,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Corvila,Altaran,Alive,Female,Lean,KOD 28,KOD 28,Faile Bashere,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Weaver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cosain,Aiel,Alive,Female,Lean,LOC 32,ACOS 3,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,Wise One,Miagoma,Spine Ridge,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Coura,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,LOC 54,LOC 54,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -329,7 +329,7 @@ Zerah Dacan,Mayener,Alive,Female,Slim,TPOD 26,TPOD 26,White Tower,NA,Aes Sedai,N
 Nisao Dachen,Unclaimed territories,Alive,Female,NA,TFOH 50,KOD 23,White Tower,NA,Aes Sedai,NA,NA,TGS 45,821 NE,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,821,NA,NA,wot
 Mistress Daelvin,Cairhienin,Alive,Female,NA,LOC 5,LOC 5,NA,NA,NA,NA,LOC 5,LOC 5,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Dagendra,Aiel,Alive,Female,Blocky,LOC 10,LOC 10,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Dailin,Aiel,Dead,Female,NA,TDR 38,TDR 39,Car'a'carn,NA,NA,999 NE,NA,NA,NA,Gray,NA,red,NA,NA,Taardad,Nine Valleys,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Dailin,Aiel,Dead,Female,NA,TDR 38,TDR 39,Car'a'carn,NA,NA,999 NE,NA,NA,NA,Gray,NA,Red,NA,NA,Taardad,Nine Valleys,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Sedore Dajenna,Tairen,Dead,Female,NA,TPOD 25,TOM 37,Black Ajah,NA,Aes Sedai,1000 NE,NA,NA,813 NE,Dark,Yellow Ajah,Dark,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,813,1000,187,wot
 Dalar,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TGH 35,LOC 20,NA,NA,NA,NA,NA,Author,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Dalevien,Unknown nationality,Alive,Female,Stocky,KOD 24,KOD 24,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Brown Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -360,7 +360,7 @@ Kara Defane,Unclaimed territories,Alive,Female,NA,KOD 14,KOD 14,Kin,NA,NA,NA,WH 
 Deindre,Unknown nationality,Dead,Female,NA,TSR 26,TSR 26,NA,NA,Aes Sedai (Age of Legends),NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Deirdru,Altaran,Dead,Female,NA,NA,NA,NA,Lady,NA,NA,KOD 21,KOD 21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Deladrin,Taraboner,Dead,Female,NA,NA,NA,NA,Panarch of Tarabon,Panarch,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Cetalia Delarme,Taraboner,Dead,Female,NA,NS 12,NS 12,NA,NA,Aes Sedai,NA,NA,NS 18,NA,NA,Blue Ajah,gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Cetalia Delarme,Taraboner,Dead,Female,NA,NS 12,NS 12,NA,NA,Aes Sedai,NA,NA,NS 18,NA,NA,Blue Ajah,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Delora,Aiel,Alive,Female,NA,TPOD 9,KOD 29,NA,NA,NA,NA,NA,NA,NA,Blue,NA,NA,NA,Wise One,Shiande,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ines Demain,Kandori,Alive,Female,NA,NA,NA,NA,NA,Lady,NA,NS 17,NS Epilogue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Parenia Demalle,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,866 NE,TWORJTWOT,TWORJTWOT,NA,NA,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,866,NA,wot
@@ -399,7 +399,7 @@ Ealsin,Andoran,Dead,Female,NA,NA,NA,Two Rivers,NA,NA,999 NE,TSR 29,TSR 40,NA,NA,
 Echiko,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Accepted,NA,LOC 30,LOC 30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Edarra,Aiel,Alive,Female,NA,LOC 19,AMOL 12,Perrin Aybara,NA,NA,NA,NA,AMOL 14,NA,Blue,NA,Fair,NA,Wise One,Shiande,Neder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Caren Endelle,Unknown nationality,Alive,Female,NA,NA,NA,NA,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Efalin,Aiel,Alive,Female,NA,ACOS Prologue,TPOD 30,Sevanna,NA,NA,NA,NA,NA,NA,NA,NA,gray,NA,NA,Shaido,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Efalin,Aiel,Alive,Female,NA,ACOS Prologue,TPOD 30,Sevanna,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,NA,Shaido,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Egoridin,Jaramide,Dead,Female,NA,NA,NA,NA,High Queen of Jaramide,Queen,NA,TWORJTWOT,TWORJTWOT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Celestin Eguilera,Tairen,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,WH Prologue,COT Prologue,960 NE,Gray,Yellow Ajah,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,960,NA,NA,wot
 Ehvon,Atha'an Miere,Alive,Female,NA,NA,NA,Atha'an Miere,NA,Windfinder,NA,WH 11,WH 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -418,7 +418,7 @@ Eliya,Seanchan,Dead,Female,NA,TPOD 6,TPOD 6,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,N
 Ella (Ogier),NA,Alive,Female,NA,NA,NA,NA,NA,NA,NA,LOC 20,LOC 20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ella (servant),Cairhienin,Alive,Female,NA,NA,NA,Zera,NA,NA,NA,TGH 34,TGH 34,NA,NA,NA,NA,NA,Serving girl,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ellaine Marise'idin Alshinn,Arafellin,Dead,Female,NA,NA,NA,Arafel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Chief Librarian,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Elle,Andoran,Alive,Female,NA,LOC 10,LOC 11,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,fair,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Elle,Andoran,Alive,Female,NA,LOC 10,LOC 11,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,Fair,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ellizelle,Ghealdanin,Dead,Female,NA,NA,NA,NA,"Former Blessed of the Light, Defender of Garen's Wall, Queen of Ghealdan",Queen,NA,NA,TFOH 39,NA,NA,NA,NA,NA,Queen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lydel Elonid,Altaran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,WH 29,WH 29,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Elora,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,LOC 54,LOC 54,NA,NA,NA,NA,NA,Author,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -428,7 +428,7 @@ Elswell,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,AM
 Lini Eltring,Andoran,Alive,Female,Thin,TFOH 19,TOM 44,Morgase Trakand,NA,NA,NA,TEOTW 40,AMOL 10,NA,Dark,NA,White,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Moria Elward,Unknown nationality,Dead,Female,NA,TSR 17,TSR 17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Elynde,Altaran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,ACOS 17,NA,NA,NA,NA,NA,Unknown occupation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Renna Emain,Seanchan,Dead,Female,NA,TGH 40,COT 29,NA,NA,NA,1000 NE,NA,AMOL 26,NA,"Big, brown",NA,brown,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Renna Emain,Seanchan,Dead,Female,NA,TGH 40,COT 29,NA,NA,NA,1000 NE,NA,AMOL 26,NA,"Big, brown",NA,Brown,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Emara,Illianer,Alive,Female,Lean,LOC 12,COT 30,White Tower,NA,Accepted,NA,TFOH 50,NA,968 NE,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,968,NA,NA,wot
 Carniele Emares,Tairen,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,WH Prologue,WH Prologue,NA,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Emerys,Aiel,Alive,Female,NA,LOC 32,TPOD 11,Shaido,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -439,7 +439,7 @@ Medanor Eramandos,Illianer,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,171 NE
 Demira Eriff,Domani,Alive,Female,NA,LOC 43,LOC 49,White Tower,NA,Aes Sedai,NA,LOC 41,NA,930 NE,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,930,NA,NA,wot
 Erith,NA,Alive,Female,NA,TGH 35,AMOL 37,NA,NA,NA,NA,TEOTW 42,NA,NA,The color of a silverbell's ripe seedpod,NA,Black,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Suilin Escanda,Tairen,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,422 NE,TWORJTWOT,TWORJTWOT,NA,NA,Blue Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,422,NA,wot
-Meidani Eschede,Arafellin,Alive,Female,Slim,NS 4,TGS 39,White Tower,NA,Aes Sedai,NA,NA,NA,NA,Blue,Gray Ajah,golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Meidani Eschede,Arafellin,Alive,Female,Slim,NS 4,TGS 39,White Tower,NA,Aes Sedai,NA,NA,NA,NA,Blue,Gray Ajah,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Esne,Kandor,Alive,Female,NA,NS 22,NS 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Servant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Esole,NA,Dead,Female,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Essande,Andoran,Alive,Female,Slim,WH 9,KOD 35,House Trakand,NA,NA,NA,NA,NA,NA,NA,NA,White,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -448,16 +448,16 @@ Estair,Aiel,Alive,Female,Slender,LOC 27,LOC 33,Car'a'carn,NA,NA,NA,NA,NA,NA,"Gra
 Estalaine,Aiel,Dead,Female,NA,ACOS Prologue,ACOS Prologue,Sevanna,NA,NA,1000 NE,NA,NA,NA,Blue,NA,NA,NA,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Estanda,Tairen,Alive,Female,NA,TSR 21,TGS 42,NA,High Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ethenielle Kirukon Materasu,Kandori,Alive,Female,Plump,TPOD Prologue,AMOL 10,Kandor,"Queen of Kandor, Protector of the Land, Shield of the North, High Seat of House Materasu",Queen,NA,NS 22,AMOL 18,946 NE,Clear blue,NA,Black,64,NA,NA,NA,NA,NA,NA,NA,NA,5,4,NE,NA,946,NA,NA,wot
-Evasni,Aiel,Alive,Female,Lanky,TOM 32,TOM 32,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,red,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Evasni,Aiel,Alive,Female,Lanky,TOM 32,TOM 32,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Faeral din Rao,Atha'an Miere,Alive,Female,NA,NA,NA,Atha'an Miere,NA,Windfinder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Falendre,Seanchan,Alive,Female,NA,KOD 27,TGS Prologue,NA,NA,NA,NA,NA,TGS 35,NA,"Dark, tilted",NA,gray,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Falendre,Seanchan,Alive,Female,NA,KOD 27,TGS Prologue,NA,NA,NA,NA,NA,TGS 35,NA,"Dark, tilted",NA,Gray,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Auaine Fanwar,Borderlander,Alive,Female,NA,TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,Silver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Karella Fanway,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TWORJTWOT,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Farellien,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,ACOS 32,ACOS 32,NA,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Saroiya Farseen,Domani,Alive,Female,Blocky,TPOD 16,TOM 27,White Tower,NA,Aes Sedai,NA,TFOH 26,NA,857 NE,Brown,White Ajah,Brown,64,Sitter,NA,NA,NA,NA,NA,NA,NA,5,4,NE,NA,857,NA,NA,wot
 Min Farshaw,Andoran,Alive,Female,Slender,TEOTW 14,AMOL Epilogue,NA,Truthspeaker,Doomseer,NA,NA,NA,975 NE,Dark,NA,Brown,65,Philosopher,NA,NA,NA,NA,NA,NA,NA,5,5,NE,NA,975,NA,NA,wot
 Irgain Fatamed,Domani,Alive,Female,NA,TPOD Prologue,TPOD Prologue,The Dragon Reborn,NA,Aes Sedai,NA,NA,KOD Prologue,931 NE,Bright blue,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,931,NA,NA,wot
-Tarna Feir,Altaran,Alive,Female,NA,NS 3,AMOL 14,The Shadow,NA,Aes Sedai,NA,NA,AMOL 14,950 NE,Blue,Red Ajah,yellow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,950,NA,NA,wot
+Tarna Feir,Altaran,Alive,Female,NA,NS 3,AMOL 14,The Shadow,NA,Aes Sedai,NA,NA,AMOL 14,950 NE,Blue,Red Ajah,Yellow,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,950,NA,NA,wot
 Fellsy,Cairhienin,Alive,Female,NA,NA,NA,NA,NA,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Millis Fendry,Andoran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,COT 14,COT 14,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Feraighin,Aiel,Alive,Female,NA,ACOS 3,ACOS 3,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Wise One,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -503,7 +503,7 @@ Else Grinwell,Andor,Alive,Female,NA,TEOTW 31,TGH 39,NA,NA,NA,NA,NA,TSR 6,NA,NA,N
 Mistress Grinwell,Andoran,Alive,Female,NA,TEOTW 31,TEOTW 31,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Grubb,Andoran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TEOTW 39,TEOTW 41,NA,NA,NA,NA,NA,Healer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ailhuin Guenna,Tairen,Alive,Female,"Large, muscular",TDR 48,TDR 52,NA,NA,NA,NA,NA,TDR 56,NA,Dark,NA,Gray,NA,Wise Woman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Liandrin Guirale,Taraboner,Unknown,Female,NA,TGH 4,KOD Prologue,Black Ajah,NA,Aes Sedai,NA,NA,TGS 39,964 NE,Dark Brown,Red Ajah,red,NA,Da'covale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,964,NA,NA,wot
+Liandrin Guirale,Taraboner,Unknown,Female,NA,TGH 4,KOD Prologue,Black Ajah,NA,Aes Sedai,NA,NA,TGS 39,964 NE,Dark Brown,Red Ajah,Red,NA,Da'covale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,964,NA,NA,wot
 Guisin,Unknown nationality,Alive,Female,NA,WH 28,WH 28,Seanchan,NA,Aes Sedai,NA,LOC 15,NA,NA,NA,Gray Ajah,Silver,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Gyldan,Unknown nationality,Foreseen,Female,NA,TDR 22,TDR 22,Black Ajah,NA,Aes Sedai,NA,NA,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hadora,Unknown nationality,Alive,Female,NA,KOD 32,KOD 32,Queen's Guard,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -569,11 +569,11 @@ Jera,Altaran,Alive,Female,NA,NA,KOD 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Maid,NA,
 Jesain,Aiel,Alive,Female,NA,COT 9,COT 9,Shaido Aiel,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jesamyn,Unknown nationality,Alive,Female,NA,AMOL Prologue,AMOL Prologue,The Kin,NA,NA,NA,NA,AMOL 1,NA,NA,NA,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jezrail,Tairen,Alive,Female,NA,KOD 24,AMOL 14,The Shadow,NA,Aes Sedai,NA,NA,NA,NA,NA,Red Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Jharen,Amadician,Alive,Female,Plump,TFOH 13,TFOH 16,NA,NA,NA,NA,NA,TFOH 17,NA,NA,NA,gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Jharen,Amadician,Alive,Female,Plump,TFOH 13,TFOH 16,NA,NA,NA,NA,NA,TFOH 17,NA,NA,NA,Gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Eldrith Jhondar,Amadician,Dead,Female,Plump,TSR 38,TOM 23,Black Ajah,NA,Aes Sedai,1000 NE,NA,NA,884 NE,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,884,1000,116,wot
-Jillari,Seanchan,Alive,Female,Slight,KOD 14,KOD 14,NA,NA,NA,NA,WH 8,NA,NA,Green,NA,red,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Jillari,Seanchan,Alive,Female,Slight,KOD 14,KOD 14,NA,NA,NA,NA,WH 8,NA,NA,Green,NA,Red,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jillien,Unknown nationality,Alive,Female,Plump,TPOD 20,TPOD 28,The Kin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Goldsmith,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Jini,Seanchan,Alive,Female,NA,TFOH 32,TFOH 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,yellow,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Jini,Seanchan,Alive,Female,NA,TFOH 32,TFOH 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jinjin,Seanchan,Alive,Female,NA,ACOS 26,ACOS 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Joinde,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TFOH 3,TFOH 3,NA,NA,NA,NA,NA,NA,Shaarad,Black Rock,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jolien,Aiel,Dead,Female,NA,TDR 38,TFOH 44,Car'a'carn,NA,NA,999 NE,NA,NA,NA,Blue,NA,Red,NA,NA,Nakai,Salt Flat,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
@@ -619,13 +619,13 @@ Krisa,Seanchan,Alive,Female,NA,NA,NA,NA,NA,NA,NA,AMOL 15,AMOL 15,NA,NA,NA,NA,NA,
 Kryalyn,Domani,NA,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kumiko,Unknown nationality,Alive,Female,Stout,KOD 13,KOD 13,The Kin,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kurin din Calin Red Sails,Atha'an Miere,Alive,Female,NA,TPOD 3,KOD 33,Atha'an Miere,NA,Windfinder,NA,TPOD 2,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Kymer,Aiel,Alive,Female,NA,AMOL Prologue,AMOL Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,red,NA,Wise One,Tomanelle,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Kymer,Aiel,Alive,Female,NA,AMOL Prologue,AMOL Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Wise One,Tomanelle,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lacine,Atha'an Miere,Alive,Female,Slender,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ladalin,Aiel,Unknown,Female,NA,NA,NA,NA,NA,NA,NA,TOM 49,NA,NA,NA,NA,NA,NA,Wise One,Taardad,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lady Ells of Saldaea,Saldaean,Alive,Female,NA,AMOL 18,AMOL 18,The Light,Lady,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lady Torkumen,Saldaean,Dead,Female,NA,TOM 24,TOM 24,Darkfriend,NA,NA,1000 NE,NA,TOM 32,NA,NA,NA,NA,NA,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Lairain,Unknown nationality,Alive,Female,Toad-like,TGS 46,TGS 46,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Lamelle,Aiel,Dead,Female,NA,TFOH 46,TFOH 54,Car'a'carn,NA,NA,999 NE,NA,TGS 29,NA,NA,NA,red,NA,NA,Miagoma,Smoke Water,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Lamelle,Aiel,Dead,Female,NA,TFOH 46,TFOH 54,Car'a'carn,NA,NA,999 NE,NA,TGS 29,NA,NA,NA,Red,NA,NA,Miagoma,Smoke Water,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Lanelle,Seanchan,Alive,Female,NA,TGS 19,TGS 19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lanfear,NA,Dead (formally),Female,NA,TGH 16,TFOH 53,NA,NA,Chosen,999 NE,TEOTW 42,AMOL 49,Age of Legends,Black,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,AB,NE,-500,999,3984,wot
 Lanita,Unknown nationality,Alive,Female,NA,LOC 14,LOC 14,White Tower,NA,NA,NA,NA,NA,977 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,977,NA,NA,wot
@@ -660,7 +660,7 @@ Lifa,Unknown nationality,Dead,Female,NA,NA,NA,The Shadow,NA,NA,1000 NE,AMOL 37,A
 Lincora din Omen,Atha'an Miere,Alive,Female,NA,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lindsar,NA,Alive,Female,NA,AMOL 42,AMOL 42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lira,Kandori,NA,Female,NA,NS 16,NS 16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Serving girl,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Lisandre,Arafel,Alive,Female,NA,NS 6,NS 6,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Lisandre,Arafel,Alive,Female,NA,NS 6,NS 6,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Bryna Lisbet,Unclaimed territories,Alive,Female,NA,NA,NA,NA,NA,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,Wisdom,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Llana,Borderlander,NA,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kiam Lopiang,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TWORJTWOT,TWORJTWOT,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -698,7 +698,7 @@ Maira,Aiel,Alive,Female,NA,TFOH 23,LOC 3,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Red,
 Mala,Unknown nationality,Foreseen,Female,NA,NA,NA,NA,NA,NA,NA,TOM 20,NA,NA,NA,NA,NA,NA,Orphan keeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Malahavana,Seanchan,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TGS 36,TGS 36,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Malai,Seanchan,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TGS 35,TGS 35,NA,NA,NA,NA,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Jarna Malari,Unknown nationality,Dead,Female,NA,NS 6,NS 6,Black Ajah,NA,Aes Sedai,983 NE,NA,ACOS Prologue,NA,Brown,Gray Ajah,black,66,Sitter,NA,NA,NA,NA,NA,NA,NA,5,6,NA,NE,NA,983,NA,wot
+Jarna Malari,Unknown nationality,Dead,Female,NA,NS 6,NS 6,Black Ajah,NA,Aes Sedai,983 NE,NA,ACOS Prologue,NA,Brown,Gray Ajah,Black,66,Sitter,NA,NA,NA,NA,NA,NA,NA,5,6,NA,NE,NA,983,NA,wot
 Aledrin Malenry,Taraboner,Alive,Female,NA,NS 3,AMOL 21,White Tower,NA,Aes Sedai,NA,NA,NA,NA,Brown,White Ajah,Golden,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Malian,Seanchan,Alive,Female,NA,TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Malidra,Aiel,Unknown,Female,NA,NA,NA,NA,NA,NA,NA,TOM 48,NA,NA,NA,NA,NA,NA,Unknown occupation,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -714,7 +714,7 @@ Tigraine Mantear,Andoran,Dead,Female,NA,NA,NA,NA,Lady,Daughter-heir,978 NE,TEOTW
 Maragaine,Andoran,Dead,Female,NA,NA,NA,Andor,Queen,Queen of Andor,NA,LOC 26,LOC 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Marah,Murandian,Alive,Female,Stocky,KOD 24,KOD 24,White Tower,NA,Novice,NA,NA,NA,NA,"Mischievous, blue",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Maralenda,Andor,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TGS 8,NA,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Mareil,Atha'an Miere,Alive,Female,Slender,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,black,NA,NA,Mushien,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Mareil,Atha'an Miere,Alive,Female,Slender,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,Black,NA,NA,Mushien,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Corgaide Marendevin,Cairhienin,Alive,Female,NA,TPOD 12,COT Prologue,Cairhien,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Holder of the Keys,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Therva Maresis,Unknown nationality,Alive,Female,Slim,TFOH 50,COT 19,White Tower,NA,Aes Sedai,NA,NA,NA,862 NE,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,862,NA,NA,wot
 Marewin,Amadician,Alive,Female,Slight,LOC 9,LOC 9,NA,Lady,NA,NA,NA,LOC 9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -756,13 +756,13 @@ Megana,Aiel,Alive,Female,NA,ACOS 3,ACOS 3,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Megda,Tar Valon,NA,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,Green Ajah,NA,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Meira,Aiel,Alive,Female,NA,ACOS Prologue,KOD 5,Sevanna,NA,NA,NA,NA,NA,NA,Blue,NA,NA,NA,Wise One,Shaido,White Cliff,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Meise,Aiel,Foreseen,Female,NA,NA,NA,NA,NA,NA,NA,TOM 48,NA,NA,NA,NA,NA,NA,Unknown occupation,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Cadsuane Melaidhrin,Far Madding,Alive,Female,NA,NS 17,AMOL Epilogue,White Tower,Amyrlin Seat,Aes Sedai,NA,NA,NA,705 NE,Nearly black,Green Ajah,gray,65,NA,NA,NA,NA,NA,NA,NA,NA,5,5,NE,NA,705,NA,NA,wot
+Cadsuane Melaidhrin,Far Madding,Alive,Female,NA,NS 17,AMOL Epilogue,White Tower,Amyrlin Seat,Aes Sedai,NA,NA,NA,705 NE,Nearly black,Green Ajah,Gray,65,NA,NA,NA,NA,NA,NA,NA,NA,5,5,NE,NA,705,NA,NA,wot
 Melaine,Aiel,Alive,Female,NA,TSR 23,AMOL 33,NA,NA,NA,NA,TDR 39,NA,890 NE - 916 NE,Green,NA,Golden,NA,Wise One,Goshien,Jhirad,NA,NA,NA,NA,NA,NA,NA,NE,NA,890,NA,NA,wot
 Melare,Andoran,Unknown,Female,Plump,KOD Prologue,AMOL 14,The Shadow,NA,Aes Sedai,NA,NA,AMOL 14,NA,Bright blue,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Melasune,Andoran,Dead,Female,NA,NA,NA,NA,Queen of Andor,Queen,FY 1046,RPG,RPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FY,NA,1046,NA,wot
 Suroth Sabelle Meldarath,Seanchan,Alive,Female,NA,TGH 40,KOD Epilogue,Darkfriend,NA,NA,NA,NA,AMOL Prologue,NA,Black,NA,Dark,65,Da'covale,NA,NA,NA,NA,NA,NA,NA,5,5,NA,NA,NA,NA,NA,wot
 Melia,Shienaran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TGH 13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Melindhra,Aiel,Dead,Female,NA,TFOH 3,TFOH 51,The Shadow,NA,NA,999 NE,NA,TFOH 52,NA,Pale blue,NA,golden,NA,NA,Shaido,Jumai,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Melindhra,Aiel,Dead,Female,NA,TFOH 3,TFOH 51,The Shadow,NA,NA,999 NE,NA,TFOH 52,NA,Pale blue,NA,Golden,NA,NA,Shaido,Jumai,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Melisinde,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TFOH 24,TFOH 24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Melitene,Seanchan,Alive,Female,NA,COT 4,TOM 47,NA,NA,Der'sul'dam,NA,NA,NA,NA,NA,NA,Gray,NA,Der'sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sharina Melloy,Murandian,Alive,Female,NA,COT 17,TGS 18,White Tower,NA,Novice,NA,TGH 23,NA,933 NE,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,933,NA,NA,wot
@@ -797,12 +797,12 @@ Mirala,Borderlander,Alive,Female,NA,TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,
 Miren,Andoran,Alive,Female,NA,NA,NA,NA,NA,NA,NA,LOC 41,NA,NA,NA,NA,NA,NA,Seamstress,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Miri,Seanchan,Dead,Female,NA,TGS Prologue,NA,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Miselle,Mayener,Dead,Female,NA,NA,NA,NA,First of Mayene,Lady First,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Tylin Quintara Mitsobar,Altaran,Dead,Female,NA,LOC 48,WH 31,NA,"Queen of Altara, Mistress of the Four Winds, Guardian of the Sea of Storms, High Seat of House Mitsobar",Queen,1000 NE,LOC 7,AMOL 17,NA,Large dark,NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Miyasi,Unknown nationality,Alive,Female,Plump,KOD 24,TGS 16,Black Ajah,NA,Aes Sedai,NA,NA,TGS Epilogue,NA,NA,White Ajah,gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Tylin Quintara Mitsobar,Altaran,Dead,Female,NA,LOC 48,WH 31,NA,"Queen of Altara, Mistress of the Four Winds, Guardian of the Sea of Storms, High Seat of House Mitsobar",Queen,1000 NE,LOC 7,AMOL 17,NA,Large dark,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Miyasi,Unknown nationality,Alive,Female,Plump,KOD 24,TGS 16,Black Ajah,NA,Aes Sedai,NA,NA,TGS Epilogue,NA,NA,White Ajah,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Miyora,Unknown nationality,NA,Female,Plump,COT 29,NA,Valan Luca,NA,NA,NA,NA,KOD 11,NA,NA,NA,NA,NA,Entertainer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Modarra,Aiel,Alive,Female,Lean,ACOS Prologue,KOD 30,Sevanna,NA,NA,NA,NA,NA,NA,NA,NA,NA,74,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,6,2,NA,NA,NA,NA,NA,wot
 Modrellein,Andoran,Dead,Female,NA,NA,NA,Andor,Queen,Queen of Andor,NA,TDR 16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Moghedien,Tarabon,Alive,Female,Sturdy,TSR 46 (TSR 38 as Gyldin),AMOL Epilogue,NA,NA,Chosen,NA,TSR 9,NA,Age of Legends,"Large, dark",NA,dark,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,AB,NA,-500,NA,NA,wot
+Moghedien,Tarabon,Alive,Female,Sturdy,TSR 46 (TSR 38 as Gyldin),AMOL Epilogue,NA,NA,Chosen,NA,TSR 9,NA,Age of Legends,"Large, dark",NA,Dark,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,AB,NA,-500,NA,NA,wot
 Moilin,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TDR 50,TDR 50,NA,NA,NA,NA,NA,Historian,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Monaelle,Aiel,Alive,Female,NA,WH Prologue,KOD 15,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Wise One,Goshien,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jorille Mondevin,Unknown nationality,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TSASG,TSASG,NA,NA,NA,NA,NA,Historian,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -816,12 +816,12 @@ Morena,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Wise One,Char
 Solain Morgeillin,Unknown nationality,Alive,Female,NA,ACOS 29,WH 8,The Kin,NA,NA,NA,NA,NA,818 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,818,NA,NA,wot
 Mori,Aiel,Alive,Female,NA,TOM 4,TOM 4,Perrin Aybara,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Morin,Aiel,Dead,Female,NA,TSR 25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,NA,NA,NA,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Gitara Moroso,Unknown nationality,Dead,Female,Voluptuous,NS 2,NS 2,NA,Keeper of the Chronicles,Aes Sedai,978 NE,NA,TGS 8,672 NE,NA,Blue Ajah,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,672,978,306,wot
+Gitara Moroso,Unknown nationality,Dead,Female,Voluptuous,NS 2,NS 2,NA,Keeper of the Chronicles,Aes Sedai,978 NE,NA,TGS 8,672 NE,NA,Blue Ajah,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,672,978,306,wot
 Morrigan,Andoran,Dead,Female,NA,NA,NA,NA,Queen of Andor,Queen,NA,RPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Varuna Morrigan,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,681 NE,TWORJTWOT,TWORJTWOT,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,681,NA,wot
 Morsa,Seanchan,Alive,Female,NA,TFOH 32,TFOH 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Berenicia Morsad,Shienaran,Alive,Female,Plump,LOC 46,LOC 49,White Tower,NA,Aes Sedai,NA,LOC 41,NA,838 NE,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,838,NA,NA,wot
-Delana Mosalaine,Shienaran,Dead,Female,Stout,LOC 12,TOM Prologue,Black Ajah,NA,Aes Sedai,1000 NE,NA,NA,950 NE,Pale blue,Gray Ajah,white,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,950,1000,50,wot
+Delana Mosalaine,Shienaran,Dead,Female,Stout,LOC 12,TOM Prologue,Black Ajah,NA,Aes Sedai,1000 NE,NA,NA,950 NE,Pale blue,Gray Ajah,White,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,950,1000,50,wot
 Amira Moselle,Taraboner,Dead,Female,Stocky,NS 14,NS 14,Elaida a'Roihan's White Tower,NA,Aes Sedai,1000 NE,NA,ACOS 2,823 NE,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,823,1000,177,wot
 Catrelle Mosenain,Cairhienin,Dead,Female,NA,NA,NA,NA,NA,NA,NA,NA,COT 15,NA,NA,NA,NA,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Daigian Moseneillin,Cairhienin,Dead,Female,Plump,ACOS 19,TGS 22,Unaligned sisters,Lady,Aes Sedai,1000 NE,NA,TGS 23,907 NE,NA,White Ajah,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,907,1000,93,wot
@@ -906,7 +906,7 @@ Desala Nevanche,Cairhienin,Alive,Female,NA,KOD Epilogue,AMOL 14,The Shadow,NA,Ae
 Nevarin,Aiel,Alive,Female,NA,ACOS 27,TOM 4,Perrin Aybara,NA,NA,NA,NA,NA,NA,Green,NA,Sandy,NA,Wise One,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nianh,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TPOD Prologue,TPOD Prologue,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nichil,Aiel,Alive,Female,NA,AMOL 5,AMOL 5,Rand al'Thor,NA,NA,NA,NA,NA,NA,NA,NA,Golden,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Niella,Aiel,Alive,Female,NA,TFOH 36,LOC 18,The Dragon Reborn,NA,NA,NA,NA,NA,NA,Blue-green,NA,red,NA,Gai'shain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Niella,Aiel,Alive,Female,NA,TFOH 36,LOC 18,The Dragon Reborn,NA,NA,NA,NA,NA,NA,Blue-green,NA,Red,NA,Gai'shain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Niere,Unknown nationality,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TOM 20,TOM 20,NA,NA,Yellow Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nildra,Unknown nationality,Alive,Female,"Stick-like, wiry",LOC 8,TPOD 18,White Tower,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nimri,Unknown nationality,Alive,Female,Petite,TOM 23,TOM 23,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -938,7 +938,7 @@ Sabeine Ocalin,Unknown nationality,Alive,Female,NA,NA,NA,The Kin,NA,NA,NA,COT 14
 Oncala,Aiel,Foreseen,Female,NA,TOM 49,TOM 49,NA,Blood of the Dragon,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Taardad,NA,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Faolain Orande,Unknown nationality,Alive,Female,NA,TDR 11,AMOL 21,White Tower,NA,Aes Sedai,NA,NA,NA,970 NE,NA,Blue Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,970,NA,NA,wot
 Osana,Domani,Alive,Female,NA,LOC 6,LOC 6,NA,Lady,NA,NA,NA,COT Prologue,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Oselle,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai (Age of Legends),NA,TSR 26,TSR 26,NA,NA,NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Oselle,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai (Age of Legends),NA,TSR 26,TSR 26,NA,NA,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Belevaere Osiellin,Cairhienin,Alive,Female,NA,TGH 32,TOM 50,Elayne Trakand,Lady,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tamra Ospenya,Unknown nationality,Dead,Female,NA,NS 2,NS 12,NA,Amyrlin Seat,Aes Sedai,979 NE,NA,TGS 8,NA,NA,Blue Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,wot
 Padra,Aiel,Foreseen,Female,NA,TOM 49,TOM 49,NA,Child of the Dragon,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -950,13 +950,13 @@ Laiwynde Paendrag,Shandalle,Dead,Female,NA,NA,NA,NA,Princess,NA,FY 994,NA,NA,FY 
 Radhanan Paendrag,Seanchan,Dead,Female,NA,NA,NA,NA,Empress of Seanchan,Empress,1000 NE,TGH 29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Ravashi Paendrag,Seanchan,Dead,Female,NA,NA,NA,NA,NA,NA,1000 NE,KOD 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Varuota Paendrag,Seanchan,Dead,Female,NA,NA,NA,NA,NA,Empress,NA,AMOL 24,AMOL 24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Berelain sur Paendrag Paeron,Mayener,Alive,Female,NA,TDR 56,AMOL 37,Perrin Aybara,"First of Mayene, Blessed of the Light, Defender of the Waves, High Seat of House Paeron",Lady,NA,TGH 9,NA,974 NE,"Big, dark",NA,black,NA,First of Mayene,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,974,NA,NA,wot
+Berelain sur Paendrag Paeron,Mayener,Alive,Female,NA,TDR 56,AMOL 37,Perrin Aybara,"First of Mayene, Blessed of the Light, Defender of the Waves, High Seat of House Paeron",Lady,NA,TGH 9,NA,974 NE,"Big, dark",NA,Black,NA,First of Mayene,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,974,NA,NA,wot
 Haesel Palan,Murandian,Alive,Female,Plump,NS 18,NS 18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Zaida din Parede Blackwing,Atha'an Miere,Alive,Female,Short,WH Prologue,AMOL 24,Atha'an Miere,NA,Mistress of the Ships,NA,LOC 28,NA,NA,NA,NA,black,NA,NA,Catelar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Zaida din Parede Blackwing,Atha'an Miere,Alive,Female,Short,WH Prologue,AMOL 24,Atha'an Miere,NA,Mistress of the Ships,NA,LOC 28,NA,NA,NA,NA,Black,NA,NA,Catelar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Patrinda,Unknown nationality,Alive,Female,NA,TGS 25,TGS 25,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Janine Pavlara,Arafellin,Alive,Female,NA,ACOS 1,ACOS 1,White Tower,NA,Aes Sedai,NA,NA,WH 13,963 NE,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,963,NA,NA,wot
 Pedra,Unknown nationality,Alive,Female,Wiry,TGH 24,KOD 24,White Tower,NA,Accepted,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Pelanna,Atha'an Miere,Alive,Female,NA,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,gray,NA,NA,Kisagi,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Pelanna,Atha'an Miere,Alive,Female,NA,KOD 22,KOD 22,Atha'an Miere,NA,First Twelve,NA,NA,NA,NA,NA,NA,Gray,NA,NA,Kisagi,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Naris Pelden,Andoran,Alive,Female,Stocky,COT 12,KOD 35,Elayne Trakand,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sephanie Pelden,Andoran,Alive,Female,Stocky,COT 12,KOD 35,Elayne Trakand,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Maid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Birlen Pena,Unknown nationality,Alive,Female,NA,NA,NA,Black Ajah,NA,Aes Sedai,NA,TGS 39,TGS Epilogue,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -988,7 +988,7 @@ Nesta din Reas Two Moons,Atha'an Miere,Dead,Female,NA,ACOS 13,ACOS 37,Atha'an Mi
 Silvane Redfor,Andoran,Alive,Female,NA,NA,NA,Unaligned sisters,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,NA,NA,Green Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jestian Redhill,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai,NA,ACOS 6,ACOS 6,NA,NA,Unknown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Merean Redhill,Andoran,Dead,Female,Plump,NS 5,NS 26,Black Ajah,Mistress of Novices,Aes Sedai,979 NE,NS 2,NS Epilogue,716 NE,NA,Blue Ajah,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,716,979,263,wot
-Rendra,Taraboner,Alive,Female,NA,TSR 39,TSR 55,Tarabon,NA,NA,NA,NA,NA,NA,Brown,NA,red,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Rendra,Taraboner,Alive,Female,NA,TSR 39,TSR 55,Tarabon,NA,NA,NA,NA,NA,NA,Brown,NA,Red,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Renel,Andoran,Foreseen,Female,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Arathelle Renshar,Andoran,Alive,Female,NA,TPOD 17,KOD 35,House Trakand,Lady,High Seat,NA,TFOH 19,NA,NA,NA,NA,Brown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Resara,Domani,Unknown,Female,NA,NA,NA,NA,NA,NA,NA,TFOH 1,TFOH 1,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1032,7 +1032,7 @@ Karale Sanghir,Domani,Unknown,Female,NA,NA,NA,Black Ajah,NA,Aes Sedai,NA,KOD Pro
 Sara,Andoran,Alive,Female,NA,TEOTW 15,TEOTW 15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cook,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Saralin,Aiel,Dead,Female,NA,TSR 25,TSR 25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Jenn Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Feragaine Saralman,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,754 NE,TWORJTWOT,TWORJTWOT,NA,NA,Blue Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,754,NA,wot
-Elenia Sarand,Andoran,Alive,Female,NA,TFOH 19,TOM 50,Andor,Lady,NA,NA,NA,AMOL Prologue,NA,NA,NA,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Elenia Sarand,Andoran,Alive,Female,NA,TFOH 19,TOM 50,Andor,Lady,NA,NA,NA,AMOL Prologue,NA,NA,NA,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sarasia,Unknown nationality,Alive,Female,Plump,TOM 52,TOM 52,The Kin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sarena,Altaran,Alive,Female,NA,LOC 8,LOC 8,NA,Lady,Noblewoman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stocky,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sarendhra,Aiel,Alive,Female,NA,KOD 21,KOD 21,Car'a'carn,NA,NA,NA,NA,NA,NA,Blue,NA,NA,NA,NA,Shaido,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1054,7 +1054,7 @@ Sendara,Aiel,Dead,Female,NA,NA,NA,Car'a'carn,NA,NA,NA,KOD 18,NA,NA,NA,NA,NA,NA,N
 Aliane Senican,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,355 NE,TWORJTWOT,TWORJTWOT,NA,NA,White Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,355,NA,wot
 Senine din Ryal,Atha'an Miere,Alive,Female,NA,TPOD 2,KOD 33,Atha'an Miere,NA,Windfinder,NA,NA,NA,Before 500 NE,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,500,NA,NA,wot
 Sephraem,Unknown nationality,NA,Female,NA,The Wheel of Time,NA,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Red Ajah,NA,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Sera,Seanchan,Alive,Female,NA,WH 14,WH 14,NA,NA,NA,NA,NA,NA,NA,NA,NA,dark,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Sera,Seanchan,Alive,Female,NA,WH 14,WH 14,NA,NA,NA,NA,NA,NA,NA,NA,NA,Dark,NA,Damane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Serailla,Kandori,Alive,Female,NA,TPOD Prologue,AMOL 28,Kandor,First Councilor,Lady,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Seralin,Aiel,Alive,Female,NA,NA,NA,NA,NA,NA,NA,Wheel of Time Companion,NA,NA,NA,NA,NA,NA,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Chanelle din Seran White Shark,Atha'an Miere,Alive,Female,Lean,COT 12,KOD 33,Atha'an Miere,NA,Windfinder,NA,NA,NA,NA,"Big, hard",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1095,11 +1095,11 @@ Mili Skane,Andoran,Alive,Female,NA,TEOTW 33,KOD 33,Darkfriend,NA,NA,NA,NA,TOM 24
 Soferra,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TSR 43,TSR 43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Masuri Sokawa,Arafellin,Alive,Female,Slim,LOC 43,AMOL 44,Perrin Aybara,NA,Aes Sedai,NA,LOC 41,NA,935 NE,Dark,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,935,NA,NA,wot
 Tzigan Sokorin,Ghealdanin,Alive,Female,NA,WH 7,KOD 33,Queen's Guard,NA,Under-Lieutenant,NA,NA,NA,NA,Cold,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Solinda,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai (Age of Legends),NA,TSR 26,NA,NA,NA,NA,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Solinda,Unknown nationality,Dead,Female,NA,NA,NA,NA,NA,Aes Sedai (Age of Legends),NA,TSR 26,NA,NA,NA,NA,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Espara Soman,NA,Alive,Female,NA,NA,NA,NA,NA,NA,NA,LOC Prologue,LOC Prologue,NA,NA,NA,NA,NA,Apprentice,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Somara,Aiel,Dead,Female,NA,TFOH 46,TPOD 29,Car'a'carn,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,NA,Daryne,Bent Peak,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Marya Somares,Tairen,Dead,Female,slender,NA,NA,White Tower,NA,Aes Sedai,NA,TWORJTWOT,The Wheel of Time Companion,NA,dark,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Melavaire Someinellin,Cairhienin,Alive,Female,Stout,KOD 24,KOD 24,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Gray Ajah,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Melavaire Someinellin,Cairhienin,Alive,Female,Stout,KOD 24,KOD 24,White Tower,NA,Aes Sedai,NA,NA,NA,NA,NA,Gray Ajah,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Someryn,Aiel,Alive,Female,NA,ACOS Prologue,COT 9,Sevanna,NA,NA,NA,NA,NA,NA,NA,NA,Sandy,76,Wise One,Shaido,Unknown sept,NA,NA,NA,NA,NA,6,4,NA,NA,NA,NA,NA,wot
 Somma,Aiel,Alive,Female,NA,TOM 15,TOM 15,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Soong,NA,Alive,Female,NA,NA,NA,NA,NA,NA,NA,LOC 20,LOC 20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1107,11 +1107,11 @@ Sorelle,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,Da's
 Sorelle ay Marena,Manetherenite,Dead,Female,NA,NA,NA,NA,Queen of Manetheren,Queen,NA,TWORJTWOT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cemaile Sorenthaine,Unknown nationality,Dead,Female,NA,NA,NA,White Tower,Amyrlin Seat,Aes Sedai,705 NE,ACOS Prologue,TGS 43,NA,NA,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,705,NA,wot
 Carlinya Sorevin,Kandori,Dead,Female,NA,TGH 4,KOD 1,White Tower,NA,Aes Sedai,1000 NE,NS 4,TOM 38,NA,Almost black,White Ajah,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Sorilea,Aiel,Alive,Female,Sinewy,TFOH 23,AMOL Epilogue,Car'a'carn,NA,NA,NA,TFOH 5,NA,NA,Green,NA,white,NA,Wise One,Chareen,Jarra (sept),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Sorilea,Aiel,Alive,Female,Sinewy,TFOH 23,AMOL Epilogue,Car'a'carn,NA,NA,NA,TFOH 5,NA,NA,Green,NA,White,NA,Wise One,Chareen,Jarra (sept),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Fera Sormen,Unknown nationality,Alive,Female,NA,NA,NA,Black Ajah,NA,Aes Sedai,NA,COT 24,COT 24,NA,NA,White Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sotarin,Aiel,Alive,Female,NA,ACOS 3,ACOS 3,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Wise One,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kairen Stang,Andoran,Dead,Female,NA,NS 12,COT 17,Rebel Aes Sedai,NA,Aes Sedai,1000 NE,NA,KOD 23,937 NE,"Cool, Blue",Blue Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,937,1000,63,wot
-Ester Stepashin,Illianer,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,955 NE,Brown,Green Ajah,brown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,955,NA,NA,wot
+Ester Stepashin,Illianer,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,955 NE,Brown,Green Ajah,Brown,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,955,NA,NA,wot
 Aeldene Stonebridge,Andoran,Alive,Female,NA,ACOS 11,ACOS 11,Rebel Aes Sedai,NA,Aes Sedai,NA,TFOH 11,NA,NA,NA,Blue Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Elise Strang,Andoran,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai,244 NE,TWORJTWOT,TWORJTWOT,NA,NA,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,244,NA,wot
 Sulaan,Seanchan,Dead,Female,NA,AMOL 45,AMOL 45,NA,NA,Morat'raken,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1125,7 +1125,7 @@ Surasa,Kandori,Dead,Female,NA,NA,NA,Kandor,Queen of Kandor,Queen,NA,TPOD Prologu
 Surela,Seanchan,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TSR 1,TSR 1,NA,NA,NA,NA,NA,Der'sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Surial,Aiel,Alive,Female,NA,TGS 11,TOM 12,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Far Dareis Mai,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Surine,Seanchan,Alive,Female,NA,NA,NA,NA,NA,NA,NA,TSR 46,TSR 46,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Keraille Surtovni,Saldaean,Alive,Female,Slim,WH 8,KOD 32,The Kin,NA,NA,NA,ACOS 23,KOD 35,NA,"Green, tilted",NA,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Keraille Surtovni,Saldaean,Alive,Female,Slim,WH 8,KOD 32,The Kin,NA,NA,NA,ACOS 23,KOD 35,NA,"Green, tilted",NA,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Surya,Seanchan,Alive,Female,NA,TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Susa (tale),Unknown nationality,Unknown,Female,NA,NA,NA,NA,NA,NA,NA,TEOTW 4,TEOTW 4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Susu,Murandian,Alive,Female,NA,TFOH 11,TFOH 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Entertainer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1144,7 +1144,7 @@ Samitsu Tamagowa,Arafellin,Alive,Female,NA,ACOS 36,TOM 52,Unaligned sisters,NA,A
 Tamala,Unknown nationality,Alive,Female,NA,TGS 40,TGS 40,White Tower,NA,Novice,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tamana,Almoth Plain,Alive,Female,NA,NA,NA,NA,NA,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,Cooper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Egeanin Tamarath,Seanchan,Alive,Female,NA,TGH 29,AMOL 23,White Tower,NA,NA,NA,NA,NA,965 NE,Blue,NA,Dark,67,Warder,NA,NA,NA,NA,NA,NA,NA,5,7,NE,NA,965,NA,NA,wot
-Tamarla,Altaran,Alive,Female,Bone-lean,ACOS 31,TPOD 1,The Kin,NA,Elder,NA,NA,NA,NA,Dark,NA,white,NA,Wise Woman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Tamarla,Altaran,Alive,Female,Bone-lean,ACOS 31,TPOD 1,The Kin,NA,Elder,NA,NA,NA,NA,Dark,NA,White,NA,Wise Woman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tamela,Aiel,Alive,Female,Bony,WH Prologue,WH Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Wise One,Goshien,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tamika,Unknown nationality,Dead,Female,NA,NA,NA,NA,High Queen,Queen,NA,RPG,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tanera,Seanchan,Dead,Female,NA,TGS Prologue,NA,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Sul'dam,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
@@ -1152,12 +1152,12 @@ Serafelle Tanisloe,Murandian,Alive,Female,NA,TGH 4,TDR 18,Elaida a'Roihan's Whit
 Kwamesa Taramasu,Arafellin,Dead,Female,Slender,LOC 35,AMOL 37,White Tower,NA,Aes Sedai,1000 NE,NA,NA,950 NE,NA,Gray Ajah,Dark,NA,Sitter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,950,1000,50,wot
 Dyelin Taravin,Andoran,Alive,Female,NA,LOC 16,AMOL 7,House Trakand,Lady,High Seat,NA,TDR 47,NA,NA,NA,NA,Golden,66,NA,NA,NA,NA,NA,NA,NA,NA,5,6,NA,NA,NA,NA,NA,wot
 Elwinn Taron,Andoran,Alive,Female,"Plump, Round",LOC Prologue,LOC Prologue,Two Rivers,Wisdom,NA,NA,NA,NA,NA,NA,NA,NA,NA,Healer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Larelle Tarsi,Domani,Deceased,Female,NA,NS 17,NS 18,White Tower,NA,Aes Sedai,979 NE,NS 3,NS 25,732 NE,NA,Gray Ajah,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,732,979,247,wot
+Larelle Tarsi,Domani,Deceased,Female,NA,NS 17,NS 18,White Tower,NA,Aes Sedai,979 NE,NS 3,NS 25,732 NE,NA,Gray Ajah,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,732,979,247,wot
 Idrien Tarsin,Cairhienin,Alive,Female,Stocky,LOC 18,WH Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,Black,NA,Headmistress,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Namine Tasil,Domani,Alive,Female,NA,NA,NA,White Tower,NA,Aes Sedai,NA,TGS 31,TGS 31,NA,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tauan,Seanchan,Dead,Female,NA,NA,NA,NA,NA,NA,1000 NE,TPOD 6,NA,NA,NA,NA,NA,NA,Morat'raken,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Tava,Aiel,Foreseen,Female,NA,NA,NA,NA,NA,NA,NA,TOM 48,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Pevara Tazanovni,Kandori,Alive,Female,Plump,ACOS 32,AMOL 42,White Tower,NA,Aes Sedai,NA,NA,NA,839 NE,"Dark, merry",Red Ajah,black,64,NA,NA,NA,NA,NA,NA,NA,NA,5,4,NE,NA,839,NA,NA,wot
+Pevara Tazanovni,Kandori,Alive,Female,Plump,ACOS 32,AMOL 42,White Tower,NA,Aes Sedai,NA,NA,NA,839 NE,"Dark, merry",Red Ajah,Black,64,NA,NA,NA,NA,NA,NA,NA,NA,5,4,NE,NA,839,NA,NA,wot
 Tehan,Seanchan,Alive,Female,Wide,WH 14,WH 14,NA,NA,NA,NA,NA,NA,NA,Incredibly green,NA,White,NA,Ship captain,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Telaisien,Andoran,Dead,Female,NA,NA,NA,NA,Queen,Queen of Andor,NA,LOC 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cariandre Temalien,Ghealdanin,Alive,Female,Plump,KOD 2,TGS 25,White Tower,NA,Aes Sedai,NA,NA,NA,932 NE,NA,Red Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,932,NA,NA,wot
@@ -1176,7 +1176,7 @@ Morvrin Thakanos,Illianer,Alive,Female,Stout and plump,TFOH 27,TOM 37,White Towe
 Mistress Thane,Andoran,Alive,Female,NA,NA,NA,Two Rivers,NA,NA,NA,WH 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kari Thane,Andoran,Alive,Female,NA,NA,NA,Two Rivers,NA,NA,NA,TEOTW 13,TEOTW 13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nela Thane,Andoran,Alive,Female,NA,NA,NA,Two Rivers,NA,NA,NA,NA,TFOH 55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Duranda Tharne,Murandian,Alive,Female,NA,TFOH 11,TFOH 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,red,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Duranda Tharne,Murandian,Alive,Female,NA,TFOH 11,TFOH 11,NA,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Therava,Aiel,Alive,Female,NA,LOC Prologue,KOD 30,NA,NA,NA,NA,NA,NA,NA,Blue,NA,Gray,NA,Wise One,Shaido,Unknown sept,NA,Slim,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ilyena Therin Moerelle,NA,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TEOTW Prologue,TGS 50,NA,Blue,NA,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Marris Thornhill,Andoran,Unknown,Female,Plump,COT Prologue,COT Prologue,Black Ajah,NA,Aes Sedai,NA,TDR 13,KOD Prologue,NA,NA,Brown Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1221,7 +1221,7 @@ Zeranda Tyrim,Unknown nationality,Dead,Female,NA,NA,NA,NA,Amyrlin Seat,Aes Sedai
 Vadere,Altaran,Alive,Female,NA,COT 26,COT 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Mikio Vadere,Kandori,Alive,Female,Plump,NA,NA,White Tower,NA,Aes Sedai,NA,The Wheel of Time Companion,NA,907 NE,Dark Brown,Green Ajah,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,907,NA,NA,wot
 Vanora Carridin,Amadician,Dead,Female,NA,NA,NA,NA,NA,NA,NA,TSR 38,ACOS 15,NA,NA,NA,NA,NA,Unknown occupation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Vasha,Domani,Alive,Female,NA,TGS 13,TGS 13,White Tower,NA,Aes Sedai,NA,NA,NA,NA,Green,Green Ajah,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Vasha,Domani,Alive,Female,NA,TGS 13,TGS 13,White Tower,NA,Aes Sedai,NA,NA,NA,NA,Green,Green Ajah,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Akoure Vayet,Amadician,Alive,Female,Stout,WH Prologue,WH Prologue,White Tower,NA,Aes Sedai,NA,NA,KOD Prologue,NA,Brown,Gray Ajah,Dark,64,NA,NA,NA,NA,NA,NA,NA,NA,5,4,NA,NA,NA,NA,NA,wot
 Sierin Vayu,Unknown nationality,Dead,Female,Plump,NS 14,NS 14,NA,Amyrlin Seat,Aes Sedai,984 NE,NA,WH 10,736 NE,Hard,Gray Ajah,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,736,984,248,wot
 Verine,Unknown nationality,Dead,Female,NA,TFOH 19,TFOH 19,White Tower,NA,Accepted,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1306,14 +1306,14 @@ Gren al'Mar,Andoran,NA,Male,NA,NA,NA,Two Rivers,NA,NA,NA,The Wheel of Time Rolep
 Master al'Meara,Andoran,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TSR 46,NA,NA,NA,NA,NA,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Montem al'San,Andoran,Alive,Male,NA,TOM 10,TOM 10,Perrin Aybara,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ban al'Seen,Andoran,Alive,Male,NA,TSR 33,AMOL 15,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,Dark,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Jac al'Seen,Andoran,Alive,Male,Stocky,TSR 32,TSR 56,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Jac al'Seen,Andoran,Alive,Male,Stocky,TSR 32,TSR 56,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Saml al'Seen,Andoran,Alive,Male,NA,KOD Epilogue,KOD Epilogue,Black Tower,NA,Soldier (Asha'man),NA,NA,NA,NA,NA,NA,Dark,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Wil al'Seen,Andoran,Alive,Male,NA,TSR 32,TOM 40,Perrin Aybara,NA,NA,NA,TEOTW 25,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Wit al'Seen,Andoran,Alive,Male,Stocky,TSR 32,TSR 56,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Dael al'Taron,Andoran,Dead,Male,NA,TSR 40,TSR 40,Two Rivers,NA,NA,999 NE,NA,TSR 43,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Azi al'Thone,Andoran,Alive,Male,NA,TOM 10,TOM 53,Perrin Aybara,NA,NA,NA,TOM Prologue,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Dav al'Thone,Andoran,Alive,Male,NA,AMOL 15,AMOL 15,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Rand al'Thor,Andoran,Alive,Male,Muscular,TEOTW Ravens,AMOL Epilogue,NA,"Dragon Reborn, Coramoor, Car'a'carn, He Who Comes With the Dawn, Shadowkiller, King of Illian, Lord of the Morning",King,NA,NS 2,NA,2 Danu 978 NE,Gray-blue,NA,red,78,NA,NA,NA,NA,"235 lbs, 16 st 11 lbs, 106.6 kg",NA,NA,NA,6, 6,NE,NA,978,NA,NA,wot
+Rand al'Thor,Andoran,Alive,Male,Muscular,TEOTW Ravens,AMOL Epilogue,NA,"Dragon Reborn, Coramoor, Car'a'carn, He Who Comes With the Dawn, Shadowkiller, King of Illian, Lord of the Morning",King,NA,NS 2,NA,2 Danu 978 NE,Gray-blue,NA,Red,78,NA,NA,NA,NA,"235 lbs, 16 st 11 lbs, 106.6 kg",NA,NA,NA,6, 6,NE,NA,978,NA,NA,wot
 Tam al'Thor,Andoran,Alive,Male,NA,TEOTW Ravens,AMOL Epilogue,Perrin Aybara,Village Councilor,First Captain,NA,NA,NA,940 NE,NA,NA,Gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,940,NA,NA,wot
 Alwyn al'Van,Andoran,Alive,Male,NA,NA,NA,Two Rivers,NA,NA,NA,TGH 2,TGH 2,NA,NA,NA,NA,NA,bootmaker,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Bran al'Vere,Andoran,Alive,Male,NA,TEOTW Ravens,TSR 56,Two Rivers,Mayor,NA,NA,NA,AMOL 13,937 NE,Brown,NA,Gray,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,937,NA,NA,wot
@@ -1326,7 +1326,7 @@ Aldin,Amadician,Alive,Male,Square-shouldered,KOD 30,TOM 34,Perrin Aybara,NA,NA,N
 Weilin Aldragoran,Malkier,Alive,Male,NA,KOD 20,TOM 23,Lan Mandragoran,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alhandrin Torelvin,Cairhienin,Alive,Male,NA,NA,NA,Band of the Red Hand,NA,Officer,NA,LOC 5,LOC 5,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alhanra,Unknown nationality,Alive,Male,NA,NA,NA,Children of the Light,NA,NA,NA,AMOL 37,AMOL 37,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Furen Alharra,Tairen,Alive,Male,Lean,TPOD 7,KOD 30,The Dragon Reborn,Gaidin,NA,NA,LOC 43,NA,NA,Dark,NA,black,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Furen Alharra,Tairen,Alive,Male,Lean,TPOD 7,KOD 30,The Dragon Reborn,Gaidin,NA,NA,LOC 43,NA,NA,Dark,NA,Black,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alijha,NA,Dead,Male,NA,TSR 25,TSR 25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alin,Domani,Alive,Male,NA,NA,NA,Dragon Reborn,NA,NA,NA,TOM 21,TOM 21,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Alix,Unknown nationality,Presumed Dead,Male,NA,NA,NA,White Tower,Gaidin,NA,NA,AMOL 37,AMOL 37,NA,NA,NA,NA,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1416,7 +1416,7 @@ Baris,Altaran,Alive,Male,NA,LOC 52,LOC 52,NA,NA,NA,NA,NA,LOC 52,NA,NA,NA,NA,NA,N
 Barlden,Murandian,Alive,Male,Sturdy,TGS 27,TGS 28,Hinderstap,NA,NA,NA,NA,NA,NA,NA,NA,Black,NA,Mayor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Barlett,Unknown nationality,Alive,Male,Lean,TOM Prologue,TOM Prologue,Children of the Light,NA,Scout leader,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Barmellin,Cairhienin,Alive,Male,NA,WH 35,WH 35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Baroc,Atha'an Miere,Dead,Male,NA,ACOS 13,ACOS 13,Atha'an Miere,NA,Master of the Blades,1000 NE,NA,WH 16,NA,Deep set,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Baroc,Atha'an Miere,Dead,Male,NA,ACOS 13,ACOS 13,Atha'an Miere,NA,Master of the Blades,1000 NE,NA,WH 16,NA,Deep set,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Hu Barran,Andoran,Alive,Male,Lanky,TEOTW 4,TOM 10,Perrin Aybara,NA,NA,NA,TEOTW 2,NA,NA,NA,NA,NA,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jondyn Barran,Andoran,Alive,Male,NA,ACOS 1,KOD 4,Perrin Aybara,NA,NA,NA,NA,TOM 4,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tad Barran,Andoran,Alive,Male,Lanky,TEOTW 4,KOD 29,Two Rivers,NA,NA,NA,TEOTW 2,NA,NA,NA,NA,NA,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1475,7 +1475,7 @@ Garon Burlow,Tar Valon,Alive,Male,NA,COT Prologue,COT Prologue,NA,NA,NA,NA,NA,NA
 Jaret Byar,Unknown nationality,Dead,Male,Thin,TEOTW 30,TOM 41,The Shadow,NA,Officer,1000 NE,NA,NA,NA,Deep-set,NA,Gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Caar al Thorin al Toren,Manetherenite,Dead,Male,NA,NA,NA,NA,Prince of Manetheren,NA,NA,TEOTW 19,TEOTW 19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Caban,Seanchan,Alive,Male,NA,TGH 29,TGH 29,NA,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Nasin Caeren,Andoran,Dead,Male,Gaunt,TFOH 19,KOD 17,House Marne,Lord,High Seat,1000 NE,NA,KOD 35,NA,NA,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Nasin Caeren,Andoran,Dead,Male,Gaunt,TFOH 19,KOD 17,House Marne,Lord,High Seat,1000 NE,NA,KOD 35,NA,NA,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Gaidal Cain,NA,Alive,Male,Muscled,TGH 47,TSR 52,Horn of Valere,NA,Hero of the Horn,NA,TEOTW 17,AMOL 12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cairdin,Aiel,Dead,Male,NA,ACOS 40,ACOS 40,Sevanna,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,NA,Shaido,Moshaine,Far Aldazar Din,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Aldrin Caldevwin,Cairhienin,Alive,Male,NA,TGH 21,TGH 21,NA,NA,Captain,NA,NA,NA,NA,NA,NA,Dark,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1501,7 +1501,7 @@ Jaichim Carridin,Amadician,Dead,Male,NA,TGH Prologue,TPOD 28,Darkfriend,NA,Inqui
 Cassin,Aiel,Alive,Male,Lean,LOC 19,LOC 21,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,NA,Goshien,Unknown sept,Aethan Dor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Abell Cauthon,NA,Alive,Male,NA,TSR 31,AMOL Epilogue,Two Rivers,NA,NA,NA,TEOTW 7,NA,955 NE[1],NA,NA,NA,NA,Village Councilor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,955,NA,NA,wot
 Mat Cauthon,Andoran,Alive,Male,"Long-limbed, wiry",TEOTW Ravens,AMOL Epilogue,Band of the Red Hand,The Prince of the Ravens,General,NA,NA,NA,978 NE,Brown,NA,Brown,71,NA,NA,NA,NA,"170lbs, 77 kg",NA,NA,NA,5,11,NE,NA,978,NA,NA,wot
-Celark,Unknown nationality,Dead,Male,Lean,TOM 22,TOM 42,White Tower,NA,NA,1000 NE,NA,NA,NA,NA,NA,brown,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Celark,Unknown nationality,Dead,Male,Lean,TOM 22,TOM 42,White Tower,NA,NA,1000 NE,NA,NA,NA,NA,NA,Brown,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Chaena,Shienaran,Dead,Male,NA,NA,NA,Masema Dagar,NA,NA,1000 NE,TFOH 38,TFOH 38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Athan Chandin,Andoran,Alive,Male,NA,KOD 26,KOD 26,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ren Chandin,Andoran,Dead,Male,NA,NA,NA,Two Rivers,NA,NA,999 NE,TSR 40,TSR 40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
@@ -1515,7 +1515,7 @@ Barit Chavana,Atha'an Miere,Alive,Male,Compact,TFOH 17,COT 29,Valan Luca,NA,NA,N
 Brugh Chavana,Unknown nationality,Alive,Male,NA,TFOH 17,COT 29,Valan Luca,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Entertainer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Taeric Chavana,Saldaean,Alive,Male,Compact,TFOH 17,COT 29,Valan Luca,NA,NA,NA,NA,NA,NA,Green,NA,NA,NA,Entertainer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Muad Cheade,Saldaean,Dead,Male,NA,NA,NA,Saldaea,NA,Marshal-General,NA,LOC 2,LOC 2,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Chet,Andoran,Alive,Male,NA,TOM 22,TOM 22,NA,NA,NA,NA,NA,NA,NA,NA,NA,silver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Chet,Andoran,Alive,Male,NA,TOM 22,TOM 22,NA,NA,NA,NA,NA,NA,NA,NA,NA,Silver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Chianmai,Seanchan,Dead,Male,NA,TPOD 24,TPOD 24,Ever Victorious Army,NA,Banner-General,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Chisen,Seanchan,Alive,Male,NA,NA,NA,NA,NA,General,NA,KOD 34,KOD Epilogue,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jimar Chubain,Unknown nationality,Alive,Male,NA,TGS 41,AMOL 37,White Tower,NA,High Captain,NA,ACOS Prologue,NA,NA,NA,NA,Black,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1532,7 +1532,7 @@ Com,Tairen,Unknown,Male,NA,KOD 21,KOD 21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Madoc Comadrin,Unknown nationality,Dead,Male,NA,NA,NA,NA,NA,General,NA,LOC 5,KOD 37,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Comar,Andoran,Dead,Male,NA,TDR 46,TDR 49,Darkfriend,Lord,NA,999 NE,NA,NA,NA,Blue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Comran,Aiel,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TSR 25,TSR 25,NA,NA,NA,NA,NA,NA,Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Paitr Conel,Andoran,Dead,Male,NA,TEOTW 33,LOC 31,Darkfriend,NA,NA,999 NE,NA,NA,NA,NA,NA,dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Paitr Conel,Andoran,Dead,Male,NA,TEOTW 33,LOC 31,Darkfriend,NA,NA,999 NE,NA,NA,NA,NA,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Bili Congar,Andoran,Alive,Male,NA,TEOTW Ravens,TSR 56,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Eward Congar,Andoran,Alive,Male,NA,NA,NA,Two Rivers,NA,NA,NA,TEOTW 15,TSR 29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jori Congar,Andoran,Dead,Male,Skinny,TPOD 9,TOM 53,Perrin Aybara,NA,NA,NA,NA,AMOL 37,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1555,7 +1555,7 @@ Cormalinde Masoon,Unknown nationality,Dead,Male,NA,NA,NA,NA,NA,NA,NA,KOD 3,NA,NA
 Corman,Aiel,Alive,Male,NA,TFOH 3,LOC 17,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Goshien,Mosaada,Far Aldazar Din,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Marek Cormer,Andoran,Alive,Male,NA,TOM 34,TOM 34,Perrin Aybara,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Coteren,Unknown nationality,Dead,Male,Bulky,TOM 46,AMOL 4,The Shadow,NA,Asha'man,1000 NE,NA,AMOL 8,NA,NA,NA,Black,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Couladin,Aiel,Dead,Male,Broad-shouldered,TSR 23,TFOH 44,Shaido,NA,NA,999 NE,NA,TOM 19,NA,NA,NA,red,NA,Clan chief,Shaido,Domai,Seia Doon,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Couladin,Aiel,Dead,Male,Broad-shouldered,TSR 23,TFOH 44,Shaido,NA,NA,999 NE,NA,TOM 19,NA,NA,NA,Red,NA,Clan chief,Shaido,Domai,Seia Doon,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Coulin,Unknown nationality,Dead,Male,NA,NA,NA,White Tower,NA,Master of Arms,999 NE,TDR 16,TGS 4,NA,NA,NA,NA,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Coumin,NA,Dead,Male,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cowlin,Altaran,Alive,Male,NA,NA,NA,NA,Lord,NA,NA,COT 26,COT 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1575,7 +1575,7 @@ Meresin Daganred,Cairhienin,Alive,Male,Slender,TFOH 30,LOC 5,Band of the Red Han
 Masema Dagar,Shienaran,Dead,Male,NA,TGH 3,TGS Prologue,Dragonsworn,Prophet of the Dragon,NA,1000 NE,NA,TOM 47,NA,Dark,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Dal,NA,Dead,Male,NA,NA,NA,NA,NA,NA,NA,LOC 20,LOC 20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Benji Dalfor,Unknown nationality,Dead,Male,NA,LOC Prologue,LOC 55,Younglings,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Astoril Damara,Tairen,Alive,Male,NA,KOD 21,KOD 21,NA,High Lord of Tear,NA,NA,TSR 2,NA,935 NE,"Sharp, Dark",NA,white,NA,Lord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,935,NA,NA,wot
+Astoril Damara,Tairen,Alive,Male,NA,KOD 21,KOD 21,NA,High Lord of Tear,NA,NA,TSR 2,NA,935 NE,"Sharp, Dark",NA,White,NA,Lord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,935,NA,NA,wot
 Jeorg Damentanis,Illianer,Alive,Male,NA,KOD 20,KOD 20,NA,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Aldecain Damodred,Cairhienin,Dead,Male,NA,NA,NA,NA,Lord,NA,978 NE,NS 5,NS 5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,978,NA,wot
 Barthanes Damodred,Cairhienin,Dead,Male,Slim,TGH 32,TGH 33,Darkfriend,Lord,NA,998 NE,TGH 30,LOC 18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,998,NA,wot
@@ -1605,9 +1605,9 @@ Athan Dearn,Andoran,Alive,Male,Fat,TSR 56,TSR 56,Two Rivers,NA,NA,NA,NA,NA,NA,NA
 Dedric,Aiel,Alive,Male,NA,LOC 18,LOC 18,Car'a'carn,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,NA,Codarra,Jaern Rift,Aethan Dor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Delarn,NA,Alive,Male,NA,TGS 27,AMOL 36,Band of the Red Hand,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Larrald Delovinde,Cairhienin,Alive,Male,NA,NA,NA,NA,Lord,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Talmanes Delovinde,Cairhienin,Alive,Male,Wiry,TFOH 43,AMOL 43,Band of the Red Hand,NA,Lieutenant-General,NA,NA,AMOL 40,NA,NA,NA,red,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Talmanes Delovinde,Cairhienin,Alive,Male,Wiry,TFOH 43,AMOL 43,Band of the Red Hand,NA,Lieutenant-General,NA,NA,AMOL 40,NA,NA,NA,Red,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Rahien Demain,Kandori,Alive,Male,NA,NA,NA,NA,NA,Lord,NA,NS 23,NS Epilogue,979 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,979,NA,NA,wot
-Demandred,NA,Dead,Male,NA,LOC Prologue,AMOL 37,NA,Blademaster,Chosen,NA,TEOTW 42,NA,Age of Legends,NA,NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,AB,NA,-500,NA,NA,wot
+Demandred,NA,Dead,Male,NA,LOC Prologue,AMOL 37,NA,Blademaster,Chosen,NA,TEOTW 42,NA,Age of Legends,NA,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,AB,NA,-500,NA,NA,wot
 Denal,Altaran,Alive,Male,NA,ACOS 23,NA,NA,NA,NA,NA,NA,ACOS 23,NA,NA,NA,NA,NA,Unknown occupation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Denezel,Andoran,Alive,Male,NA,TOM 47,TOM 47,NA,NA,NA,NA,NA,TOM 53,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Denharad,Cairhienin,Alive,Male,NA,TPOD 23,TPOD 24,Dragon Reborn,NA,Lance-Captain,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1793,7 +1793,7 @@ Master Harod,Ghealdanin,Alive,Male,NA,TDR 8,TDR 9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Harril,Unknown nationality,Alive,Male,Stocky,COT Prologue,KOD Prologue,White Tower,Gaidin,NA,NA,NA,NA,NA,NA,NA,Dark,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hartha,Seanchan,Alive,Male,Wide,COT 4,KOD 37,NA,NA,First Gardener,NA,NA,NA,NA,Black,NA,NA,NA,Gardener,NA,NA,NA,NA,Ogier,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Harvell,Cairhienin,Alive,Male,NA,TOM 31,TOM 31,Band of the Red Hand,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Henre Haslin,Andoran,Alive,Male,NA,LOC 41,LOC 42,Dragon Reborn,NA,NA,NA,LOC 11,AMOL 3,NA,NA,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Henre Haslin,Andoran,Alive,Male,NA,LOC 41,LOC 42,Dragon Reborn,NA,NA,NA,LOC 11,AMOL 3,NA,NA,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hatch,Andoran,Alive,Male,NA,TOM 31,TOM 31,NA,NA,NA,NA,NA,TOM 31,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hearne,Tairen,Alive,Male,NA,TFOH 46,TGS 42,The Dragon Reborn,Lord,High Lord,NA,TSR 21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Elbreth Hedare,Taraboner,Alive,Male,NA,NA,NA,NA,NA,NA,NA,The Wheel of Time Roleplaying Game,NA,NA,NA,NA,NA,NA,Illuminator,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1812,7 +1812,7 @@ Holcom,NA,Alive,Male,NA,AMOL 27,AMOL 27,White Tower,NA,NA,NA,NA,NA,NA,NA,NA,NA,N
 Raimun Holdwin,Andoran,Alive,Male,NA,TEOTW 34,TEOTW 34,Darkfriend,NA,NA,NA,NA,TEOTW 35,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Eben Hopwil,Andoran,Dead,Male,Skinny,LOC 3,WH 35,The Dragon Reborn,NA,Asha'man,1000 NE,NA,TGS 7,984 NE,NA,NA,NA,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,984,1000,16,wot
 Hornwell,Andoran,Alive,Male,NA,TPOD 20,TPOD 20,Morgase Trakand,NA,NA,NA,NA,TPOD 20,NA,NA,NA,Gray,NA,Shambayan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Huan (Seanchan),Seanchan,Dead,Male,NA,TGH 29,TGH 34,NA,NA,So'jhin,998 NE,NA,TGH 45,NA,NA,NA,golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,998,NA,wot
+Huan (Seanchan),Seanchan,Dead,Male,NA,TGH 29,TGH 34,NA,NA,So'jhin,998 NE,NA,TGH 45,NA,NA,NA,Golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,998,NA,wot
 Huan (Tairen),Tairen,Dead,Male,NA,NA,NA,NA,NA,NA,NA,NS 6,TDR 20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kely Huldin,Andoran,Alive,Male,NA,LOC 3,LOC 3,NA,NA,NA,NA,LOC 3,LOC 3,NA,NA,NA,NA,NA,Weaver,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Hurd,Altaran,Alive,Male,Squat,KOD 6,KOD 6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -1831,7 +1831,7 @@ Ivon (blacksmith),Cairhienin,Alive,Male,NA,NA,NA,NA,NA,NA,NA,TGH 26,TGH 26,NA,NA
 Jadranka,Seanchan,Dead,Male,Thin,TPOD 23,TPOD 23,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Jaem,Unknown nationality,Dead,Male,Wiry,TGH 22,KOD 32,Rebel Aes Sedai,Gaidin,NA,1000 NE,NA,NA,922 NE[1],NA,NA,NA,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NE,922,1000,78,wot
 Jaem the Giant-Slayer,NA,Fictional character,Male,NA,NA,NA,NA,Jaem the Giant-Slayer,NA,NA,TEOTW 4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Agelmar Jagad,Shienar,Alive,Male,NA,TEOTW 46,AMOL 29,NA,Lord of Fal Dara,General,NA,NA,AMOL 32,NA,Brown,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Agelmar Jagad,Shienar,Alive,Male,NA,TEOTW 46,AMOL 29,NA,Lord of Fal Dara,General,NA,NA,AMOL 32,NA,Brown,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jahar Narishma,Arafellin,Alive,Male,NA,LOC 42,AMOL 39,The Dragon Reborn,NA,Asha'man,NA,LOC 28,NA,977 NE,Dark,NA,Dark,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,977,NA,NA,wot
 Jaim (soldier),Unknown nationality,Alive,Male,NA,NS 1,NS 1,Lan Mandragoran,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jak,Andoran,Dead,Male,Big,TEOTW 32,TEOTW 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Bouncer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2016,7 +2016,7 @@ Bukama Marenellin,Malkier,Dead,Male,NA,NS 1,NS 25,Lan Mandragoran,NA,Armsman,979
 Torhs Margin,Unknown nationality,Dead,Male,NA,NA,NA,NA,Torhs the Broken,NA,NA,TGS 37,TGS 37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Maric,Aiel,Alive,Male,NA,LOC 27,LOC 27,Car'a'carn,NA,NA,NA,NA,NA,NA,"Gray, cold",NA,NA,NA,NA,Unknown clan,Unknown sept,Unknown society,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Marind,NA,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TSR 26,TSR 26,NA,NA,NA,NA,NA,NA,Da'shain Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Maringil,Cairhienin,Dead,Male,Thin,TFOH 45,LOC 50,The Dragon Reborn,Lord,NA,999 NE,NA,COT Prologue,NA,NA,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
+Maringil,Cairhienin,Dead,Male,Thin,TFOH 45,LOC 50,The Dragon Reborn,Lord,NA,999 NE,NA,COT Prologue,NA,NA,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Marlesh,Unknown nationality,Alive,Male,Narrow,TGS 13,TGS 13,White Tower,Gaidin,NA,NA,NA,NA,NA,NA,NA,NA,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Martan,Unknown nationality,Alive,Male,Strapping,NS 6,NS 6,NA,NA,NA,NA,NA,NA,NA,Brown,NA,NA,NA,Clerk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Brannin Martan,Andoran,Alive,Male,NA,KOD 17,KOD 17,House Trakand,Lord,NA,NA,NA,KOD 32,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2066,7 +2066,7 @@ Hal Moir,Unknown nationality,Alive,Male,NA,LOC Prologue,TGS 13,Younglings,NA,NA,
 Jaric Mondoran,Unknown nationality,Dead,Male,NA,NA,NA,NA,NA,Aes Sedai (Age of Legends),NA,TSR 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Luthair Paendrag Mondwin,Seanchan,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TGH 34,NA,FY 967,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,FY,NA,967,NA,NA,wot
 Moor,Unknown nationality,Alive,Male,NA,NA,NA,NA,NA,NA,NA,TOM 1,TOM 1,NA,NA,NA,NA,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Almurat Mor,Seanchan,Alive,Male,Slender,TSR 38,COT 4,NA,NA,NA,NA,NA,KOD 36,NA,Blue,NA,yellow,NA,Seeker for Truth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Almurat Mor,Seanchan,Alive,Male,Slender,TSR 38,COT 4,NA,NA,NA,NA,NA,KOD 36,NA,Blue,NA,Yellow,NA,Seeker for Truth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Mord,Domani,Alive,Male,NA,NA,NA,NA,NA,NA,NA,TGS 32,TGS 32,NA,NA,NA,NA,NA,Questioner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Mordeth,NA,Dead,Male,NA,TEOTW 19,AMOL 47,NA,NA,NA,NA,NA,AMOL Epilogue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Morear,Andoran,NA,Male,NA,AMOL Prologue,AMOL Prologue,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2114,7 +2114,7 @@ Agni Neres,Altaran,Alive,Male,Bony,TFOH 48,TFOH 49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Nerim,Cairhienin,Alive,Male,Skinny,LOC 22,KOD 26,Band of the Red Hand,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Servant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Gwil Nermasiv,Kandori,Unknown,Male,NA,NA,NA,NA,NA,NA,NA,TFOH 49,NA,NA,NA,NA,NA,NA,Hunter of the Horn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ershin Netari,Illianer,Alive,Male,NA,NA,NA,Dragon Reborn,Lord,NA,NA,TPOD 24,TPOD 24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Nethan Conwy,Andoran,Alive,Male,"Lean, muscular",WH 23,TGS 7,White Tower,Gaidin,NA,NA,NA,NA,NA,Piercing blue,NA,white,73,Warder,NA,NA,NA,NA,NA,NA,NA,6,1,NA,NA,NA,NA,NA,wot
+Nethan Conwy,Andoran,Alive,Male,"Lean, muscular",WH 23,TGS 7,White Tower,Gaidin,NA,NA,NA,NA,NA,Piercing blue,NA,White,73,Warder,NA,NA,NA,NA,NA,NA,NA,6,1,NA,NA,NA,NA,NA,wot
 Tal Nethin,Cairhienin,Dead,Male,NA,TFOH 20,TFOH 30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saddlemaker,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Nevin,Altaran,Dead,Male,NA,ACOS 16,NA,NA,NA,NA,NA,NA,ACOS 16,NA,NA,NA,NA,NA,Unknown occupation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Niagen,Aiel,Alive,Male,NA,TOM 43,TOM 43,Shaido,NA,NA,NA,TGS 21,NA,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Mera'din,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2126,7 +2126,7 @@ Nils,Domani,Alive,Male,NA,TOM 18,TOM 18,Dragon Reborn,NA,Lieutenant,NA,NA,NA,NA,
 Jaalam Nishur,Domani,Dead,Male,NA,COT Prologue,NA,Arad Doman,NA,Officer,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Noam,Ghealdan,Alive,Male,NA,TDR 8,TOM Epilogue,NA,NA,NA,NA,NA,NA,NA,Burnished golden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Barmanes Nolaisen,Cairhienin,Alive,Male,NA,KOD 12,KOD 12,Cha Faile,Lord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Uno Nomesta,Shienaran,Alive,Male,Average,TGH 9,AMOL 37,The Dragon Reborn,NA,Captain,NA,TGH 3,NA,NA,Single dark eye,NA,black,NA,soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Uno Nomesta,Shienaran,Alive,Male,Average,TGH 9,AMOL 37,The Dragon Reborn,NA,Captain,NA,TGH 3,NA,NA,Single dark eye,NA,Black,NA,soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Noram,Unknown nationality,NA,Male,NA,TOM 17,TOM 17,Band of the Red Hand,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Cook,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kaisel Noramaga,Kandori,Alive,Male,NA,TOM 42,AMOL 29,Lan Mandragoran,Prince,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Noreladim,Domani,Alive,Male,Stumpy,TGS 31,TGS 31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2172,7 +2172,7 @@ Pelateos,Unknown nationality,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TGS 15,TGS 15,NA,NA,
 Algarin Pendaloan,Tairen,Alive,Male,NA,COT 23,AMOL 41,NA,Lord,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Emarin Pendaloan,Tairen,Dead,Male,NA,NA,NA,Tear,Lord,NA,NA,COT 23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Abelle Pendar,Andoran,Alive,Male,NA,LOC 16,NA,House Trakand,Lord,High Seat,NA,TFOH 19,NA,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Aubrem Pensenor,Andoran,Alive,Male,Lean,KOD 17,KOD 17,House Trakand,Lord,NA,NA,NA,NA,NA,NA,NA,white,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Aubrem Pensenor,Andoran,Alive,Male,Lean,KOD 17,KOD 17,House Trakand,Lord,NA,NA,NA,NA,NA,NA,NA,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Pevin,Cairhienin,Dead,Male,NA,TFOH 46,TFOH 55,Rand al'Thor,NA,Bannerman,999 NE,NA,NA,NA,NA,NA,Gray,NA,NA,NA,NA,NA,Thin,NA,NA,NA,NA,NA,NA,NE,NA,999,NA,wot
 Mervin Poel,Unknown nationality,Alive,Male,NA,LOC 18,WH Prologue,School of Cairhien,NA,NA,NA,NA,KOD 21,NA,NA,NA,NA,NA,Inventor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Posavina,Kandori,Alive,Male,NA,WH 32,WH 32,NA,NA,NA,NA,NA,WH 32,NA,NA,NA,NA,NA,Merchant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2205,7 +2205,7 @@ Remedan,Aelgar,Dead,Male,NA,NA,NA,NA,King of Aelgar,King,NA,TWORJTWOT,TWORJTWOT,
 Hanselle Renshar,Andoran,Alive,Male,Slender,KOD 35,KOD 35,House Trakand,Lord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Rett,Domani,Dead,Male,NA,NA,NA,Dragon Reborn,NA,NA,1000 NE,TOM 21,TOM 21,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Rhodric,Aiel,Dead,Male,NA,TSR 25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Aiel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Rhuarc,Aiel,Deceased,Male,Muscular,TDR 39,AMOL 42,Car'a'carn,NA,NA,NA,NA,AMOL Epilogue,NA,NA,NA,red,NA,Clan chief,Taardad,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Rhuarc,Aiel,Deceased,Male,Muscular,TDR 39,AMOL 42,Car'a'carn,NA,NA,NA,NA,AMOL Epilogue,NA,NA,NA,Red,NA,Clan chief,Taardad,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Galldrian Riatin,Cairhienin,Dead,Male,NA,NA,NA,NA,King of Cairhien,King,998 NE,TGH 9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,998,NA,wot
 Toram Riatin,Cairhienin,Dead,Male,NA,ACOS 35,NA,NA,Lord,High Seat,"Saban 21, 1000 NE",LOC 17,TOM 50,NA,NA,NA,Dark,NA,NA,NA,NA,NA,24 stone,NA,NA,NA,NA,NA,NA,S,NA,21,NA,wot
 Riddem,Unknown nationality,Dead,Male,NA,TOM 9,TOM 9,Band of the Red Hand,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
@@ -2247,7 +2247,7 @@ Juilin Sandar,Tairen,Alive,Male,NA,TDR 49,AMOL 37,NA,NA,NA,NA,TDR 48,NA,961 NE,D
 Sandip,Unknown nationality,Alive,Male,NA,AMOL Prologue,NA,Band of the Red Hand,NA,Lieutenant,NA,NA,NA,NA,NA,NA,Dark,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Donalo Sandomere,Tairen,Alive,Male,NA,LOC 42,AMOL 42,The Shadow,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,Dreadlord,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sanduin,Aiel,Alive,Male,NA,NA,NA,Car'a'carn,NA,NA,NA,LOC 18,LOC 18,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Tain Shari,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Weiramon Saniago,Tairen,Unknown,Male,Thin,TFOH 41,TOM 13,Darkfriend,High Lord of Tear,NA,NA,NA,AMOL 4,NA,NA,NA,gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Weiramon Saniago,Tairen,Unknown,Male,Thin,TFOH 41,TOM 13,Darkfriend,High Lord of Tear,NA,NA,NA,AMOL 4,NA,NA,NA,Gray,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Sanor,Tairen,Alive,Male,Large,TDR 32,TDR 40,Huan Mallia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sailor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Santes,Mayener,Dead,Male,NA,WH 5,WH 5,Perrin Aybara,NA,NA,1000 NE,NA,COT 25,NA,NA,NA,NA,NA,Thief-catcher,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Agardo Saranche,Tairen,Alive,Male,Lean,KOD 21,KOD 21,NA,NA,NA,NA,NA,NA,NA,Dark,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2291,8 +2291,8 @@ Simion,Ghealdanin,Alive,Male,NA,TDR 8,TDR 9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Att
 Ranun Sinah,Unknown nationality,Dead,Male,NA,TOM 43,TOM 43,Children of the Light,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Darlin Sisnera,Tairen,Alive,Male,NA,TDR 54,AMOL 20,NA,King of Tear,King,NA,NA,AMOL 46,NA,Blue,NA,Dark,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Jon Skellit,Andoran,Alive,Male,NA,NA,NA,Elayne Trakand,NA,NA,NA,WH 26,KOD 16,NA,NA,NA,NA,NA,Barber,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Slayer,"c(""Malkieri"", ""Andoran"")",Dead,Male,"c(""Muscular"", ""Tall"")","c(""TSR 28"", ""TSR 32"")",AMOL 46,The Shadow,NA,NA,NA,"c(""TEOTW 47"", ""TEOTW 34"")",AMOL Prologue,NA,Blue,NA,red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Sleete,Unknown nationality,Alive,Male,Lanky,TGS 13,AMOL 18,White Tower,Gaidin,NA,NA,NA,NA,NA,NA,NA,black,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Slayer,"c(""Malkieri"", ""Andoran"")",Dead,Male,"c(""Muscular"", ""Tall"")","c(""TSR 28"", ""TSR 32"")",AMOL 46,The Shadow,NA,NA,NA,"c(""TEOTW 47"", ""TEOTW 34"")",AMOL Prologue,NA,Blue,NA,Red,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Sleete,Unknown nationality,Alive,Male,Lanky,TGS 13,AMOL 18,White Tower,Gaidin,NA,NA,NA,NA,NA,NA,NA,Black,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Snelle,Andoran,Alive,Male,NA,TOM 31,TOM 31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gambler,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Snert,Andoran,Alive,Male,NA,TOM 22,TOM 22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Innkeeper,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Reed Soalen,Andoran,Alive,Male,NA,TOM 2,AMOL 1,Perrin Aybara,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2340,7 +2340,7 @@ Tedosian,Tairen,Alive,Male,Thick,TSR 8,TGS 42,NA,Lord,High Lord,NA,TSR 4,NA,NA,N
 Tefan,Khodomar,Dead,Male,NA,NA,NA,NA,King of Khodomar,King,NA,TWORJTWOT,TWORJTWOT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Telabin,Ghealdanin,Alive,Male,NA,NA,NA,Ghealdan,Lord,NA,NA,TPOD 8,TPOD 10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tellaen,Domani,Alive,Male,portly,TGS 1,TGS 11,NA,Lord,NA,NA,NA,TGS 22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Tema,Shienaran,Alive,Male,NA,TGH 2,TGH 6,NA,NA,NA,NA,NA,NA,NA,NA,NA,gray,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Tema,Shienaran,Alive,Male,NA,TGH 2,TGH 6,NA,NA,NA,NA,NA,NA,NA,NA,NA,Gray,NA,Stableman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Temanin,Eharon,Dead,Male,NA,NA,NA,NA,King of Eharon,King,NA,TWORJTWOT,TWORJTWOT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Ishigari Terasian,Arafellin,Alive,Male,Fat,TPOD Prologue,TPOD Prologue,NA,Lord,General,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Teva,Shienaran,Dead,Male,NA,NA,NA,NA,NA,NA,NA,TGH 26,TGH 26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2352,7 +2352,7 @@ Theodohr,Andoran,Alive,Male,NA,AMOL 37,AMOL 37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
 Theril,Amadician,Alive,Male,Lanky,KOD 5,KOD 30,Faile Bashere,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Lews Therin Telamon,NA,Dead,Male,NA,TEOTW Prologue,TEOTW Prologue,NA,First Among Servants,Aes Sedai (Age of Legends),NA,NA,AMOL 25,NA,NA,NA,Brown,NA,General,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Thorin al Toren al Ban,Manetherenite,Dead,Male,NA,NA,NA,NA,King of Manetheren,King,NA,TEOTW 19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Thulin,Shienaran,Alive,Male,"Lean, but muscular",TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,Brown,NA,gray,NA,Blacksmith,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Thulin,Shienaran,Alive,Male,"Lean, but muscular",TGS Prologue,TGS Prologue,NA,NA,NA,NA,NA,NA,NA,Brown,NA,Gray,NA,Blacksmith,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Thum,Unknown nationality,Dead,Male,NA,TOM Epilogue,TOM Epilogue,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Tiam of Gazar,Unknown nationality,Dead,Male,NA,NA,NA,NA,NA,NA,NA,Template:BWB,Template:BWB,NA,NA,NA,NA,NA,Author,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tian,Kandori,Alive,Male,NA,TOM Prologue,TOM Prologue,Kandor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2394,7 +2394,7 @@ Triben,Saldaea,Alive,Male,NA,TGS 32,TGS 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Sold
 Trom,Unknown nationality,Dead,Male,Stocky,TFOH 16,AMOL 32,Children of the Light,NA,Lord Captain,NA,NA,NA,NA,NA,NA,Black,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Trost,Andoran,Alive,Male,NA,TOM 46,TOM 46,Logain Ablar,NA,Soldier (Asha'man),NA,NA,NA,NA,NA,NA,NA,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tumad Ahzkan,Saldaean,Dead,Male,NA,LOC 1,COT Prologue,NA,NA,NA,1000 NE,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
-Turan,Seanchan,Dead,Male,Stout,TGS 6,NA,NA,NA,Lieutenant-General,1000 NE,KOD Prologue,NA,NA,NA,NA,black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
+Turan,Seanchan,Dead,Male,Stout,TGS 6,NA,NA,NA,Lieutenant-General,1000 NE,KOD Prologue,NA,NA,NA,NA,Black,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
 Turne,Ghealdanin,Alive,Male,Lanky,TOM 2,TOM 2,Perrin Aybara,NA,NA,NA,NA,NA,NA,NA,NA,Red,NA,Mercenary,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Turol,Aiel,Alive,Male,NA,NA,NA,Car'a'carn,NA,NA,NA,TFOH 53,TFOH 53,NA,NA,NA,NA,NA,NA,Unknown clan,Unknown sept,Shae'en M'taal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Tymoth,Unknown nationality,Alive,Male,NA,TOM 28,TOM 28,Rand al'Thor,NA,Asha'man,NA,TOM 21,NA,NA,NA,NA,Red,NA,Asha'man,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
@@ -2417,7 +2417,7 @@ Evin Vinchova,Kandori,Dead,Male,NA,TPOD 26,AMOL 14,The Shadow,NA,Dedicated,1000 
 Vitalien,Unknown nationality,Dead,Male,NA,TGS 17,AMOL 23,The Dragon Reborn,Gaidin,NA,NA,LOC 25,AMOL 34,NA,NA,NA,NA,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Vivian,Domani,Alive,Male,NA,NA,NA,NA,Lord,NA,NA,TGS 31,TGS 31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Vogeler,Saldaean,Alive,Male,NA,TOM 32,TOM 32,Dragon Reborn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
-Brandel Vordarian,Andoran,Alive,Male,Muscly,TOM 2,TOM 4,Children of the Light,NA,Lord Captain,NA,NA,NA,NA,NA,NA,gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Brandel Vordarian,Andoran,Alive,Male,Muscly,TOM 2,TOM 4,Children of the Light,NA,Lord Captain,NA,NA,NA,NA,NA,NA,Gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Votabek,Domani,Alive,Male,NA,TOM 25,TOM 25,Rand al'Thor,NA,lieutenant,NA,NA,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Kert Wagoner,Andoran,Alive,Male,NA,AMOL 1,AMOL 1,Two Rivers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Farmer,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Wakeda,Domani,Dead,Male,NA,COT Prologue,TGS 10,NA,NA,NA,1000 NE,NA,TOM 32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,1000,NA,wot
@@ -2431,7 +2431,7 @@ Willin Mantear,Andoran,Alive,Male,NA,NA,NA,House Trakand,Lord,NA,NA,COT 13,COT 1
 Wuan,Unknown nationality,Alive,Male,NA,TGH 29,TGH 29,Children of the Light,NA,NA,NA,NA,NA,NA,NA,NA,Yellow,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Cyril Wynn,Murandian,Alive,Male,NA,NS 5,NS 5,NA,NA,NA,NA,NA,NA,978 NE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,978,NA,NA,wot
 Jac Wynn,Murandian,Dead,Male,NA,NA,NA,NA,NA,NA,978 NE,NS 5,NA,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,978,NA,wot
-Teryl Wynter,Murandian,Alive,Male,Lean,TPOD 7,KOD 30,The Dragon Reborn,Gaidin,NA,NA,LOC 43,NA,NA,Blue,NA,red,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
+Teryl Wynter,Murandian,Alive,Male,Lean,TPOD 7,KOD 30,The Dragon Reborn,Gaidin,NA,NA,LOC 43,NA,NA,Blue,NA,Red,NA,Warder,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Yakobin,Arafellin,Dead,Male,NA,NA,NA,Arafel,NA,King,NA,TOM 42,TOM 42,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Efraim Yamada,Seanchan,Alive,Male,NA,KOD Epilogue,TGS 19,Ever Victorious Army,NA,Banner-General,NA,WH 28,NA,NA,NA,NA,Gray,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wot
 Yamwick,Unknown nationality,Dead,Male,NA,TEOTW 30,NA,Children of the Light,NA,NA,998 NE,NA,TOM 35,NA,NA,NA,NA,NA,Soldier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NE,NA,998,NA,wot

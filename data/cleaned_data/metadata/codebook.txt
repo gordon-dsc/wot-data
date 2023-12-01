@@ -33,3 +33,36 @@ hair (categorical) - The color or shade of hair of a character as described in w
 
 
 series (categorical) - The book series which the character appears in. 
+
+
+These 10 variables where shared by both dataset but the Wheel of Time data set had 24 more variables which were also interesting on their own
+
+
+"Nationality"
+"Current status"
+"Build"
+"First appeared"
+"Last appeared"
+"Affiliation"
+"Title"  
+"Rank"       
+
+"First mentioned"
+"Last mentioned"
+"Date of birth"
+"Eyes"          
+"Ajah"           
+        
+
+"Occupation"  
+"Clan"         
+"Sept"          
+Society  - each
+Weight - Weight in lbs, kg, or a discription of the person all specifiedin the entry.
+Race - Mostly NAs as almost all named characters are human but a few characters are Ogier which is a different intelligent species in this world. If this is NA it is safe to assume the character is human
+Hair color - all NAs :( 
+Eye color - all NAs :( 
+feet - This variable was used to calculate height_in
+inches - This variable was used to calculate height_in
+
+       
