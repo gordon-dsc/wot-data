@@ -11,6 +11,7 @@ format: html
 title: "Data Import Script"
 format: html
 ---
+librarying packages
 
 ```{r packages}
 library(tidyverse)
@@ -19,17 +20,18 @@ library(rvest)
 library(readr)
 library(stringr)
 ```
+Using Rs default vector of letters to loop over every letter in the alphabet then scraping names from all 26 different urls where each page lists all the names starting with that letter. These pages are separate for men and women and unknown gender though so I do it seperately for all 3.
 
 ```{r}
-
 alphabet <- LETTERS
-
+#function to read a singular page which then will get used in a loop
 read_page <- function(url,char){
     read_html(paste0(url,char)) |> 
     html_elements("li") |> 
     html_element(".category-page__member-link") |>
     html_text2()
 }
+#loop reading women men and unkown gender pages of all 26 letters
 for (char in alphabet){
 value_women <- read_page("https://wot.fandom.com/wiki/Category:Women?from=",char)
   assign(paste0("vector_women",char),value_women,envir = .GlobalEnv)
@@ -38,15 +40,18 @@ value_men <- read_page("https://wot.fandom.com/wiki/Category:Men?from=",char)
 value_unknown <- read_page("https://wot.fandom.com/wiki/Category:Unknown_gender?from=",char)
   assign(paste0("vector_unknown",char),value_unknown,envir = .GlobalEnv)
 }
+#renaming vectors to lists for intuition purposes and so I can use the lists without changing the vectors
 names_list_women <- vector_womenA
 names_list_men <- vector_menA
 names_list_unknown <- vector_unknownA
+#looping through all the lists and combining 3 * 26 = 78 lists of women men and unkown into 3 lists
 for (char in alphabet){
   names_list_women <- c(names_list_women,get(paste0("vector_women",char)))
   names_list_men <- c(names_list_men,get(paste0("vector_men",char)))
   names_list_unknown <- c(names_list_unknown,get(paste0("vector_unknown",char)))
 }
 
+#converting lists of names into tibbles
 names_tibble_women <- tibble(names_list_women) |> 
   drop_na() |> 
   distinct() |> 
@@ -60,12 +65,12 @@ names_tibble_unknown <- tibble(names_list_unknown) |>
   drop_na() |> 
   distinct() |> 
   mutate(name = names_list_unknown, .keep = "unused")
+#combinging 3 tibbles all into 1 tibble
 all_names <- names_tibble_women |> 
   rbind(names_tibble_unknown) |> 
   rbind(names_tibble_men)
-
-
 ```
+Now we need the function that will scrape the page of each individual name then we will go through the list of names and run the function for each name.
 
 ```{r}
 all_names_objects_data <- list()
@@ -87,7 +92,7 @@ scrape_names <- function(name){
 
 ```
 
-
+Fixing the data which has the names so that they have the proper syntax so they can create a proper url which will be the actual page for each individual character
 
 ```{r}
 all_names |>
@@ -96,14 +101,16 @@ all_names |>
   mutate(names = str_replace_all(names, "'", "%27")) |> 
   as.tibble() -> names_url_all
 ```
-```{r}
 
+This is the chuck that takes 30-60 minutes depending on the strength of your internet connection as it is going to 2448 seperate urls and scraping data from each individual one.
+
+```{r}
 check <- names_url_all |> 
   rowwise() |> 
-  mutate(status = scrape_names(paste0(names)))
-check |> 
-  arrange(desc(length))
+  mutate(status = scrape_names(paste0(names))) #I use the tibble of names to run through each name row by row with mutate and shove its value into the function then the function outputs "done" in each value of this tibble to show that it can move onto the next name. Meanwhile the actual data being scraped gets assigned to a separate object called "all_names_objects_data" which has an unnamed list for each name. Each list has 3 named lists. These 3 lists are the variable scraped the value scraped and the name for each character.
 ```
+This takes the large object which came from the scraping and it puts it transforms it into an untidy tibble
+
 ```{r}
 #list_of_tibbles <-  mget(check$names, envir = .GlobalEnv)
 result_df <- do.call(rbind, all_names_objects_data) |> 
@@ -111,19 +118,12 @@ result_df <- do.call(rbind, all_names_objects_data) |>
   mutate(name = str_replace_all(name, "_", " "))|>
   mutate(name = str_replace_all(name, "%27", "'")) |> 
   distinct()
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+write_csv(result_df,paste0(path,"/data/imported_data/wot_raw.csv"))
 
-wider <- result_df |> 
- pivot_wider(values_from = value,names_from = variable,values_fill = NA) |> 
-  mutate_all(as.character) |> 
-  mutate_all(~na_if(., "NULL"))
-
-number_nas <- wider |> 
-  summarise(across(everything(), ~ sum(!is.na(.)))) |> 
-  pivot_longer(cols = c(1:26)) |> 
-  arrange(desc(value))
-write_csv(number_nas,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\number_nas.csv")
-write_csv(wider,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\Clean_wot_data.csv")
 ```
+
 
 Lord of the Rings Data Import
 
@@ -148,12 +148,8 @@ lotr_data_test|>
 ```
 
 ```{r}
-series <- rep('lotr', times = 933) #creating new column to show what series each row is from
-series <- data.frame(series)
-series <- tibble(series)
-lotr_data_test|> #adding new column to rest of data
-  add_column(series) -> lotr_data_test
-```
-```{r}
-write_csv(lotr_data_test,"C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\imported_data\\lotr_raw.csv")
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+write_csv(lotr_data_test,paste0(path,"/data/imported_data/lotr_raw.csv"))
+
 ```

@@ -3,7 +3,10 @@ library(tidyverse)
 ```
 
 ```{r}
-final_data <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\output\\final_data.csv")
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+final_data <- read_csv(paste0(path,"/output/final_data.csv"))
+
 
 ```
 

@@ -6,30 +6,181 @@ format: html
 ```{r packages}
 library(tidyverse)
 ```
+
+Read in raw wot data
+
 ```{r}
-#Dean's cleaning
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+wot_raw <- read_csv(paste0(path,"/data/imported_data/wot_raw.csv"))
 ```
-Read in wot data
-fix a few things to be rectangular
-fix hair with daniels regex and a few dark commas
-fix height look for digits then feet and inches then math with feet and inches
-rename columns
-select the 10 columns
+
+Fixes raw data be rectangular and tidy
+
+```{r}
+rectangular_wot <- wot_raw |> 
+ pivot_wider(values_from = value,names_from = variable,values_fill = NA) |> 
+  mutate_all(as.character) |> 
+  mutate_all(~na_if(., "NULL"))
+
+number_nas <- rectangular_wot |> 
+  summarise(across(everything(), ~ sum(!is.na(.)))) |> 
+  pivot_longer(cols = c(1:26)) |> 
+  arrange(desc(value))
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+write_csv(number_nas,paste0(path,"/data/cleaned_data/metadata/number_nas_wot.csv"))
+```
+
+
+fix hair with Daniel's regex and a few dark comma additions to the regex
+then fix the commas
+
+```{r}
+rectangular_wot |>
+  mutate(
+    Hair = str_extract(Hair, pattern = "[sS]ilver|[bB]londe|[wW]hite|[bB]lack|[bB]rown|[gG]r[ae]y|[gG]olden|[rR]ed|[gG]inger|[yY]ellow|[fF]air|[sS]tar|[rR]aven|[aA]uburn|[sS]andy|[lL]eaf|[dD]ark$|^[dD]ark\\s\\(|\\s*,\\s*[dD]ark$|^[dD]ark\\s*,\\s*")
+  ) |>
+  mutate(Hair = str_replace_all(
+    string = Hair,
+    #removing ()s from the cells
+    pattern = ",",
+    replacement = ""
+  )) |>
+  mutate(Hair = str_trim(Hair)) -> wot_data #removing extra white space
+ 
+```
+
+fix the height by looking for digits then feet and inches then do math to convert feet and inches to 1 value
+
+```{r}
+wot_data <- wot_data |> 
+  mutate(Height = str_extract(Height, "\\s*\\d+\\.?\\d*\\s*'\\s*\\d+\\.?\\d*")) |> 
+  mutate(feet = str_extract(Height, "^\\s*\\d+\\.?\\d*\\s*'"),
+         inches = str_extract(Height, "'\\s*\\d+\\.?\\d*$")) |> 
+  mutate(feet = str_replace_all(feet,"'",""),
+         inches = str_replace_all(inches,"'","")) |> 
+  mutate(Height = (12 * as.numeric(feet) + as.numeric(inches)))
+
+```
+
+calculate years alive using Daniel's function but modified
+
+After Breaking (AB)	1 - 1350 AB Years
+Free Years (FY)	1 - 1135 FY years
+New Era (NE)	1 - 1000 NE years
+
+Here first is the block that defines the function
+
+```{r}
+calculate_age_wot <- function(birth_year, birth_age, death_year, death_age) { #function that caluclates the years alive of a character
+  #Durations of the different ages for calulations 
+  first_age <- 1350 #first age is AB
+  second_age <- 1135 #second age is FY
+  third_age <- 1000 #thrid age is NE
+  if (is.na(birth_age) + is.na(birth_year) + is.na(death_age) + is.na(death_year) > 0){
+    NA #Returns NA if any of the 4 values is missing
+  } else if (birth_age == death_age) { #subtracts birth year from death year if ages are the same
+    (death_year - birth_year)
+  } else if (birth_age == "AB" && death_age == "FY") { #Calculates age for various different combinations of ages
+    (first_age - birth_year) + death_year
+  } else if (birth_age == "AB" && death_age == "NE") {
+    (first_age - birth_year) + second_age + death_year
+  } else if (birth_age == "FY" && death_age == "NE") {
+    (second_age - birth_year) + death_year
+  }
+  else {
+    NA
+  }
+}
+```
+
+This block determines what age people were born in and what age they died in extracted from the raw data
+
+```{r}
+wot_data <- wot_data |> 
+  filter(name != "Unnamed characters in New Spring") |> 
+  filter(`Date of death` != "Eventual" | is.na(`Date of death`)) |>
+  mutate(birth_age = str_extract(`Date of birth`,"[A-Z]{1,2}"),
+         death_age = str_extract(`Date of death`,"[A-Z]{1,2}"),
+         birth_year = str_extract(`Date of birth`, "\\d+"),
+         death_year = str_extract(`Date of death`, "\\d+"),
+         birth_year = case_when(birth_age == "A" ~ as.character(-500),
+                                T ~ birth_year),
+         birth_age = case_when(birth_age == "A" ~ "AB",
+                               birth_age == "D" ~ "NE",
+                               birth_age == "B" ~ "NE",
+                               T ~ birth_age),
+         birth_year = case_when(birth_year == "2" ~ "978",
+                                T ~ birth_year),
+         birth_year = as.numeric(birth_year),
+         death_year = as.numeric(death_year))
+```
+
+Loop to go through each character and determine years alive
+
+```{r}
+years_alive <- list()#creating empty list for values to land in
+
+for (x in 1:nrow(wot_data)){#for loop to loop through the rows
+  row <- wot_data[x, ]#assinging row to a viariable
+  birth_year <- row$birth_year#fetching values from the cells and assigning them to varriables
+  birth_age <- row$birth_age
+  death_year <- row$death_year
+  death_age <- row$death_age
+  years_alive[x] <- calculate_age_wot(birth_year, birth_age, death_year, death_age)} #running values through function that caluclates years alive
+```
+
+```{r}
+as.numeric(years_alive)|> #reading new list as numeric
+tibble() -> years_alive #turning list into tibble
+```
+
+```{r}
+wot_data|> #adding new column to rest of data
+  add_column(years_alive)|>
+  rename("years_alive" =`as.numeric(years_alive)`) -> wot_data #renaming new column
+```
+
+Final renaming and adding series column which will be useful when combined with lotr data
+
+```{r}
+wot_data <- wot_data |> 
+  rename("hair" = Hair) |> 
+  rename("height_in" = Height) |> 
+  rename("gender" = Gender)
+
+series <- rep('wot', times = 2446) #creating new column to show what series each row is from
+series <- tibble(series) #making new column a tibble
+wot_data|> #adding new column to rest of data
+  add_column(series) -> wot_data
+```
+
+Writing clean wot data to csv before selecting for combining purposes
+
+```{r}
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+write_csv(wot_data,paste0(path,"/data/cleaned_data/wot_data_final.csv"))
+```
+
+selecting shared variables for combining with lotr data
+
+```{r}
+wot <- wot_data |> 
+    select(name,height_in,gender,birth_year,birth_age,death_year,death_age,years_alive,hair,series)
+```
 
 
 Lord of the Rings Data Tidying
 
 ```{r}
-lotr_data_test <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\imported_data\\lotr_raw.csv")
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+lotr_data_test <- read_csv(paste0(path,"/data/imported_data/lotr_raw.csv"))
 ```
 
 
-```{r}
-lotr_data_test|>
-  slice(1)|> #all the data is held in the first row so getting rid of the rest
-  unnest_longer(json)|> #unnesting the data lists
-  unnest_wider(json) -> lotr_data_test
-```
 
 ```{r}
 series <- rep('lotr', times = 933) #creating new column to show what series each row is from
@@ -241,18 +392,26 @@ lotr_data_test|> #selecting relevant columns for export
   rename(hair = hair_simplified) -> lotr_data_final #shortening hair column name
 ```
 
+writing to final lotr data which is clean
 
 ```{r}
-wot <- read_csv("C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\data\\cleaned_data\\wot_tidy.csv")
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+write_csv(lotr_data_final,paste0(path,"/data/cleaned_data/lotr_data_final.csv"))
 ```
+
+combining data
+
 ```{r}
 final_data <- wot |> 
-  rename("hair" = Hair) |> 
-  rename("height_in" = Height) |> 
-  rename("gender" = Gender) |> 
-  select(name,height_in,gender,birth_year,birth_age,death_year,death_age,years_alive,hair,series) |> 
   rbind(lotr_data_final)
 ```
+
+writing to output data which will get posted on kaggle
+
 ```{r}
-write_csv(final_data, "C:\\Users\\deant\\OneDrive\\Desktop\\DSC210\\WoT project\\wot-data\\output\\final_data.csv")
+parent_dir <- file.path(getwd(),"..")
+path <- normalizePath(parent_dir)
+
+write_csv(final_data, paste0(path,"/output/final_data.csv"))
 ```
